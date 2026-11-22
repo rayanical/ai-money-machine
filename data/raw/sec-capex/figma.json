@@ -1,0 +1,292 @@
+{
+  "cik": "0001579878",
+  "entityName": "FIGMA, INC.",
+  "facts": {
+    "PaymentsToAcquirePropertyPlantAndEquipment": {
+      "label": "Payments to Acquire Property, Plant, and Equipment",
+      "description": "The cash outflow associated with the acquisition of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.",
+      "units": {
+        "USD": [
+          {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "val": 3737000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2023"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-06-30",
+            "val": 902000,
+            "accn": "0001579878-25-000027",
+            "fy": 2025,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2025-09-03"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "val": 1315000,
+            "accn": "0001628280-25-049683",
+            "fy": 2025,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2025-11-05"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "val": 1977000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2024"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-03-31",
+            "val": 874000,
+            "accn": "0001628280-26-035209",
+            "fy": 2026,
+            "fp": "Q1",
+            "form": "10-Q",
+            "filed": "2026-05-14",
+            "frame": "CY2025Q1"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 2008000,
+            "accn": "0001579878-25-000027",
+            "fy": 2025,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2025-09-03"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 2008000,
+            "accn": "0001628280-26-053348",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-05"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 3710000,
+            "accn": "0001628280-25-049683",
+            "fy": 2025,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2025-11-05"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 3710000,
+            "accn": "0001628280-26-070272",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-04"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "val": 4444000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2025"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-03-31",
+            "val": 7812000,
+            "accn": "0001628280-26-035209",
+            "fy": 2026,
+            "fp": "Q1",
+            "form": "10-Q",
+            "filed": "2026-05-14",
+            "frame": "CY2026Q1"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-06-30",
+            "val": 14500000,
+            "accn": "0001628280-26-053348",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-05"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-09-30",
+            "val": 21396000,
+            "accn": "0001628280-26-070272",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-04"
+          }
+        ]
+      }
+    },
+    "NetCashProvidedByUsedInOperatingActivities": {
+      "label": "Net Cash Provided by (Used in) Operating Activities",
+      "description": "Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing activities.",
+      "units": {
+        "USD": [
+          {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "val": 1047334000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2023"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-06-30",
+            "val": -196382000,
+            "accn": "0001579878-25-000027",
+            "fy": 2025,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2025-09-03"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-09-30",
+            "val": -134808000,
+            "accn": "0001628280-25-049683",
+            "fy": 2025,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2025-11-05"
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "val": -61717000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2024"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-03-31",
+            "val": 97177000,
+            "accn": "0001628280-26-035209",
+            "fy": 2026,
+            "fp": "Q1",
+            "form": "10-Q",
+            "filed": "2026-05-14",
+            "frame": "CY2025Q1"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 159632000,
+            "accn": "0001579878-25-000027",
+            "fy": 2025,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2025-09-03"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 159632000,
+            "accn": "0001628280-26-053348",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-05"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 210795000,
+            "accn": "0001628280-25-049683",
+            "fy": 2025,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2025-11-05"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 210795000,
+            "accn": "0001628280-26-070272",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-04"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "val": 250681000,
+            "accn": "0001628280-26-009228",
+            "fy": 2025,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-02-18",
+            "frame": "CY2025"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-03-31",
+            "val": 97308000,
+            "accn": "0001628280-26-035209",
+            "fy": 2026,
+            "fp": "Q1",
+            "form": "10-Q",
+            "filed": "2026-05-14",
+            "frame": "CY2026Q1"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-06-30",
+            "val": 158201000,
+            "accn": "0001628280-26-053348",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-05"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-09-30",
+            "val": 206606000,
+            "accn": "0001628280-26-070272",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-04"
+          }
+        ]
+      }
+    }
+  }
+}

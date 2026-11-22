@@ -1,0 +1,152 @@
+* { box-sizing: border-box; }
+html { background: var(--dashboard-bg); color: var(--dashboard-ink); scroll-padding-top: 142px; }
+body { margin: 0; font-family: var(--dashboard-font); -webkit-font-smoothing: antialiased; }
+:where(.dashboard-header, .source-footer, .skip-link) :focus-visible,
+.skip-link:focus-visible { outline: 2px solid var(--dashboard-focus); outline-offset: 3px; }
+::selection { background: #c9e1d3; color: var(--dashboard-ink); }
+[hidden] { display: none !important; }
+
+.skip-link {
+  position: fixed;
+  z-index: 20;
+  top: 12px;
+  left: 12px;
+  padding: 9px 13px;
+  border-radius: 7px;
+  background: var(--dashboard-surface);
+  color: var(--dashboard-accent);
+}
+.skip-link:not(:focus) { clip-path: inset(50%); }
+.page-width { width: min(100% - 64px, 1440px); margin-inline: auto; }
+.dashboard-header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background: var(--dashboard-surface);
+  border-bottom: 1px solid var(--dashboard-line);
+}
+.dashboard-header-inner {
+  min-height: 65px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+}
+.dashboard-brand,
+.header-sources,
+.dashboard-navigation a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dashboard-brand {
+  justify-self: start;
+  gap: 9px;
+  color: var(--dashboard-ink);
+  font-size: .93rem;
+  font-weight: 720;
+  letter-spacing: -.015em;
+}
+.dashboard-brand-mark {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--dashboard-accent);
+  color: white;
+}
+.dashboard-navigation {
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+  border-radius: 9px;
+  background: var(--dashboard-soft);
+}
+.dashboard-navigation a {
+  justify-content: center;
+  gap: 7px;
+  padding: 6px 11px;
+  min-height: 34px;
+  border-radius: 6px;
+  color: var(--dashboard-muted);
+  font-size: .84rem;
+  font-weight: 640;
+}
+.dashboard-navigation a:hover { color: var(--dashboard-ink); }
+.dashboard-navigation a[aria-current="page"] {
+  background: var(--dashboard-surface);
+  color: var(--dashboard-accent);
+  box-shadow: 0 1px 2px #18251f1c;
+}
+.header-sources {
+  justify-self: end;
+  gap: 7px;
+  color: var(--dashboard-muted);
+  font-size: .81rem;
+  font-weight: 620;
+}
+.header-sources:hover, .source-footer a:hover { color: var(--dashboard-accent); }
+
+.page-content { padding-top: 26px; }
+.page-content:focus { outline: none; }
+.page-intro { margin-bottom: 19px; }
+.page-intro h1 {
+  margin: 0 0 5px;
+  font-size: 2.02rem;
+  line-height: 1.14;
+  font-weight: 720;
+  letter-spacing: -.033em;
+}
+.page-intro p { margin: 0; max-width: 70ch; color: var(--dashboard-muted); font-size: .92rem; line-height: 1.55; }
+.dashboard-frame {
+  display: block;
+  width: 100%;
+  border: 0;
+  color-scheme: light;
+}
+.dashboard-frame--relationships {
+  height: clamp(500px, calc(100svh - 172px), 900px);
+  border: 1px solid var(--dashboard-line);
+  border-radius: var(--dashboard-radius);
+  background: var(--dashboard-surface);
+}
+.dashboard-frame--deals { height: 720px; }
+
+.source-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 22px;
+  padding-block: 16px 22px;
+  border-top: 1px solid var(--dashboard-line);
+  color: var(--dashboard-muted);
+  font-size: .76rem;
+}
+.source-footer > span { font-weight: 690; }
+.source-footer a { display: inline-flex; align-items: center; gap: 4px; color: var(--dashboard-muted); text-underline-offset: 3px; }
+
+@media (max-width: 920px) {
+  .page-width { width: calc(100% - 40px); }
+}
+@media (max-width: 650px) {
+  .page-width { width: calc(100% - 32px); }
+  .dashboard-header-inner {
+    grid-template-columns: 1fr auto;
+    min-height: auto;
+    gap: 10px 8px;
+    padding-block: 10px;
+  }
+  .dashboard-brand-mark { width: 28px; height: 28px; }
+  .dashboard-navigation { grid-column: 1 / -1; grid-row: 2; }
+  .dashboard-navigation a { flex: 1; gap: 5px; min-height: 37px; padding-inline: 6px; font-size: .79rem; }
+  .dashboard-navigation svg { width: 13px; }
+  .header-sources { font-size: .76rem; }
+  .page-content { padding-top: 20px; }
+  .page-intro { margin-bottom: 16px; }
+  .page-intro h1 { font-size: 1.69rem; }
+  .page-intro p { font-size: .86rem; }
+  .dashboard-frame--relationships { height: clamp(560px, calc(100svh - 220px), 730px); }
+}

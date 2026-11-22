@@ -1,0 +1,13 @@
+:root {
+  color-scheme: light;
+  --dashboard-bg: #f7f9f8;
+  --dashboard-surface: #fff;
+  --dashboard-ink: #18251f;
+  --dashboard-muted: #53645d;
+  --dashboard-line: #dce5df;
+  --dashboard-soft: #edf3ef;
+  --dashboard-accent: #215844;
+  --dashboard-focus: #287457;
+  --dashboard-font: "DM Sans Variable", system-ui, sans-serif;
+  --dashboard-radius: 12px;
+}

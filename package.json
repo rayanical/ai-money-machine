@@ -1,0 +1,43 @@
+{
+  "name": "ai-money-machine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "npm run data",
+    "dev": "vite",
+    "prebuild": "npm run data",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "data": "npm run data:shared && node scripts/epoch.mjs && node scripts/capex.mjs && node scripts/sec-capex.mjs && node scripts/operating-revenue.mjs && node scripts/ecosystem-financials.mjs && node scripts/obligations.mjs && node scripts/census-capex.mjs && node scripts/company-evidence.mjs",
+    "data:shared": "node scripts/deal-ledger.mjs && node scripts/shared-csv.mjs && node scripts/shared-snapshot.mjs && python3 views/relationships/scripts/build.py",
+    "data:verify": "npm run data && node scripts/verify-data.mjs && node views/relationships/scripts/check.cjs"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.0",
+    "@fontsource-variable/geist-mono": "^5.2.0",
+    "d3": "^7.9.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^16.0.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.50.0",
+    "vite": "^7.3.1"
+  }
+}

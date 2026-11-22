@@ -1,0 +1,266 @@
+{
+  "asOf": "2026-11-21",
+  "tickerSource": "https://www.sec.gov/files/company_tickers.json",
+  "companies": [
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "cik": 1321655,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "cik": 1640147,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "ticker": "CBRS",
+      "cik": "0002021728",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "ticker": "IBM",
+      "cik": 51143,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "cik": 804328,
+      "concept": "PaymentsToAcquireProductiveAssets"
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "ticker": "INTC",
+      "cik": 50863,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "marvell",
+      "name": "Marvell",
+      "ticker": "MRVL",
+      "cik": 1835632,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "astera",
+      "name": "Astera Labs",
+      "ticker": "ALAB",
+      "cik": "0001736297",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "micron",
+      "name": "Micron",
+      "ticker": "MU",
+      "cik": 723125,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "amat",
+      "name": "Applied Materials",
+      "ticker": "AMAT",
+      "cik": 6951,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "lam",
+      "name": "Lam Research",
+      "ticker": "LRCX",
+      "cik": 707549,
+      "concept": "PaymentsToAcquireProductiveAssets"
+    },
+    {
+      "id": "kla",
+      "name": "KLA",
+      "ticker": "KLAC",
+      "cik": 319201,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "synopsys",
+      "name": "Synopsys",
+      "ticker": "SNPS",
+      "cik": 883241,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "cadence",
+      "name": "Cadence",
+      "ticker": "CDNS",
+      "cik": 813672,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "amkor",
+      "name": "Amkor",
+      "ticker": "AMKR",
+      "cik": 1047127,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "ticker": "NET",
+      "cik": 1477333,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "ticker": "FIG",
+      "cik": "0001579878",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "tempus",
+      "name": "Tempus AI",
+      "ticker": "TEM",
+      "cik": "0001717115",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "ticker": "SPCX",
+      "cik": "0001181412",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "akamai",
+      "name": "Akamai",
+      "ticker": "AKAM",
+      "cik": 1086222,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "boostrun",
+      "name": "Boost Run",
+      "ticker": "BRUN",
+      "cik": "0002090646",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "terawulf",
+      "name": "TeraWulf",
+      "ticker": "WULF",
+      "cik": 1083301,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "iren",
+      "name": "IREN",
+      "ticker": "IREN",
+      "cik": "0001878848",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "applieddigital",
+      "name": "Applied Digital",
+      "ticker": "APLD",
+      "cik": "0001144879",
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "cipher",
+      "name": "Cipher Digital",
+      "ticker": "CIFR",
+      "cik": 1819989,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "corescientific",
+      "name": "Core Scientific",
+      "ticker": "CORZ",
+      "cik": 1839341,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "lumentum",
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "cik": 1633978,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "coherent",
+      "name": "Coherent",
+      "ticker": "COHR",
+      "cik": 820318,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    {
+      "id": "penguin",
+      "name": "Penguin Solutions",
+      "ticker": "PENG",
+      "cik": 1616533,
+      "concept": "PaymentsToAcquirePropertyPlantAndEquipment"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "anthropic",
+      "ticker": "ANT",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "alibaba",
+      "ticker": "BABA",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "nebius",
+      "ticker": "NBIS",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "arm",
+      "ticker": "ARM",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "tsmc",
+      "ticker": "TSM",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "asml",
+      "ticker": "ASML",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "gf",
+      "ticker": "GFS",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "pony",
+      "ticker": "PONY",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "hut8",
+      "ticker": "HUT",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "hive",
+      "ticker": "HIVE",
+      "reason": "No USD quarterly cash capex facts"
+    },
+    {
+      "id": "agility",
+      "ticker": "AGLT",
+      "reason": "No USD quarterly cash capex facts"
+    }
+  ]
+}

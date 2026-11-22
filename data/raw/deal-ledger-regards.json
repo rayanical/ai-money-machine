@@ -1,0 +1,4466 @@
+{
+  "name": "AI Compute Deal Ledger",
+  "publisher": "Regards of Wallstreet",
+  "url": "https://www.regardsofwallstreet.com/data/ai-deals",
+  "methodology": "https://www.regardsofwallstreet.com/data/ai-deals/methodology",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "cite_as": "AI Compute Deal Ledger, Regards of Wallstreet, https://www.regardsofwallstreet.com/data/ai-deals",
+  "last_updated": "2026-11-20",
+  "generated_at": "2026-11-21T11:28:38.493Z",
+  "headline_aggregate": "contractValueUsd",
+  "aggregates_note": "contractValueUsd sums binding capacity_lease, cloud_services, chip_purchase and build_contract rows. backstop_guarantee amounts are contingent ceilings and compute_equity amounts are stakes, so both are reported in bindingValueByType and kept out of the headline. bindingValueUsd sums every binding type. None of these figures is cash already paid.",
+  "aggregates": {
+    "contractValueUsd": 1319194000000,
+    "contractCount": 45,
+    "bindingValueByType": {
+      "capacity_lease": {
+        "valueUsd": 131311000000,
+        "count": 12
+      },
+      "cloud_services": {
+        "valueUsd": 960883000000,
+        "count": 28
+      },
+      "chip_purchase": {
+        "valueUsd": 227000000000,
+        "count": 4
+      },
+      "build_contract": {
+        "valueUsd": 0,
+        "count": 1
+      },
+      "backstop_guarantee": {
+        "valueUsd": 105000000000,
+        "count": 1
+      },
+      "compute_equity": {
+        "valueUsd": 50000000000,
+        "count": 5
+      }
+    },
+    "bindingValueUsd": 1474194000000,
+    "bindingMw": 17184,
+    "bindingCount": 51,
+    "nonBindingValueUsd": 100000000000,
+    "nonBindingCount": 1,
+    "nonBindingValueByType": {
+      "capacity_lease": {
+        "valueUsd": 0,
+        "count": 0
+      },
+      "cloud_services": {
+        "valueUsd": 0,
+        "count": 0
+      },
+      "chip_purchase": {
+        "valueUsd": 0,
+        "count": 0
+      },
+      "build_contract": {
+        "valueUsd": 0,
+        "count": 0
+      },
+      "backstop_guarantee": {
+        "valueUsd": 0,
+        "count": 0
+      },
+      "compute_equity": {
+        "valueUsd": 100000000000,
+        "count": 1
+      }
+    },
+    "optionUpsideUsd": 79300000000,
+    "dealCount": 62,
+    "entityCount": 56,
+    "mwByDeliveryYear": {
+      "2026": 2020,
+      "2027": 8992,
+      "2028": 4602,
+      "unknown": 1570
+    }
+  },
+  "entities": [
+    {
+      "id": "lambda",
+      "name": "Lambda",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": [
+        "Lambda, Inc."
+      ]
+    },
+    {
+      "id": "bitdeer",
+      "name": "Bitdeer Technologies",
+      "ticker": "BTDR",
+      "kind": "provider",
+      "aliases": [
+        "Bitdeer Technologies Group",
+        "Tydal Data Center AS"
+      ]
+    },
+    {
+      "id": "volta",
+      "name": "Volta Infra",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": [
+        "Volta Infra Holdings",
+        "Volta Tydal AS"
+      ]
+    },
+    {
+      "id": "duos-technologies",
+      "name": "Duos Technologies",
+      "ticker": "DUOT",
+      "kind": "provider",
+      "aliases": [
+        "Duos Technologies Group",
+        "Duos Edge AI"
+      ]
+    },
+    {
+      "id": "axe-compute",
+      "name": "Axe Compute",
+      "ticker": "AGPU",
+      "kind": "provider",
+      "aliases": [
+        "Axe Compute Inc."
+      ]
+    },
+    {
+      "id": "hive-digital",
+      "name": "HIVE Digital Technologies",
+      "ticker": "HIVE",
+      "kind": "provider",
+      "aliases": [
+        "HIVE Digital Technologies Ltd.",
+        "BUZZ HPC"
+      ]
+    },
+    {
+      "id": "undisclosed-enterprise-hive",
+      "name": "Undisclosed investment-grade enterprise customer (HIVE)",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "ticker": null,
+      "kind": "ai_lab",
+      "aliases": [
+        "Cohere Inc.",
+        "Cohere Inc"
+      ]
+    },
+    {
+      "id": "hut-8",
+      "name": "Hut 8",
+      "ticker": "HUT",
+      "kind": "provider",
+      "aliases": [
+        "Hut 8 Corp"
+      ]
+    },
+    {
+      "id": "iren",
+      "name": "IREN",
+      "ticker": "IREN",
+      "kind": "provider",
+      "aliases": [
+        "IREN Limited",
+        "Iris Energy"
+      ]
+    },
+    {
+      "id": "applied-digital",
+      "name": "Applied Digital",
+      "ticker": "APLD",
+      "kind": "provider",
+      "aliases": [
+        "Applied Digital Corporation"
+      ]
+    },
+    {
+      "id": "super-micro",
+      "name": "Super Micro Computer",
+      "ticker": "SMCI",
+      "kind": "hardware",
+      "aliases": [
+        "Supermicro"
+      ]
+    },
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "kind": "chipmaker",
+      "aliases": [
+        "NVIDIA Corporation"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Microsoft Azure",
+        "Azure"
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Oracle Cloud Infrastructure",
+        "OCI"
+      ]
+    },
+    {
+      "id": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "kind": "provider",
+      "aliases": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "kind": "ai_lab",
+      "aliases": []
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "kind": "ai_lab",
+      "aliases": []
+    },
+    {
+      "id": "sb-energy",
+      "name": "SB Energy",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": [
+        "SoftBank Energy"
+      ]
+    },
+    {
+      "id": "undisclosed-ig-tenant-hut8",
+      "name": "Undisclosed investment-grade tenant (Hut 8)",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "undisclosed-hyperscaler-apld",
+      "name": "Undisclosed hyperscaler (Applied Digital)",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "various-ai-developers",
+      "name": "Various AI developers",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Meta Platforms"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "ticker": "GOOGL",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Alphabet",
+        "Google Cloud"
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "kind": "hyperscaler",
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "id": "nebius",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "kind": "provider",
+      "aliases": [
+        "Nebius Group"
+      ]
+    },
+    {
+      "id": "dell",
+      "name": "Dell",
+      "ticker": "DELL",
+      "kind": "hardware",
+      "aliases": [
+        "Dell Technologies",
+        "Dell Marketing L.P."
+      ]
+    },
+    {
+      "id": "softbank",
+      "name": "SoftBank",
+      "ticker": null,
+      "kind": "financier",
+      "aliases": [
+        "SoftBank Group"
+      ]
+    },
+    {
+      "id": "mgx",
+      "name": "MGX",
+      "ticker": null,
+      "kind": "financier",
+      "aliases": []
+    },
+    {
+      "id": "terawulf",
+      "name": "TeraWulf",
+      "ticker": "WULF",
+      "kind": "provider",
+      "aliases": [
+        "TeraWulf Inc."
+      ]
+    },
+    {
+      "id": "fluidstack",
+      "name": "Fluidstack",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": []
+    },
+    {
+      "id": "galaxy-digital",
+      "name": "Galaxy Digital",
+      "ticker": "GLXY",
+      "kind": "provider",
+      "aliases": [
+        "Galaxy Digital Inc.",
+        "Galaxy Digital Holdings"
+      ]
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "ticker": "SPCX",
+      "kind": "provider",
+      "aliases": [
+        "Space Exploration Technologies Corp",
+        "xAI",
+        "Colossus"
+      ]
+    },
+    {
+      "id": "reflection-ai",
+      "name": "Reflection AI",
+      "ticker": null,
+      "kind": "ai_lab",
+      "aliases": []
+    },
+    {
+      "id": "sharon-ai",
+      "name": "Sharon AI",
+      "ticker": "SHAZ",
+      "kind": "provider",
+      "aliases": [
+        "SharonAI Holdings"
+      ]
+    },
+    {
+      "id": "undisclosed-ai-platform-sharonai",
+      "name": "Undisclosed global AI platform (Sharon AI)",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "core-scientific",
+      "name": "Core Scientific",
+      "ticker": "CORZ",
+      "kind": "provider",
+      "aliases": [
+        "Core Scientific, Inc."
+      ]
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "ticker": "AMD",
+      "kind": "chipmaker",
+      "aliases": [
+        "Advanced Micro Devices"
+      ]
+    },
+    {
+      "id": "riot",
+      "name": "Riot Platforms",
+      "ticker": "RIOT",
+      "kind": "provider",
+      "aliases": [
+        "Riot Platforms, Inc.",
+        "Riot Blockchain"
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "kind": "financier",
+      "aliases": []
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock",
+      "ticker": "BLK",
+      "kind": "financier",
+      "aliases": []
+    },
+    {
+      "id": "blackstone",
+      "name": "Blackstone",
+      "ticker": "BX",
+      "kind": "financier",
+      "aliases": []
+    },
+    {
+      "id": "brookfield",
+      "name": "Brookfield Asset Management",
+      "ticker": "BAM",
+      "kind": "financier",
+      "aliases": [
+        "Brookfield"
+      ]
+    },
+    {
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "ticker": "GS",
+      "kind": "financier",
+      "aliases": [
+        "Goldman Sachs Group"
+      ]
+    },
+    {
+      "id": "kkr",
+      "name": "KKR",
+      "ticker": "KKR",
+      "kind": "financier",
+      "aliases": [
+        "KKR & Co."
+      ]
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "ticker": "IBM",
+      "kind": "hyperscaler",
+      "aliases": [
+        "IBM Cloud",
+        "International Business Machines"
+      ]
+    },
+    {
+      "id": "together-ai",
+      "name": "Together AI",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": [
+        "Together Computer"
+      ]
+    },
+    {
+      "id": "digi-power-x",
+      "name": "Digi Power X",
+      "ticker": "DGXX",
+      "kind": "provider",
+      "aliases": [
+        "Digi Power X Inc.",
+        "Digihost Technology"
+      ]
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "ticker": null,
+      "kind": "chipmaker",
+      "aliases": [
+        "Cerebras Systems",
+        "Cerebras Systems Inc."
+      ]
+    },
+    {
+      "id": "jane-street",
+      "name": "Jane Street",
+      "ticker": null,
+      "kind": "financier",
+      "aliases": [
+        "Jane Street Group",
+        "Jane Street Capital"
+      ]
+    },
+    {
+      "id": "atlas-energy-solutions",
+      "name": "Atlas Energy Solutions",
+      "ticker": "AESI",
+      "kind": "provider",
+      "aliases": [
+        "Atlas Energy Solutions Inc."
+      ]
+    },
+    {
+      "id": "akamai",
+      "name": "Akamai",
+      "ticker": "AKAM",
+      "kind": "provider",
+      "aliases": [
+        "Akamai Technologies",
+        "Akamai Technologies, Inc.",
+        "Akamai Cloud"
+      ]
+    },
+    {
+      "id": "undisclosed-frontier-ai-lab-atlas",
+      "name": "Undisclosed frontier AI lab (Atlas Energy Solutions)",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    },
+    {
+      "id": "nscale",
+      "name": "Nscale",
+      "ticker": null,
+      "kind": "provider",
+      "aliases": [
+        "Nscale Global Holdings",
+        "Nscale Monarch Compute Campus"
+      ]
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "kind": "chipmaker",
+      "aliases": [
+        "Qualcomm Incorporated",
+        "Qualcomm Technologies, Inc.",
+        "QTI"
+      ]
+    },
+    {
+      "id": "broadcom",
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "kind": "chipmaker",
+      "aliases": [
+        "Broadcom Inc."
+      ]
+    },
+    {
+      "id": "various-compute-providers",
+      "name": "Various compute providers",
+      "ticker": null,
+      "kind": "undisclosed",
+      "aliases": []
+    }
+  ],
+  "deals": [
+    {
+      "id": "anthropic-total-commitments-2026-09",
+      "announced": "2026-11-19",
+      "recorded": "2026-11-20",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "various-compute-providers",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 900900000000,
+        "kind": "company_stated",
+        "basis": "total_backlog",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": null,
+      "capacity": null,
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "About $186.2B of the total is subject to exercisable termination rights or conditions before commencement, such as a counterparty securing financing, facilities or approvals. Excludes $150B to $175B of further arrangements with no fixed dollar commitment (mostly the extra Google TPU procurement)."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/",
+          "type": "primary",
+          "date": "2026-11-17"
+        }
+      ],
+      "articles": [],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates: Anthropic's total committed spend of approximately $900.9B as of and after September 30, 2026, substantially all compute and infrastructure, per its 424B4. Components: $320.0B of contractual obligations at September 30 (of which $313.8B purchase commitments), $17.4B of short-term commitments, $451.2B of leases signed but not commenced, $105.7B of commitments signed after September 30 and $6.6B of short-term agreements after that date; these sum to $900.9B. About $451.6B falls before the end of 2030 and $70.7B in the twelve months after September 30, 2026. The named deals inside it have their own rows; adding this total to them would double count. Earlier figures reported from drafts ($518B, $542-567B) used narrower definitions.",
+      "revisions": []
+    },
+    {
+      "id": "riot-anthropic-corsicana-lease-2026-11",
+      "announced": "2026-11-04",
+      "recorded": "2026-11-06",
+      "disclosed_via": "8-k",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "riot",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 28000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": 54000000000,
+        "as_of": "2026-11-04"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 910,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-09-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "15-year triple-net powered land lease of Riot's entire 332-acre Corsicana, Texas campus; Riot delivers land, power infrastructure and powered pads, and the tenant deploys compute and pays substantially all operating costs. Rent is payable on the full 910 MW irrespective of utilization. About $1.8B average annual rent including escalators; two 5-year extension options would take total value to about $54B (max_with_options_usd). Delivery in three phases: 400 MW in September 2027, 200 MW in January 2028, 310 MW in July 2028; rent on each phase starts no later than 60 days after its powered pads are delivered, so revenue_start is the first phase's delivery month, not first rent. Capital cost about $6M per IT MW; Riot funds $2M per MW and the remaining $4M per MW is reimbursed to the tenant after each phase pays rent, from non-recourse project debt, or else funded by the tenant and recovered as a rent credit. Riot's press release and 8-K name only 'a leading Frontier AI Lab'. Bitcoin Magazine reports that Riot's 10-Q names Anthropic PBC as the tenant (lease signed 2026-10-28, binding 2026-11-04); that filing could not be opened from this session, so the tenant is carried as Anthropic on a single secondary report plus Riot's statement that the Rockdale tenant is the same lab (Rockdale's tenant was identified as Anthropic by Bloomberg). Riot's portfolio total of 1,151 MW and about $38B includes this row, the Rockdale row and the AMD contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/",
+          "type": "primary",
+          "date": "2026-11-04"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001167419/000110465926122368/riot-ex99d1.htm",
+          "type": "primary",
+          "date": "2026-11-04"
+        },
+        {
+          "url": "https://bitcoinmagazine.com/news/riot-names-anthropic-texas-lease",
+          "type": "other",
+          "date": "2026-11-05"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist hit on Riot's 8-K filed 2026-11-04 (accession 0001104659-26-122368). Arithmetic: $28B over 15 years on 910 MW is about $2.05M per MW per year; stated $1.8B average annual rent over 910 MW is about $1.98M, consistent with a land-and-power lease and above the Rockdale row's shell-style rate. No Bloomberg, Reuters or CNBC piece was found in-session; the figures rest on the company's own release and 8-K.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-broadcom-tpu-leases-2026",
+      "announced": "2026-10-26",
+      "recorded": "2026-11-20",
+      "disclosed_via": "s-1",
+      "deal_type": "chip_purchase",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "broadcom",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 161200000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Google TPU (Broadcom-built)"
+      },
+      "dates": {
+        "revenue_start": "2026-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Five-year master equipment leases with Broadcom, including the 2026 Lease Arrangement, for TPU-based hardware deployed in data centers others operate for Anthropic; accounted for as finance leases. Rent of approximately $161.2B excluding interest over the lease lives, paid quarterly from when equipment is ready for service; part came online in 2026 and more from 2027. Non-cancelable by either party except by the lessor on default. Broadcom has assigned parts of the leases to a third party and to a special purpose financing entity, which Anthropic says did not raise aggregate rent. Recorded as chip_purchase because it is hardware acquired under finance leases, not data center space."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/anthropic-518bn-infrastructure-commitments-ipo-1822730",
+          "type": "other",
+          "date": "2026-09-29"
+        }
+      ],
+      "articles": [],
+      "notes": "Largest single figure in Anthropic's prospectus. The number moved between drafts: Fortune's reading of the public S-1 (2026-10-26) gave $125.2B of rent for the leases; the 424B4 (2026-11-19) gives approximately $161.2B, and the row carries the 424B4 figure. No tier-1 outlet was found quoting the final figure; the second source covers the earlier draft's $161.2B Broadcom-related lease line, which matches the 424B4. Distinct from the Google CSP hosting row (anthropic-google-csp-hosting-2026-03): the prospectus lists the two as separate arrangements.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-google-csp-hosting-2026-03",
+      "announced": "2026-10-26",
+      "recorded": "2026-11-20",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "google",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 121300000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 7.3,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Google TPU"
+      },
+      "dates": {
+        "revenue_start": "2026-04-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "CSP hosting agreement signed March 2026 and amended between May and October 2026: at least approximately $121.3B of spend between April 2026 and July 2033 regardless of usage, with a true-up if spend falls short; non-cancelable except for Google's uncured material breach. Separately, Anthropic committed to procure more TPU compute with no fixed dollar figure, estimated at $125B to $150B for delivery 2028 to 2031, which is not in this row's value. Circular: Google is an Anthropic shareholder."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        },
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/09/29/exclusive-anthropic039s-ipo-prospectus-shows-sweeping-ai-vision-surging-costs",
+          "type": "other",
+          "date": "2026-09-29"
+        },
+        {
+          "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+          "type": "other",
+          "date": "2026-10-26"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic's largest single disclosed compute commitment, first made public in its IPO registration statement. The figure rose between drafts: Reuters reported about $111.1B from the confidential draft (2026-09-29, linked via a syndicated copy), later coverage of the public S-1 about $114.5B, and the final 424B4 (2026-11-19) gives at least approximately $121.3B after the amendments through October; the row carries the 424B4 figure. No MW is recorded, so the 1 GW on google-anthropic-tpu-2025-10 (the October 2025 TPU expansion, which may sit inside this agreement) is not counted twice. term_years 7.3 is April 2026 to July 2033.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-lambda-cloud-2026-05",
+      "announced": "2026-10-26",
+      "recorded": "2026-11-20",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "lambda",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 6400000000,
+        "kind": "computed",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Nvidia GPUs"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Fees accrue only as capacity is delivered and accepted; non-cancelable except for Lambda's uncured material breach or other limited circumstances and, for some agreements, per tranche if Lambda misses delivery milestones."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/",
+          "type": "primary",
+          "date": "2026-11-17"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic's May and June 2026 agreements with Lambda to access Nvidia GPU compute, first disclosed in its IPO registration statement (public S-1 filed 2026-10-26). Computed: the 424B4 gives approximately $41.3B for all Lambda agreements over terms into 2034, of which the August agreement (anthropic-lambda-cloud-2026-08) is approximately $34.9B, leaving about $6.4B for May and June. Neither agreement was announced separately and no MW or start date is disclosed. The second source is the 2026-11-17 S-1/A, the same company's earlier filing, not an independent outlet; no press coverage breaking out the May and June agreements was found.",
+      "revisions": []
+    },
+    {
+      "id": "spacex-anthropic-compute-arrangements-2026-10",
+      "announced": "2026-10-26",
+      "recorded": "2026-11-20",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "spacex",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 120500000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 3.5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Nvidia GPUs"
+      },
+      "dates": {
+        "revenue_start": "2026-05-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Up to $120.5B over terms extending into 2029, about $3.1B a month once all capacity is delivered, which Anthropic expects in December 2026, with different fees while capacity ramps. After initial non-cancelable periods ending January 2027 and March 2027, either party may cancel each agreement on 90 days' notice, so the firm portion is far smaller than the headline. term_years 3.5 is May 2026 into 2029, approximate."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        },
+        {
+          "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+          "type": "other",
+          "date": "2026-10-26"
+        },
+        {
+          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
+          "type": "other",
+          "date": "2026-10-26"
+        }
+      ],
+      "articles": [],
+      "notes": "All of Anthropic's agreements with SpaceX.AI LLC (formerly X.AI LLC, a SpaceX subsidiary) for Nvidia GPU compute, entered and amended between May and October 2026, including the Colossus 1 rental first announced 2026-05-06 (spacex-anthropic-colossus1-2026-05, now superseded by this row). Earlier Reuters reporting on the confidential draft put the figure at up to $84.5B; the public S-1 and the final 424B4 both give $120.5B. Arithmetic: $3.1B a month is $37.2B a year, so about $120B needs roughly 3.2 years at full rate, consistent with terms running into 2029 after a ramp.",
+      "revisions": []
+    },
+    {
+      "id": "atlas-energy-frontier-ai-lab-2026-09",
+      "announced": "2026-09-25",
+      "recorded": "2026-09-25",
+      "disclosed_via": "8-k",
+      "deal_type": "build_contract",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "atlas-energy-solutions",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-frontier-ai-lab-atlas",
+          "role": "buyer"
+        }
+      ],
+      "value": null,
+      "term_years": null,
+      "capacity": {
+        "mw_it": 283,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "Two wholly owned, indirect Atlas subsidiaries executed separate cost reimbursement agreements with an unnamed 'leading frontier AI lab', paired with equipment purchase agreements under Atlas' existing Global Framework Agreement with Caterpillar. The first reimburses balance-of-plant equipment (emissions controls, electrical distribution, battery storage) supporting Atlas' already-placed generator orders; the second reimburses an incremental 283 MW of Caterpillar power-generation equipment for the initial power ramp of a specific data center project, which is the capacity recorded here. A separate 328 MW Caterpillar generating-capacity purchase for 2027 delivery was reported alongside this announcement but described as fulfilling Atlas' pre-existing GFA obligations rather than this specific AI-lab reimbursement, so it is not included in mw_it pending clearer sourcing."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1984060/000119312526401582/aesi-ex99_1.htm",
+          "type": "primary",
+          "date": "2026-09-25"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/why-is-atlas-energy-stock-surging-today-93CH-4917580",
+          "type": "other",
+          "date": "2026-09-25"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist hit on Atlas Energy Solutions' 8-K filed 2026-09-25. No dollar value is stated anywhere in the primary 8-K or its press-release exhibit; several secondary finance-aggregator sites (Parameter.io, MoneyCheck, and syndicated BusinessWire republishes) report an aggregate '$613.5 million' figure ($340.5M balance-of-plant + $273M power generation) attributed to 'Atlas Energy's official announcement', but that figure does not appear in the SEC-filed exhibit text as fetched in this session, so it is omitted here per the figure-verification rule against unconfirmed aggregator numbers; value left null and the row qualifies on the disclosed 283 MW figure alone (inclusion criteria 3's 50 MW+ path). The AI-lab counterparty is unnamed in all sourcing found. Only one non-tier-1 secondary source was available same-day; no Reuters/Bloomberg/CNBC/WSJ/FT coverage had appeared as of this review, so re-check for a tier-1 corroboration and the dollar figure on the next run.",
+      "revisions": []
+    },
+    {
+      "id": "akamai-anthropic-cloud-2026-09",
+      "announced": "2026-09-24",
+      "recorded": "2026-09-25",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "akamai",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 11600000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": 20600000000,
+        "as_of": "2026-09-24"
+      },
+      "term_years": 7,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-07-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Expanded multi-year agreement for Anthropic's CPU-based AI compute workloads on Akamai Cloud's distributed infrastructure and software, $11.6B base contractual commitment over 7 years, with an option for up to $9B in additional commitments (company describes the combined potential as 'up to approximately $20 billion'; 11.6+9=20.6, so the row's max_with_options_usd is the computed sum rather than the rounded soundbite). Revenue recognition begins H2 2027, reaching an estimated ~$1.7B annualized run rate by end of 2028. Akamai anticipates about $5.5B of its own capex tied to building out the committed capacity ($1.7B of that landing in 2026), which is Akamai's cost to fulfill the contract, not part of this row's value. Akamai granted Anthropic a warrant for non-voting convertible Series B Preferred Stock, 7.7M shares on an as-converted basis (~5% of Akamai's outstanding common stock) at an $111.33 strike; roughly 2% of that vests with the $11.6B base commitment and the remaining ~3% vests in tranches (~1% per additional $3B) as the option is exercised. Company states no impact to 2026 revenue guidance from this contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001086222/000119312526401048/d288154dex991.htm",
+          "type": "primary",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-24/anthropic-strikes-12-billion-deal-with-akamai-for-ai-computing",
+          "type": "tier1",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+          "type": "other",
+          "date": "2026-09-25"
+        }
+      ],
+      "articles": [],
+      "notes": "Found via web research this run; the largest deal added this week. Neither Akamai nor Anthropic (as a CPU-cloud provider relationship) was on the EDGAR watchlist under this pairing, so this surfaced only via the general web scan, not the daily EDGAR watch. Scale check: Akamai's trailing revenue is in the low-$4B/year range, so an $11.6B commitment landing over 7 years (~$1.7B/year run rate at full ramp by 2028) is large relative to the company but consistent with the company's own guidance language and the capex build it says the deal requires; this is explicitly why Akamai stock re-rated sharply on the announcement (per Yahoo Finance, TechCrunch). Cross-source: SEC 8-K exhibit (primary, Akamai's own release) plus Bloomberg (tier-1, headlining a slightly-rounded '$12 billion') and TechCrunch, both citing the same $11.6B/7-year figures as the base commitment; Bloomberg's '$12 billion' headline rounds the $11.6B base, not a conflicting figure. CPU-only workload, distinct in kind from the GPU-capacity deals that make up most of the ledger.",
+      "revisions": []
+    },
+    {
+      "id": "oracle-total-rpo-2026-09",
+      "announced": "2026-09-10",
+      "recorded": "2026-09-18",
+      "disclosed_via": "earnings_call",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "oracle",
+          "role": "provider"
+        },
+        {
+          "entity": "various-ai-developers",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 664000000000,
+        "kind": "company_stated",
+        "basis": "total_backlog",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-09-10"
+      },
+      "term_years": null,
+      "capacity": null,
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "Oracle's fiscal Q1 FY2027 results (quarter ended 2026-08-31, reported 2026-09-10) disclosed total Remaining Performance Obligations of $664B, up $209B year over year and $26B sequentially from the $638B reported at FY2026 Q4. Management said roughly half should convert to revenue within 36 months, contingent on building and delivering the contracted data-center capacity on schedule; Bank of America analysts estimate over 50% of RPO traces to OpenAI. Oracle booked more than $30B of new AI cloud contracts and delivered 850MW of additional data-center capacity in the quarter."
+      },
+      "sources": [
+        {
+          "url": "https://s23.q4cdn.com/440135859/files/doc_financials/2026/q1/1q26-pressrelease-September-final.pdf",
+          "type": "primary",
+          "date": "2026-09-10"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+          "type": "tier1",
+          "date": "2026-09-11"
+        }
+      ],
+      "articles": [],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates: Oracle's company-wide RPO across all cloud customers, not a single deal. Overlaps almost entirely with named rows already on the ledger (openai-oracle-stargate-2025-09 at $300B, meta-oracle-cloud-2025-10 at ~$20B, and other multi-billion contracts with customers Oracle has not named), so this row exists only to record the disclosure, per the same total_backlog treatment already used for sb-energy-contracted-backlog-2026-09 and coreweave-backlog-2026-08. Scale check: consistent with Oracle's own prior-quarter RPO of $638B (FY2026 Q4) and the $455B figure recorded at FY2026 Q1 in the openai-oracle-stargate row; the growth trajectory across three consecutive quarters is internally consistent. Superseded snapshot: replaces the FY2026 Q1 $455B figure referenced in openai-oracle-stargate-2025-09's notes as the most current RPO read; that row's notes are left as a historical record of the September 2025 print rather than edited, per the house rule against silent overwrites.",
+      "revisions": []
+    },
+    {
+      "id": "qualcomm-amazon-custom-silicon-2026-09",
+      "announced": "2026-09-08",
+      "recorded": "2026-10-12",
+      "disclosed_via": "8-k",
+      "deal_type": "chip_purchase",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "qualcomm",
+          "role": "provider"
+        },
+        {
+          "entity": "amazon",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 60000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-09-08"
+      },
+      "term_years": 10,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2026-12-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Multi-generational custom-silicon collaboration: Qualcomm Technologies builds custom AI inference chips, server-class systems and manufacturing services for AWS, plus joint work on 1.6T+ optical connectivity. Disclosed via a Qualcomm Item 3.02 8-K covering a warrant Qualcomm issued to Amazon.com NV Investment Holdings for up to 25,000,000 Qualcomm shares at $161.26/share (expires 2036-09-03), vesting in tranches tied to Amazon placing binding purchase orders and actually buying Qualcomm's server chip products, technology, systems and manufacturing services, up to a $60B payments ceiling that triggers full vesting. 3,750,000 shares vested immediately on issuance based on an undisclosed initial purchase commitment. The $60B is the vesting ceiling, not a guaranteed minimum spend, hence the up_to qualifier; no MW or chip-count figure was disclosed. The warrant itself is separately valued at roughly $4B at issuance by multiple outlets -- that is the value of the stock grant, not the purchase commitment, and is not the figure this row carries. Qualcomm said it is already in production with Amazon and expects revenue from the relationship starting in its December 2026 quarter."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
+          "type": "primary",
+          "date": "2026-09-08"
+        },
+        {
+          "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-multi-generational-product-collaboration-with",
+          "type": "primary",
+          "date": "2026-09-08"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+          "type": "tier1",
+          "date": "2026-09-08"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-08/qualcomm-signs-deal-to-provide-amazon-with-custom-ai-chips",
+          "type": "tier1",
+          "date": "2026-09-08"
+        }
+      ],
+      "articles": [],
+      "notes": "Qualcomm's largest push yet into AI data-center silicon, and its first hyperscaler customer for the strategy. The $60B figure is a warrant-vesting ceiling disclosed by Qualcomm itself in its 8-K, not a stated minimum purchase commitment, so it is entered with an up_to qualifier per the same treatment used for the Amazon-Anthropic and Microsoft/Nvidia-Anthropic investment rows. Found and researched 2026-09-11 but never entered: the branch that added it sat open a month and could not be merged once main's history moved past its base, so it is backfilled here with recorded set to the actual entry date rather than the research date. Re-checked against the same primary sources on 2026-10-12; nothing material had changed.",
+      "revisions": []
+    },
+    {
+      "id": "sb-energy-contracted-backlog-2026-09",
+      "announced": "2026-09-02",
+      "recorded": "2026-09-04",
+      "disclosed_via": "s-1",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "sb-energy",
+          "role": "provider"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        },
+        {
+          "entity": "softbank",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 439000000000,
+        "kind": "company_stated",
+        "basis": "total_backlog",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-09-02"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": 8800,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "SB Energy's S-1 registration statement (filed for a planned Nasdaq/Nasdaq Texas listing as SBE) discloses $439B of total backlog under binding contracts, of which approximately $430B is from data centers, against 8.8 GW-IT of signed leases concentrated in two customers: OpenAI (approximately 8.0 GW-IT across 17 buildings, 20-year leases, at the Ohio PORTS-Pike campus) and SoftBank (the balance, including the Cosmos Technology Campus in Travis County, TX: 50 MW-IT under a 15-year triple-net lease with expected aggregate rent of $2.5B, financed by $999M of 8.875% senior secured notes due 2031 issued by project subsidiary SE Cosmos LLC, first rent targeted Q4 2026). The backlog is heavily back-loaded: roughly $1B is expected to convert to revenue in the next 24 months, with about $357B beyond year 8. SB Energy reported approximately $4B of debt and a $3.8B accumulated deficit as of the filing."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm",
+          "type": "primary",
+          "date": "2026-09-01"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/softbank-8217-sb-energy-ipo-145941881.html",
+          "type": "other",
+          "date": "2026-09-02"
+        },
+        {
+          "url": "https://www.latitudemedia.com/news/under-the-hood-of-sb-energys-ipo-filing/",
+          "type": "other",
+          "date": "2026-09-03"
+        }
+      ],
+      "articles": [],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates (basis: total_backlog). Surfaced from the EDGAR watchlist hit on SB Energy's S-1 (filed 2026-09-01/02). This is SB Energy's own rollup of its signed data-center leases and is not additive with nvidia-openai-sb-energy-ohio-2026-08 (Nvidia's $105B residual-value guarantee on the initial 4.25 GW-IT phase of the same OpenAI Ohio lease) or with any other row: they describe different instruments (guarantee ceiling vs. lease backlog) against overlapping capacity, so summing them would double count the Ohio campus. Scale check: $439B backlog against a company with ~$4B of debt and a $3.8B accumulated deficit and no operating data center yet is consistent with the pattern already established by Stargate ($500B program envelope) and Applied Digital ($36B backlog on 1.41GW); AI-infrastructure backlogs routinely run far ahead of revenue at this stage of the cycle, and SB Energy's own S-1 states the same (~$1B converts in 24 months, ~$357B beyond year 8). Arithmetic check: $430B data-center backlog / 8.8GW-IT over the disclosed lease terms (mostly 20-year OpenAI leases) is broadly consistent with the $13.3M/MW/yr full-stack rate already reconciled for OpenAI-Oracle Stargate capacity, though SB Energy's mix includes lower-cost triple-net shell leases (the Cosmos campus alone reconciles to $2.5B / 50MW / 15yr = ~$3.3M/MW/yr, inside the ledger's sanity band). Cross-source: SEC S-1 (primary) plus independent Yahoo Finance and Latitude Media reporting citing the same $439B/8.8GW-IT/8.0GW-IT figures. Counterparty note: 'buyer' role split across OpenAI (Ohio, ~8.0GW-IT) and SoftBank (remaining balance including Cosmos); the S-1 itself does not further break out the balance by named tenant beyond SoftBank affiliates, so this row does not assert a precise split beyond the two figures given in conditions.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-lambda-cloud-2026-08",
+      "announced": "2026-08-31",
+      "recorded": "2026-09-18",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "lambda",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 34900000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Reported cloud-compute agreement layered on top of the existing Hut 8 Beacon Point capacity (hut8-beacon-point-phase1-2026-05 / -phase2-2026-07, Nueces County, Texas): per Bloomberg's sourcing, Anthropic pays Lambda, Lambda installs Nvidia chips at roughly 350MW of the Beacon Point campus, and Nvidia (reported, unconfirmed, as the tenant behind the Hut 8 leases) sits above the arrangement as both chip supplier and underlying facility lessee, paying Hut 8's rent. This row records the Anthropic-to-Lambda commercial layer only; it is not an expansion_of the Hut 8 rows since it is a different contract, a different counterparty pair and a different dollar figure describing a different layer of the same physical capacity, and summing it with the Hut 8 rows would double count the underlying MW. Flagged circular given Nvidia's presence on multiple sides of the same capacity chain. Term length and GPU count were not disclosed in any report found. Initial energization expected Q1 2027. Neither Anthropic, Lambda nor Nvidia has confirmed the deal; held at status reported (excluded from binding aggregates) on two independent tier-1 reports. Anthropic's 424B4 (2026-11-19): the August 2026 Lambda agreement is approximately $34.9B of a $41.3B Lambda total. Either party may terminate it if Lambda did not secure the facility lease by a set date; Lambda missed that date, so the agreement is currently terminable by either party. Neither side had given notice as of the prospectus, and Anthropic says it does not currently intend to terminate. Recorded as binding because it is a signed, definitive agreement, with this condition shown; the May and June agreements are anthropic-lambda-cloud-2026-05. capacity.mw_it cleared to null on 2026-11-20: the reported 350 MW sat inside Hut 8's Beacon Point leases, which already carry that capacity, and counting it here as well would double the GW total now that the row is binding. The prospectus also says Lambda did not secure the facility lease, so the Beacon Point link is unconfirmed."
+      },
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda",
+          "type": "tier1",
+          "date": "2026-08-31"
+        },
+        {
+          "url": "https://www.cnbc.com/video/2026/09/01/anthropic-inks-35b-deal-with-nvidia-backed-cloud-provider-lambda-report.html",
+          "type": "tier1",
+          "date": "2026-09-01"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Backfilled 2026-09-18 during the weekly ledger review, found alongside the Nscale row while researching Anthropic's reported $517B compute-commitment aggregate (that aggregate is not itself ledgered; it is a media rollup, not a company disclosure, and mostly restates deals already on the ledger). Second of Anthropic's two reported deals in the same week (the other being anthropic-nscale-monarch-2026-08); both stay separate rows since they name different providers, sites and figures.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "status",
+          "reason": "reported to binding on Anthropic's 424B4, which describes the signed August 2026 agreement. Value restated from $35B (Bloomberg) to approximately $34.9B (company_stated). Flagged: currently terminable by either party because Lambda missed the facility-lease deadline.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        },
+        {
+          "date": "2026-11-20",
+          "field": "capacity.mw_it",
+          "reason": "350 to null: the MW is already counted on the Hut 8 Beacon Point rows, and the facility lease the agreement depended on was not secured.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "nscale-anthropic-monarch-lease-2026-08",
+      "announced": "2026-08-26",
+      "recorded": "2026-10-12",
+      "disclosed_via": "s-1",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "nscale",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 44600000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 6,
+      "capacity": {
+        "mw_it": 460,
+        "chip_count": null,
+        "chip_type": "Nvidia Vera Rubin"
+      },
+      "dates": {
+        "revenue_start": "2027-10-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Six-year, ~460MW compute capacity lease at Nscale's Monarch Compute Campus in Mason County, West Virginia (a 2,250-acre site Nscale acquired March 2026, planned for up to 8GW total, first 2GW phase targeted online H1 2028). Nvidia Vera Rubin chips, reported to come online 'late' 2027. Neither Nscale nor Anthropic has issued an official press release or SEC filing confirming the deal; it is entered at status reported (excluded from binding aggregates) rather than binding, per the ledger's rule for stories two or more tier-1 outlets independently confirm without a primary source. Nscale filed for a US NYSE listing (ticker NSCL) around 2026-09-18 and press coverage of that filing describes the Anthropic lease anchoring its contracted backlog, but as of this row's 2026-10-12 recheck no S-1/F-1 text naming Anthropic or stating deal terms could be independently located and read, so that filing is not counted as the needed primary confirmation yet. Revisit and flip to binding once the registration statement itself can be read and confirms the deal. Confirmed in Anthropic's 424B4 (2026-11-19): GPU services agreements signed August 2026 with Nscale subsidiaries, up to approximately $44.6B over terms extending into 2033, fees accruing only as capacity is delivered and accepted. Nscale must use best efforts to obtain qualifying financing for the GPUs and data center within a specified period; otherwise non-cancelable except for Nscale missing delivery or availability requirements or an uncured breach."
+      },
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+          "type": "tier1",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+          "type": "tier1",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+          "type": "other",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic's largest single reported compute commitment on the ledger at the time of writing, surfaced alongside the AMD and Qualcomm-Amazon gaps the week of 2026-09-11. CNBC independently corroborated Bloomberg's initial report the same day; Reuters also picked it up. Backfilled a month late for the same reason as the other rows added this run: the original branch could not be merged once main's history moved past its base. Still watching Nscale's IPO filings for primary confirmation.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "status",
+          "reason": "reported to binding: Anthropic's 424B4 describes signed GPU services agreements with Nscale. Value restated from $45B (Bloomberg, media_reported) to up to $44.6B (company_stated). deal_type capacity_lease to cloud_services, since Anthropic buys GPU services from Nscale rather than leasing space.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "hive-buzzhpc-gpu-cloud-2026-08",
+      "announced": "2026-08-19",
+      "recorded": "2026-08-21",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "hive-digital",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-enterprise-hive",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 350000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-08-19"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": 2016,
+        "chip_type": "Nvidia Blackwell Ultra"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "Five-year GPU cloud services agreement via HIVE's BUZZ HPC subsidiary, built around a dedicated cluster of 2,016 Nvidia Blackwell Ultra GPUs at HIVE's hydro-powered Merritt, British Columbia facility. Company-stated total contract value ~$350M (~$70M/yr annualized revenue), against ~$185M of capex HIVE expects to spend building out the cluster. Counterparty disclosed only as 'an investment-grade enterprise customer'; no MW/IT-load figure given, so this row relies on the disclosed dollar value (clears the $100M threshold) rather than a capacity figure for inclusion."
+      },
+      "sources": [
+        {
+          "url": "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-signs-350-million-ai-cloud-services-agreement-with-investment-grade-enterprise-customer/",
+          "type": "primary",
+          "date": "2026-08-19"
+        },
+        {
+          "url": "https://www.theblock.co/news/business/2026-08-17-bitcoin-miner-hive-inks-five-year-350-million-ai-cloud-contract-411940",
+          "type": "other",
+          "date": "2026-08-17"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist keyword hit on HIVE's 8-K filed 2026-08-19. Sourcing is one primary company release plus The Block (crypto/tech trade press, not a Reuters/Bloomberg/CNBC/WSJ/FT tier-1 outlet); no independent tier-1 confirmation found. Counterparty is unnamed, following the same undisclosed-counterparty pattern already used for Hut 8, Applied Digital and Sharon AI rows -- flagged via counterparty_unnamed rather than omitted, since the dollar figure and GPU count are independently disclosed and verifiable against HIVE's own filings.",
+      "revisions": []
+    },
+    {
+      "id": "duos-axe-compute-expansion-2026-08",
+      "announced": "2026-08-17",
+      "recorded": "2026-08-21",
+      "disclosed_via": "8-k",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "duos-technologies",
+          "role": "provider"
+        },
+        {
+          "entity": "axe-compute",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 500000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-08-17"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": 55,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": "duos-axe-compute-columbus-2026-07",
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Five-year hosting agreements for 55 MW of new AI data center capacity across multiple, unnamed additional U.S. sites, explicitly 'in addition to' the companies' existing 10 MW Columbus, Georgia deployment (duos-axe-compute-columbus-2026-07): a distinct, additive commitment, not a restatement of the earlier deal. Aggregate value is '$500 million+' in contractual base payments over the 5-year term, excluding electricity/usage charges -- an undiscounted multi-year total with escalators, not a single upfront payment. Initial project readiness targeted late 2026 into early 2027, subject to construction, commissioning and Axe Compute's written acceptance. The companies also signed nonbinding term sheets for Axe Compute to take minority (up to 49%) equity stakes in the project entities; that equity piece is not itself quantified in dollars and is not included in this row's value."
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/08/17/3346084/12618/en/duos-technologies-signs-five-year-55-mw-hosting-agreements-with-axe-compute-valued-at-over-500-million.html",
+          "type": "primary",
+          "date": "2026-08-17"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/08/17/3346088/37244/en/axe-compute-and-duos-technologies-enter-into-agreements-for-55-mw-of-new-ai-data-center-capacity-across-multiple-u-s-locations.html",
+          "type": "primary",
+          "date": "2026-08-17"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/axe-compute-and-duos-technologies-sign-55mw-capacity-agreement/",
+          "type": "other",
+          "date": "2026-08-17"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist keyword hit on Duos's 8-K filed 2026-08-17. Sourcing is two primary releases (one from each counterparty, Duos and Axe Compute) plus DCD trade-press pickup; no Reuters/Bloomberg/CNBC/WSJ/FT coverage found -- flagged as thin/single-tier (primary-only) sourcing despite clearing the two-source bar. Arithmetic check: $500M / 55MW over 5 years is ~$1.8M/MW/year, well inside the ledger's $200k-$20M/MW/year sanity band and close to the $111M/10MW/5yr rate on the original Columbus deal (~$2.2M/MW/year), so the per-MW economics are internally consistent between the two rows.",
+      "revisions": []
+    },
+    {
+      "id": "nvidia-openai-sb-energy-ohio-2026-08",
+      "announced": "2026-08-17",
+      "recorded": "2026-08-21",
+      "disclosed_via": "8-k",
+      "deal_type": "backstop_guarantee",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "nvidia",
+          "role": "financier"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        },
+        {
+          "entity": "sb-energy",
+          "role": "developer"
+        }
+      ],
+      "value": {
+        "amount_usd": 105000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-08-17"
+      },
+      "term_years": 20,
+      "capacity": {
+        "mw_it": 4250,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2028-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Nvidia entered residual value guaranties with SB Energy covering leases for approximately 4.25 GW of IT load at the PORTS-Pike Technology Campus (the former Portsmouth Gaseous Diffusion Plant) in Pike County, Ohio, capped at $105B in aggregate; payments trigger only if OpenAI, the 20-year tenant, defaults or becomes insolvent, so the $105B is a contingent guarantee ceiling, not a committed cash outlay. Nvidia can extend further credit support to roughly 3.8 additional GW at its sole discretion (unquantified in dollars, not included in this row's value); full campus is planned at up to 8 GW by decade's end. Alongside the guaranty, Nvidia is investing $1.5B in direct equity in SB Energy (joining existing investors SoftBank Group and OpenAI); separately, SoftBank/SB Energy have committed $4.2B to regional grid infrastructure. Neither the $1.5B equity stake nor the $4.2B grid commitment is included in this row's value, which covers the lease-guarantee instrument only. First 800MW of capacity targeted online in 2028 (year-precision only; no specific month disclosed). Circular by construction: Nvidia guarantees the lease, invests equity in the landlord, and is the exclusive chip supplier hosted on the campus."
+      },
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
+          "type": "primary",
+          "date": "2026-08-17"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+          "type": "tier1",
+          "date": "2026-08-17"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-17/nvidia-to-invest-up-to-105-billion-for-openai-data-center-in-ohio",
+          "type": "tier1",
+          "date": "2026-08-17"
+        },
+        {
+          "url": "https://www.techtimes.com/articles/324812/20260818/nvidia-filed-105b-ohio-guarantee-not-250b-sec-disclosure-corrects-july-reports.htm",
+          "type": "other",
+          "date": "2026-08-18"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist hit on Nvidia's 8-K filed 2026-08-17. This formalizes and supersedes the reported-only nvidia-openai-backstop-talks-2026-07 row (WSJ/CNBC talks reported 2026-07-27 of a speculative up-to-$250B backstop for a rumored 10GW campus); the signed terms differ materially ($105B not $250B; 4.25GW initial plus an unquantified 3.8GW discretionary option, not a flat 10GW; a specific 20-year OpenAI lease rather than open-ended talks), so that row's status was changed to superseded rather than deleted or merged. The single largest binding row on the ledger by guarantee ceiling. Scale check: Nvidia's own $500B multi-year compute-financing framework (nvidia-compute-financing-platforms-2026-08, announced 8-10) and its reported $250B-scale backstop talks for this same project (7-27) both preceded this at similar or larger magnitude, so $105B as the final signed number is consistent with, not an outlier against, Nvidia's disclosed scale of activity this cycle. Arithmetic check: $105B / 4.25GW = ~$24.7M per MW over the full 20-year guarantee horizon, i.e. ~$1.24M/MW/year, which sits inside the ledger's $200k-$20M/MW/year sanity band (this is a guarantee ceiling amortized over the lease term, not a services price, so it is compared loosely rather than treated as a strict services rate). Cross-source: SEC 8-K (primary) plus independent CNBC and Bloomberg reporting (tier-1), both citing the same $105B/4.25GW figures; earlier $250B/$120B figures circulating 7-27 through 8-14 were pre-signing negotiation leaks per WSJ and are explicitly superseded by the SEC-filed number.",
+      "revisions": []
+    },
+    {
+      "id": "coreweave-backlog-2026-08",
+      "announced": "2026-08-11",
+      "recorded": "2026-08-14",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "various-ai-developers",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 132500000000,
+        "kind": "company_stated",
+        "basis": "total_backlog",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-11-10"
+      },
+      "term_years": null,
+      "capacity": null,
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
+          "type": "primary",
+          "date": "2026-08-11"
+        },
+        {
+          "url": "https://pulse2.com/coreweave-revenue-backlog-reaches-104-billion-before-another-25-billion-of-new-commitments/",
+          "type": "other",
+          "date": "2026-08-11"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "type": "primary",
+          "date": "2026-11-10"
+        },
+        {
+          "url": "https://pulse2.com/coreweave-record-q3-revenue-reaches-3-66-billion-as-backlog-grows-to-132-5-billion/",
+          "type": "other",
+          "date": "2026-11-10"
+        }
+      ],
+      "articles": [],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates: CoreWeave's quarter-end (June 30, 2026) revenue backlog reached $104B (+246% YoY) at Q2 2026 results, built up substantially from named deals already on the ledger (Meta's $21B expansion, the Anthropic agreement, Jane Street's $6B commitment). The release additionally disclosed more than $25B of net-new customer commitments signed in early Q3 2026, unattributed to any named counterparty, bringing a pro-forma total to roughly $129B; that increment is not a discrete, sourceable deal and is not reflected in this row's amount_usd. Update 2026-11-20: Q3 2026 results (2026-11-10) put revenue backlog at approximately $132.5B as of September 30, 2026, up $28.5B (27%) from $104B in one quarter and in line with the roughly $129B pro forma implied in August.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "value.amount_usd",
+          "reason": "Snapshot refreshed from $104B (June 30, 2026) to approximately $132.5B (September 30, 2026) at Q3 results.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+        }
+      ]
+    },
+    {
+      "id": "ibm-together-ai-cloud-2026-08",
+      "announced": "2026-08-11",
+      "recorded": "2026-08-14",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "ibm",
+          "role": "provider"
+        },
+        {
+          "entity": "together-ai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 240000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-08-11"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Nvidia HGX B300"
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "IBM will deploy a dedicated large-scale cluster of Nvidia HGX B300 systems (Nvidia Spectrum-X Ethernet networking) on IBM Cloud for Together AI's open-source model inference capacity; described as the first dedicated large-scale B300 inference cluster on IBM Cloud. Exact contract term length not disclosed beyond 'multi-year'."
+      },
+      "sources": [
+        {
+          "url": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud",
+          "type": "primary",
+          "date": "2026-08-11"
+        },
+        {
+          "url": "https://www.theregister.com/off-prem/2026/08/11/together-ai-embraces-the-competition-with-240m-ibm-cloud-deal/5286400",
+          "type": "other",
+          "date": "2026-08-11"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced by this week's web sweep, not the EDGAR watchlist (IBM and Together AI are not on the watchlist). No tier-1 pickup (Reuters/Bloomberg/CNBC/WSJ/FT) found; corroborated instead by IBM's own newsroom release plus independent trade press (The Register, HPCwire, StorageReview all reporting the same $240M figure).",
+      "revisions": []
+    },
+    {
+      "id": "nvidia-compute-financing-platforms-2026-08",
+      "announced": "2026-08-10",
+      "recorded": "2026-08-14",
+      "disclosed_via": "press_release",
+      "deal_type": "backstop_guarantee",
+      "status": "framework",
+      "parties": [
+        {
+          "entity": "nvidia",
+          "role": "financier"
+        },
+        {
+          "entity": "apollo",
+          "role": "financier"
+        },
+        {
+          "entity": "blackrock",
+          "role": "financier"
+        },
+        {
+          "entity": "blackstone",
+          "role": "financier"
+        },
+        {
+          "entity": "brookfield",
+          "role": "financier"
+        },
+        {
+          "entity": "goldman-sachs",
+          "role": "financier"
+        },
+        {
+          "entity": "kkr",
+          "role": "financier"
+        }
+      ],
+      "value": {
+        "amount_usd": 500000000000,
+        "kind": "company_stated",
+        "basis": "program_envelope",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-08-10"
+      },
+      "term_years": null,
+      "capacity": null,
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Structured as MOUs establishing 'AI Compute Infrastructure Financing Platforms' with six asset managers, intended to mobilize over $500B of third-party capital for data centers, power and Nvidia hardware, off Nvidia's own balance sheet. Nvidia is reported to be guaranteeing residual value on the Nvidia GPUs used as collateral. No specific site, project or binding capital commitment is named; this is a formal Nvidia-initiated framework, not reported talks."
+      },
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+          "type": "primary",
+          "date": "2026-08-10"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+          "type": "tier1",
+          "date": "2026-08-10"
+        }
+      ],
+      "articles": [],
+      "notes": "PROGRAM ENVELOPE / FRAMEWORK, excluded from binding aggregates: same anti-double-counting treatment as the January 2025 Stargate framework row. Discrete projects that sign under this financing platform should get their own rows (expansion_of this one where the provider or financier chain matches). Distinct from the separate, still-unverified Nvidia-SK Hynix ~$500B letter of intent (data-center investment plus HBM4 memory supply) sitting in candidates.json; do not conflate the two despite the matching headline figure. Circular by construction: Nvidia is both an enabler of the financing and the hardware vendor the mobilized capital ultimately buys from.",
+      "revisions": []
+    },
+    {
+      "id": "riot-anthropic-rockdale-lease-2026-08",
+      "announced": "2026-08-10",
+      "recorded": "2026-08-14",
+      "disclosed_via": "8-k",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "riot",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 9100000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": 16100000000,
+        "as_of": "2026-08-10"
+      },
+      "term_years": 20,
+      "capacity": {
+        "mw_it": 191,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-12-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "20-year Data Center Lease and Services Agreement at Riot's Rockdale, Texas campus, initial term through June 2048; two 5-year renewal options could extend total value to $16.1B (max_with_options_usd). Delivered in two phases: 96MW by December 2027, remaining 95MW by June 2028 (191MW total). Riot's own 8-K/earnings disclosure named only an unidentified 'leading frontier AI lab'; Bloomberg identified the tenant as Anthropic on 2026-08-11. Riot separately arranged a $573M interim construction financing facility via Morgan Stanley to build out the leased capacity; that financing is not itself a compute deal and is not a separate ledger row."
+      },
+      "sources": [
+        {
+          "url": "https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/",
+          "type": "primary",
+          "date": "2026-08-10"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-11/anthropic-strikes-9-billion-deal-with-cloud-computing-firm-riot",
+          "type": "tier1",
+          "date": "2026-08-11"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
+          "type": "tier1",
+          "date": "2026-08-11"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced via the EDGAR watchlist hit on Riot's 8-K filed 2026-08-10 (accession 0001104659-26-093406), matched on \"data center lease\". Riot's pivot from Bitcoin mining to AI infrastructure lands its first named hyperscale-AI tenant; the stock rose roughly 17% on the news.",
+      "revisions": []
+    },
+    {
+      "id": "bitdeer-volta-tydal-lease-2026-08",
+      "announced": "2026-08-04",
+      "recorded": "2026-08-28",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "bitdeer",
+          "role": "provider"
+        },
+        {
+          "entity": "volta",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 4700000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": 8000000000,
+        "as_of": "2026-08-04"
+      },
+      "term_years": 16,
+      "capacity": {
+        "mw_it": 121,
+        "chip_count": null,
+        "chip_type": "Nvidia Vera Rubin"
+      },
+      "dates": {
+        "revenue_start": "2026-12-31",
+        "revenue_start_precision": "day"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "16-year colocation lease at Bitdeer's Tydal, Norway campus (a former cryptomine), signed with Volta subsidiary Volta Tydal AS; approximately $202/kW/month over the base term, with electricity pass-through to the tenant. An 8-year renewal option extends the potential total to approximately $8.0B over 24 years. Affiliates of J.P. Morgan and another unnamed global financial institution are expected to issue about $1.3B in letters of credit as credit support; the lease is subject to customary closing conditions. Phase 1 (of 133MW gross / 121MW IT capacity) targeted online by 2026-12-31, phase 2 by 2027-03-31. Bitdeer's own disclosure names only 'a subsidiary of Volta Infra' as tenant; it does not name Volta's own end customer. Bloomberg reported, citing sources, that Volta's compute customer here is Anthropic under a separate $10B/6-year compute-services agreement between Volta and Anthropic; that leg is now its own row, volta-anthropic-tydal-compute-2026-08, entered 2026-10-12 once Volta's own press release surfaced as a primary source for the deal terms. Arithmetic check: $202/kW/month x 121,000kW x 12mo x 16yr = ~$4.69B, reconciling almost exactly to the stated $4.7B base figure."
+      },
+      "sources": [
+        {
+          "url": "https://ir.bitdeer.com/news-releases/news-release-details/bitdeer-announces-47-billion-16-year-aihpc-data-center-lease",
+          "type": "primary",
+          "date": "2026-08-04"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026085655/ea030075201ex99-1.htm",
+          "type": "primary",
+          "date": "2026-08-04"
+        }
+      ],
+      "articles": [],
+      "notes": "Surfaced this run via general web sweep, not the EDGAR watchlist (Bitdeer is not on the ledger's watchlist). Predates this run by three weeks; missing from the ledger until now, same pattern as the TeraWulf-Anthropic and Duos-Axe Compute gaps found in prior runs. Reconfirmed unchanged in Bitdeer's 2026-08-26 'July 2026 Production and Operations Update' 6-K exhibit. That same update also disclosed an AI Cloud facility (A102) in Malaysia 'fully committed with over $800 million in expected revenue' with no named counterparty or MW figure given; logged to candidates.json rather than given a row.",
+      "revisions": []
+    },
+    {
+      "id": "sharonai-cloud-agreement-2026-08",
+      "announced": "2026-08-04",
+      "recorded": "2026-08-08",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "sharon-ai",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-ai-platform-sharonai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 373000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-08-04"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": 2048,
+        "chip_type": "Nvidia Blackwell Ultra B300"
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": "Initial deployment is 2,048 Nvidia Blackwell Ultra B300 GPUs at Sharon AI's Australia site, with additional deployments possible over the term based on customer requirements; no larger contracted GPU/MW ceiling disclosed."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226035925/ex99-1.htm",
+          "type": "primary",
+          "date": "2026-08-04"
+        },
+        {
+          "url": "https://sharonai.com/press-releases/sharon-ai-announces-us373m-five-year-ai-cloud-service-agreement/",
+          "type": "primary",
+          "date": "2026-08-04"
+        }
+      ],
+      "articles": [],
+      "notes": "Sharon AI (NASDAQ: SHAZ), a Nasdaq-listed Australian neocloud, is a small-cap name whose disclosures are wire-service reported (StockTitan, Benzinga, PRNewswire) rather than tier-1 outlet reported; both sources cited here are the company's own 8-K exhibit and its own press release, since no Reuters/Bloomberg/CNBC/WSJ/FT coverage was found. Counterparty described only as 'a global artificial intelligence company'. Company disclosed its total AI Factory capacity remains 132 MW with 120 MW now contracted to end customers after this deal, which is the basis for the scale check (this deal fits inside already-disclosed capacity, doesn't imply an impossible expansion). Sharon AI has several other recently-announced contracts (an April 2026 $1.25B/5yr deal with ESDS Software Solutions, a separate ~$1.32B deal, a ~$950M deal, $8.8B of total disclosed contracted revenue) that are out of scope for this row and not yet in the ledger; flagged in candidates.json for future verification given the same thin-coverage caveat applies to all of them.",
+      "revisions": []
+    },
+    {
+      "id": "volta-anthropic-tydal-compute-2026-08",
+      "announced": "2026-08-04",
+      "recorded": "2026-10-12",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "volta",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 10000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-08-04"
+      },
+      "term_years": 6,
+      "capacity": {
+        "mw_it": 133,
+        "chip_count": null,
+        "chip_type": "Nvidia Vera Rubin"
+      },
+      "dates": {
+        "revenue_start": "2026-12-31",
+        "revenue_start_precision": "day"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Six-year, $10B compute services agreement, the anchor deal of Volta's stealth-exit launch (alongside a separate, distinct $5B AI Infrastructure Program financing facility with Azora that is not part of this deal). Capacity comes from the Bitdeer-owned Tydal, Norway campus that Volta itself leases under bitdeer-volta-tydal-lease-2026-08 (133MW gross/121MW IT, phase 1 online 2026-12-31, phase 2 2027-03-31); this row is the compute-services layer Volta sells on top of that leased real estate, not a restatement of the lease. Volta's own press release names only an 'unnamed AI Lab' as the counterparty; Bloomberg (citing people familiar with the matter) identified the customer as Anthropic the same week, the same primary-terms-plus-tier1-identification pattern already used for riot-anthropic-rockdale-lease-2026-08. As of this row's 2026-10-12 recheck, neither Volta nor Anthropic has since named the customer directly."
+      },
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260804493428/en/Volta-Emerges-From-Stealth-With-$10-Billion-AI-Lab-Partnership-and-$5-Billion-AI-Infrastructure-Program",
+          "type": "primary",
+          "date": "2026-08-04"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-04/anthropic-strikes-secret-10-billion-deal-with-volta",
+          "type": "tier1",
+          "date": "2026-08-04"
+        }
+      ],
+      "articles": [],
+      "notes": "Promoted from candidates.json (id volta-anthropic-compute-agreement-2026-08, added 2026-08-28) now that a primary source exists for the deal terms: Volta's own launch press release, not just Bloomberg's sourced report. The candidate entry is removed since the row now carries the same verification standard as every other row (one primary plus one tier-1, per CLAUDE.md's figure-verification rules), with the counterparty-identification caveat carried in flags.conditions rather than left as an open blocker. Backfilled a month late: the branch that first promoted this row could not be merged once main's history moved past its base, so recorded is set to the actual entry date. Re-checked against the same primary sources on 2026-10-12; nothing material had changed.",
+      "revisions": []
+    },
+    {
+      "id": "core-scientific-amd-2026-07",
+      "announced": "2026-07-28",
+      "recorded": "2026-08-08",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "core-scientific",
+          "role": "provider"
+        },
+        {
+          "entity": "amd",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 14000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-28"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 530,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "AMD directly leases 377 MW across three sites (Pecos TX, Hunt County TX, Muskogee OK) on triple-net terms; a separate 152 MW tranche (Auburn AL, Dalton GA) is leased by an unnamed cloud provider with AMD providing credit support, folded into this row rather than split out since AMD backstops the whole figure. AMD also has exclusive rights to reserve up to an additional 2 GW of future capacity (not counted in mw_it or amount_usd here), and received warrants for up to 30M Core Scientific shares at a $23.47 strike, 6.5M vesting at signing. 2.5% annual rent escalator."
+      },
+      "sources": [
+        {
+          "url": "https://investors.corescientific.com/news-events/press-releases/detail/138/core-scientific-and-amd-announce-infrastructure-partnership",
+          "type": "primary",
+          "date": "2026-07-28"
+        },
+        {
+          "url": "https://www.datacenterknowledge.com/deals/core-scientific-doubles-ai-capacity-to-1-1-gw-in-14b-amd-deal",
+          "type": "other",
+          "date": "2026-07-28"
+        }
+      ],
+      "articles": [],
+      "notes": "Doubled Core Scientific's total leased AI capacity to ~1.1 GW (implying a pre-existing ~570 MW leased elsewhere, most likely the company's known CoreWeave relationship, which is not yet its own ledger row; flagged in candidates.json). The $14B headline figure and the precise 530 MW split are media-reported (Coindesk, TechTimes, DataCenterKnowledge, MLQ, consistently corroborating each other) rather than stated as a single number in Core Scientific's own press release, which confirmed capacity and structure but not a headline dollar figure directly; announced alongside Core Scientific's Q2 2026 earnings.",
+      "revisions": []
+    },
+    {
+      "id": "apld-contracted-backlog-fy2026",
+      "announced": "2026-07-27",
+      "recorded": "2026-08-03",
+      "disclosed_via": "earnings_call",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "applied-digital",
+          "role": "provider"
+        },
+        {
+          "entity": "various-ai-developers",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 36000000000,
+        "kind": "company_stated",
+        "basis": "total_backlog",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-07-27"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": 1410,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/27/3333871/0/en/Applied-Digital-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results.html",
+          "type": "primary",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+          "type": "primary",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4619106-applied-digital-expects-1b-noi-run-rate-a-year-from-now-as-contracted-lease-value-reaches-36b",
+          "type": "other",
+          "date": "2026-07-27"
+        }
+      ],
+      "articles": [
+        "applied-digital-apld-fq4-2026-earnings-36-billion-backlog",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates: Applied Digital's total contracted long-term lease value of $36B across 1.41 GW of contracted critical IT load for all campuses, as restated at fiscal Q4 2026 results. Approximately $20B of this was added in the quarter (see apld-hyperscaler-leases-2026-07, which IS a countable deal row inside this total).",
+      "revisions": []
+    },
+    {
+      "id": "apld-hyperscaler-leases-2026-07",
+      "announced": "2026-07-27",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "applied-digital",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-hyperscaler-apld",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 20200000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-27"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 810,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/27/3333871/0/en/Applied-Digital-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results.html",
+          "type": "primary",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+          "type": "primary",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/07/60711412/applied-digital-stock-climbs-on-q4-double-beat",
+          "type": "other",
+          "date": "2026-07-27"
+        }
+      ],
+      "articles": [
+        "applied-digital-apld-fq4-2026-earnings-36-billion-backlog",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "Three 15-year take-or-pay lease agreements with a single investment-grade hyperscaler, ~$20.2B combined revenue over 810 MW, disclosed with fiscal Q4 2026 results. Treated as one package row because the three leases were announced together with a single counterparty and combined value.",
+      "revisions": []
+    },
+    {
+      "id": "nvidia-openai-backstop-talks-2026-07",
+      "announced": "2026-07-27",
+      "recorded": "2026-08-03",
+      "disclosed_via": "tier1_media",
+      "deal_type": "backstop_guarantee",
+      "status": "superseded",
+      "parties": [
+        {
+          "entity": "nvidia",
+          "role": "financier"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        },
+        {
+          "entity": "sb-energy",
+          "role": "developer"
+        }
+      ],
+      "value": {
+        "amount_usd": 250000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-27"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": 10000,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Early talks per WSJ reporting; nothing signed. Backstop would cover lease and construction financing so OpenAI can lease a planned $500B, 10 GW SB Energy campus in Pike County, Ohio (800 MW first phase targeted 2028). Parallel talks reportedly cover up to $350B of chip financing."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+          "type": "tier1",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/nvidia-considers-250bn-backstop-for-openais-planned-10gw-ohio-data-center-report/",
+          "type": "other",
+          "date": "2026-07-27"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "SUPERSEDED, excluded from binding aggregates: Nvidia in talks to guarantee up to $250B of financing so OpenAI can lease the SoftBank-subsidiary SB Energy 10 GW Ohio campus. Circular by construction: the guarantor's chips are the campus's payload. Nvidia fell 5% on the report. UPDATE 2026-08-17: the talks formalized into a signed SEC-disclosed deal with materially different terms ($105B guarantee ceiling, not $250B; 4.25GW initial with an unquantified 3.8GW discretionary option, not a flat 10GW) -- see nvidia-openai-sb-energy-ohio-2026-08, which is the binding row going forward. This row is kept, not deleted, as the on-record history of the reported negotiating range.",
+      "revisions": [
+        {
+          "date": "2026-08-21",
+          "field": "status",
+          "reason": "Superseded by the signed nvidia-openai-sb-energy-ohio-2026-08 row (SEC 8-K, 2026-08-17): final terms are $105B/4.25GW+3.8GW-option vs. this row's reported up-to-$250B/10GW talks figure. Kept on record rather than deleted.",
+          "source": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute"
+        }
+      ]
+    },
+    {
+      "id": "amd-anthropic-equity-2026-07",
+      "announced": "2026-07-22",
+      "recorded": "2026-10-12",
+      "disclosed_via": "press_release",
+      "deal_type": "compute_equity",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "amd",
+          "role": "financier"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 5000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-22"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "AMD's strategic equity investment of up to $5B in Anthropic, announced the same day as the companion GPU deployment row (amd-anthropic-gpu-deployment-2026-07). Neither company disclosed milestone terms or a share count/strike price. Circular: the customer's chip supplier is also its investor."
+      },
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+          "type": "tier1",
+          "date": "2026-07-22"
+        }
+      ],
+      "articles": [],
+      "notes": "Companion equity row to amd-anthropic-gpu-deployment-2026-07, split per the ledger's convention for combined commercial-plus-investment announcements (see the Jane Street-CoreWeave and Microsoft/Nvidia-Anthropic rows for the same pattern). Backfilled a month late for the same reason as its companion row: the branch that first added it could not be merged once main's history moved past its base.",
+      "revisions": []
+    },
+    {
+      "id": "amd-anthropic-gpu-deployment-2026-07",
+      "announced": "2026-07-22",
+      "recorded": "2026-10-12",
+      "disclosed_via": "press_release",
+      "deal_type": "chip_purchase",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "amd",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": null,
+      "term_years": null,
+      "capacity": {
+        "mw_it": 2000,
+        "chip_count": null,
+        "chip_type": "AMD Instinct MI450 Series (MI455X)"
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Strategic partnership to deploy up to 2 gigawatts of AMD Instinct MI450 Series (MI455X) GPUs in AMD Helios rack-scale solutions with EPYC 'Venice' CPUs and Pensando networking, running AMD ROCm; builds on Anthropic's existing MI355X deployment. First 1GW begins deploying in H1 2027. No chip-purchase dollar figure was disclosed by either company (media estimates of 'tens of billions of dollars' are not company-stated, so amount_usd is left null); the 2,000MW capacity figure alone clears the ledger's inclusion threshold. Companion row: amd-anthropic-equity-2026-07 (AMD's up-to-$5B equity investment, announced the same day). Circular: the chip supplier is also taking an equity stake in its own customer. Anthropic's 424B4 (2026-11-19): the Hardware Supply Agreement became effective on signing in July 2026 with no fixed term and no fixed dollar commitment; if Anthropic procures the full initial tranche in calendar 2027, it expects spend above $20.0B, with an option for roughly the same again. That estimate stays out of this row's value because it is conditional."
+      },
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/22/3331418/0/en/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus.html",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+          "type": "tier1",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Gap found while researching candidates the week of 2026-09-11: a well-sourced, ledger-scale July deal that had never been entered. AMD's second-largest AI-lab GPU commitment after its OpenAI arrangement, and Anthropic's first large AMD deployment alongside its Nvidia and Google TPU fleets. Backfilled here a month late: the branch that first added this row could not be merged once main's history moved past its base, so recorded is set to the actual entry date, not the research date. Re-checked against the same primary sources on 2026-10-12; nothing material had changed.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "flags.conditions",
+          "reason": "Added Anthropic's 424B4 description: no fixed dollar commitment, expected spend above $20B if the full 2027 tranche is procured. Value left null.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "smci-record-orders-fq4-2026",
+      "announced": "2026-07-22",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "chip_purchase",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "super-micro",
+          "role": "provider"
+        },
+        {
+          "entity": "various-ai-developers",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 60000000000,
+        "kind": "company_stated",
+        "basis": "order_intake",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-22"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/super-micro-jumps-after-preliminary-outlook-shows-rising-backlog",
+          "type": "tier1",
+          "date": "2026-07-21"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/22/stock-market-today-july-22-super-micro-computer-surges-on-record-q4-orders-and-surprise-margin-beat/",
+          "type": "other",
+          "date": "2026-07-22"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "SNAPSHOT ROW, excluded from summed aggregates: more than $60B of new AI server orders received in fiscal Q4, taking Super Micro's backlog to a record, per the company's preliminary FQ4 update (which also roughly doubled gross margin guidance to 15-17%). Order intake across unnamed customers, not a single contract; orders deliver over multiple future quarters.",
+      "revisions": []
+    },
+    {
+      "id": "hut8-beacon-point-phase2-2026-07",
+      "announced": "2026-07-20",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "hut-8",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-ig-tenant-hut8",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 9800000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": 25100000000,
+        "as_of": "2026-07-20"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 352,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2028-04-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": "hut8-beacon-point-phase1-2026-05",
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/hut-8-fully-commercializes-1-gw-beacon-point-ai-data-center-campus-with-second-352-mw-it-lease-bringing-campus-level-base-term-contract-value-to-19-6-billion-302829514.html",
+          "type": "primary",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://www.hut8.com/news-insights/press-releases/hut-8-fully-commercializes-1-gw-beacon-point-ai-data-center-campus-with-second-352-mw-it-lease",
+          "type": "primary",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60547501/hut-8-stock-rises-after-signing-second-lease-that-fully-commercializes-beacon-point-campus",
+          "type": "other",
+          "date": "2026-07-20"
+        }
+      ],
+      "articles": [
+        "hut-8-9-8-billion-lease-beacon-point-fine-print",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "Second 352 MW lease at Beacon Point with the same investment-grade tenant as Phase 1, fully commercializing the 1 GW campus: $19.6B campus base-term value, up to $50.2B with all renewals. 3.0% annual escalator, triple net, built to Nvidia's DSX reference architecture. First Phase 2 data hall delivery expected Q2 2028. UPDATE 2026-08-08: the Financial Times (2026-07-28) reported, citing five people familiar with the matter, that Nvidia is the previously undisclosed tenant behind both Beacon Point leases. Neither Hut 8 nor Nvidia has confirmed this and Reuters said it could not independently verify the report, so the buyer party here stays 'undisclosed-ig-tenant-hut8' rather than being re-linked to 'nvidia'; re-link once either company confirms.",
+      "revisions": [
+        {
+          "date": "2026-08-08",
+          "field": "notes",
+          "reason": "Logged FT's single-sourced, company-unconfirmed report naming Nvidia as the Beacon Point tenant; did not re-link the party pending confirmation.",
+          "source": "https://www.datacenterfrontier.com/hyperscale/article/55394688/nvidias-reported-50b-lease-and-the-nuclear-powered-ai-factory"
+        }
+      ]
+    },
+    {
+      "id": "iren-ai-cloud-contracts-2026-07",
+      "announced": "2026-07-20",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "iren",
+          "role": "provider"
+        },
+        {
+          "entity": "various-ai-developers",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 2800000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-07-20"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/20/3329624/0/en/IREN-Signs-2-8bn-in-New-Customer-Contracts-with-Leading-AI-Developers-Raises-2026-ARR-Target-to-over-4bn.html",
+          "type": "primary",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-signs-28bn-new-customer-contracts-leading-ai-developers",
+          "type": "primary",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/iren-signs-2-8b-ai-010000618.html",
+          "type": "other",
+          "date": "2026-07-20"
+        }
+      ],
+      "articles": [
+        "iren-2-8-billion-ai-contracts-arr-target",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "Batch of new multi-year AI cloud contracts totaling $2.8B TCV with leading AI developers, including one new unnamed customer. Disclosed customer roster spans Microsoft, Nvidia, Perplexity, Figure AI, Together AI, Fluidstack, Fireworks AI, Fal AI and Hume AI. Announced alongside a raised 2026 AI Cloud ARR target of over $4B (~85% under contract), with customer prepayments covering roughly 45% of related GPU capex. Term lengths per contract not broken out.",
+      "revisions": []
+    },
+    {
+      "id": "duos-axe-compute-columbus-2026-07",
+      "announced": "2026-07-16",
+      "recorded": "2026-08-21",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "duos-technologies",
+          "role": "provider"
+        },
+        {
+          "entity": "axe-compute",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 111000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-07-16"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": 10,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Five-year, 10 MW critical IT-load colocation agreement at Duos's Columbus, Georgia data center campus, described by Duos as with 'an investment-grade hyperscaler' in the original release but confirmed as Axe Compute (Nasdaq: AGPU) via Axe Compute's own SEC filings and the companies' joint 2026-08-17 release, which describes the Aug 17 55MW expansion as 'in addition to' this original 10MW Columbus deployment."
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/16/3328431/0/en/duos-edge-ai-signs-five-year-10-mw-colocation-agreement-with-investment-grade-hyperscaler-valued-at-111-million-in-contracted-revenue.html",
+          "type": "primary",
+          "date": "2026-07-16"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/08/17/3346084/12618/en/duos-technologies-signs-five-year-55-mw-hosting-agreements-with-axe-compute-valued-at-over-500-million.html",
+          "type": "primary",
+          "date": "2026-08-17"
+        }
+      ],
+      "articles": [],
+      "notes": "Backfilled this week alongside the Aug 17 expansion (duos-axe-compute-expansion-2026-08) after that deal's own materials named this as the pre-existing relationship it builds on. No tier-1 (Reuters/Bloomberg/CNBC/WSJ/FT) pickup found for either the original deal or the counterparty identification; sourcing is two primary releases, one from each side of the eventual relationship once Axe Compute's own 8-K corroborated the same $111M/10MW figures in its Aug 17 filing.",
+      "revisions": []
+    },
+    {
+      "id": "terawulf-anthropic-lease-2026-07",
+      "announced": "2026-07-06",
+      "recorded": "2026-08-08",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "terawulf",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 19000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-06"
+      },
+      "term_years": 20,
+      "capacity": {
+        "mw_it": 401,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-10-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Anthropic holds two successive five-year renewal options (up to 10 additional years beyond the 20-year initial term); lease is expected to be supported by investment-grade credit. Google credit support (TeraWulf 8-K, 2026-11-04): Google LLC signed three Credit Support Agreements for data halls CB-1, CB-2 and CB-3 backstopping Anthropic's rent. Each takes effect when the final data hall under that lease commences and ends once Anthropic holds certain investment-grade ratings for three months. On a payment default or Anthropic insolvency, Google may pay rent due and take over the lease, or pay an amortising termination fee and take equity in TeraWulf's Raylan subsidiary. No dollar ceiling disclosed, so no separate backstop row. Same day: definitive EPC agreement with Fluor for three buildings."
+      },
+      "sources": [
+        {
+          "url": "https://investors.terawulf.com/news-events/press-releases/detail/142/terawulf-announces-anthropic-lease-at-justified-data-campus-and-sale-of-majority-interest-in-abernathy-joint-venture-to-fluidstack",
+          "type": "primary",
+          "date": "2026-07-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/06/anthropic-terawulf-data-center-ai.html",
+          "type": "tier1",
+          "date": "2026-07-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+          "type": "primary",
+          "date": "2026-11-04"
+        }
+      ],
+      "articles": [],
+      "notes": "20-year lease at the Justified Data Campus, a former Century Aluminum smelter site in Hawesville, Kentucky (Hancock County), 401 MW critical IT load. Initial capacity online H2 2027, full 401 MW by early 2028. Same week TeraWulf sold its 50.1% stake in the separate Abernathy Joint Venture (168 MW, Texas) to an investor group led by Fluidstack for approximately $530M; that sale is a real-estate/JV divestiture, not a compute deal, and is not itself a ledger row. Surfaced this run via the EDGAR watchlist hit on TeraWulf's Q2 2026 8-K (filed 2026-08-05), which restated the lease; the deal itself predates this run by a month and was missing from the ledger.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "dates.revenue_start",
+          "reason": "Moved from 2027-07 (Q3 2027) to 2027-10 (Q4 2027): TeraWulf's 2026-11-04 8-K says delivery is expected in phases beginning in late 2027 and concluding in Q2 2028. Also recorded Google's credit support for the lease in conditions.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm"
+        }
+      ]
+    },
+    {
+      "id": "spacex-reflection-colossus2-2026-06",
+      "announced": "2026-06-22",
+      "recorded": "2026-08-08",
+      "disclosed_via": "tier1_media",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "spacex",
+          "role": "provider"
+        },
+        {
+          "entity": "reflection-ai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 6300000000,
+        "kind": "media_reported",
+        "basis": "including_renewals",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-06-22"
+      },
+      "term_years": 3.5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Nvidia Blackwell Ultra"
+      },
+      "dates": {
+        "revenue_start": "2026-07-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Fixed $150M/month subscription starting 2026-07-01 through end of 2029 ($150M x 42mo = $6.3B, the disclosed ceiling). Hybrid exit clause: either party can terminate with 90 days' notice after an initial three-month trial."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+          "type": "tier1",
+          "date": "2026-06-22"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/spacex-secures-63bn-compute-capacity-deal-from-ai-startup-reflection/",
+          "type": "other",
+          "date": "2026-06-22"
+        }
+      ],
+      "articles": [],
+      "notes": "Reflection AI (open-source AI startup, ~$25B valuation) gets priority access to Nvidia Blackwell Ultra chips inside SpaceX's Colossus 2 (Memphis area). Flagged circular: Nvidia has an $800M strategic investment directly in Reflection AI, and Nvidia chips are the hardware being rented in this deal (Nvidia sits on both sides of the trade, per Tech Funding News' reporting), consistent with how the ledger flags Nvidia-adjacent circularity elsewhere. No GPU count or MW disclosed at signing, only the dollar ceiling and monthly rate; capacity.mw_it and chip_count left null rather than estimated.",
+      "revisions": []
+    },
+    {
+      "id": "hive-buzzhpc-bell-cohere-2026-06",
+      "announced": "2026-06-18",
+      "recorded": "2026-09-18",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "hive-digital",
+          "role": "provider"
+        },
+        {
+          "entity": "cohere",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 220000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-06-18"
+      },
+      "term_years": 3,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": 2304,
+        "chip_type": "Nvidia GB200 NVL72 (Grace Blackwell)"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Three-year GPU cloud contract for BUZZ HPC (HIVE's subsidiary) to deliver 2,304 Nvidia GB200 NVL72 GPUs to Cohere. Capacity is hosted at Bell's Merritt, British Columbia facility under a three-way sovereign-AI partnership branded 'Bell AI Fabric': Bell provides the data-center site and connectivity, BUZZ HPC owns and operates the GPU infrastructure (funded from HIVE's April 2026 $115M convertible note), and Cohere is the direct GPU cloud customer running its models for government and enterprise clients. Company materials describe roughly $70M of contracted ARR from this deployment against $35M of then-current realized ARR; go-live is targeted late 2026 into early 2027, too broad a window to set a dated revenue_start."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001720424/000106299326003293/exhibit99-1.htm",
+          "type": "primary",
+          "date": "2026-06-18"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/bce-teams-with-cohere-on-canada-ai-data-center-to-boost-sovereign-strategy",
+          "type": "tier1",
+          "date": "2026-06-18"
+        }
+      ],
+      "articles": [],
+      "notes": "Backfilled 2026-09-18 during the weekly ledger review: a well-documented June 2026 deal (named counterparties, SEC 8-K and Bloomberg coverage) that predates the ledger's HIVE coverage and was missing alongside the already-ledgered hive-buzzhpc-gpu-cloud-2026-08 row (a separate, later, unnamed-counterparty contract). Distinct deal, not an expansion: different customer (Cohere, named, vs. an undisclosed enterprise customer), different site and a different GPU generation mix, so expansion_of is left null. Arithmetic check: $220M / 3yr = ~$73.3M/yr, consistent with the company-stated ~$70M ARR figure.",
+      "revisions": []
+    },
+    {
+      "id": "spacex-google-colossus2-2026-06",
+      "announced": "2026-06-05",
+      "recorded": "2026-08-08",
+      "disclosed_via": "tier1_media",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "spacex",
+          "role": "provider"
+        },
+        {
+          "entity": "google",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 30000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-06-05"
+      },
+      "term_years": 3,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": 110000,
+        "chip_type": "Nvidia GB200"
+      },
+      "dates": {
+        "revenue_start": "2026-10-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Google may terminate if SpaceX fails to deliver the GPUs by end of September 2026 (after a one-month grace period); after 2026-12-31 either party can cancel with 90 days' notice."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+          "type": "tier1",
+          "date": "2026-06-05"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/google-to-pay-920-million-to-spacex-monthly-for-ai-capacity/",
+          "type": "other",
+          "date": "2026-06-05"
+        }
+      ],
+      "articles": [],
+      "notes": "Google leases ~110,000 GPUs (Nvidia GB200) at SpaceX's Colossus 2 (Southaven, MS) for $920M/month, October 2026 through June 2029 ($920M x ~33mo billed months matches the reported ~$30B total; capacity ramps from September 2026 at a reduced fee). SpaceX/xAI merged in February 2026; SpaceX is the sole provider entity in this ledger. capacity.mw_it left null for the same reason as the companion Anthropic-Colossus-1 row: reported facility power figures describe the data center, not a disclosed per-contract IT-load MW, and using them would produce a misleadingly high implied $/MW/yr for what is a fully-managed GPU rental, not a bare power lease.",
+      "revisions": []
+    },
+    {
+      "id": "digi-power-x-cerebras-colocation-2026-05",
+      "announced": "2026-05-08",
+      "recorded": "2026-08-14",
+      "disclosed_via": "8-k",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "digi-power-x",
+          "role": "provider"
+        },
+        {
+          "entity": "cerebras",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 1100000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": 2500000000,
+        "as_of": "2026-05-08"
+      },
+      "term_years": 10,
+      "capacity": {
+        "mw_it": 40,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2026-12-15",
+        "revenue_start_precision": "day"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "10-year Data Center Colocation and Master Services Agreement for 40MW at Digi Power X's Columbiana, Alabama campus. Two-phase build: Phase 1 (15MW) targeted ready-for-service Dec 15, 2026, self-funded by Digi Power X; Phase 2 (25MW, completing the 40MW total) targeted end of Q1 2027, explicitly conditioned on Digi Power X securing adequate financing. $2.5B max_with_options_usd reflects a seven-year extension option beyond the 10-year initial term."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1854368/000121390026053566/ea0289585-8k_digi.htm",
+          "type": "primary",
+          "date": "2026-05-08"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/cerebras-signs-on-for-40mw-of-capacity-at-digi-power-x-data-center-in-alabama/",
+          "type": "other",
+          "date": "2026-05-08"
+        }
+      ],
+      "articles": [],
+      "notes": "Missing-deal gap surfaced this run via the EDGAR watchlist hit on Digi Power X's Q2 2026 earnings 8-K (filed 2026-08-14), which restated this deal without new terms; the underlying agreement itself was signed May 8, 2026 (SEC accession 0001213900-26-053566) and predates this run by three months, same pattern as the TeraWulf-Anthropic and Galaxy-CoreWeave gaps found in prior weeks.",
+      "revisions": []
+    },
+    {
+      "id": "iren-nvidia-cloud-2026-05",
+      "announced": "2026-05-07",
+      "recorded": "2026-09-18",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "iren",
+          "role": "provider"
+        },
+        {
+          "entity": "nvidia",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 3400000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-05-07"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": 60,
+        "chip_count": null,
+        "chip_type": "Nvidia Blackwell (air-cooled)"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Five-year managed AI cloud services agreement at IREN's Childress, Texas campus (~60MW), with Nvidia itself as the direct customer, using the capacity for its own internal AI and research workloads. Includes cluster orchestration and management software built with Mirantis. Flagged circular: Nvidia is both IREN's GPU supplier and, via this contract, a buyer of IREN's compute capacity."
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/05/07/3290760/0/en/iren-secures-3-4bn-ai-cloud-contract-with-nvidia.html",
+          "type": "primary",
+          "date": "2026-05-07"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
+          "type": "tier1",
+          "date": "2026-05-07"
+        }
+      ],
+      "articles": [],
+      "notes": "Backfilled 2026-09-18 during the weekly ledger review: found while checking whether a Sept 2026 IREN reference was new. This May 2026 contract predates and is distinct from iren-ai-cloud-contracts-2026-07 (a separate $2.8B, later, various-ai-developers row) and the Nov 2025 Dell/Microsoft rows; not an expansion of any of them (different counterparty, different site). Arithmetic check: $3.4B / 5yr / 60MW = ~$11.3M/MW/yr, inside the ledger's $200k-$20M sanity band and consistent with other full-stack managed-cloud rows.",
+      "revisions": []
+    },
+    {
+      "id": "hut8-beacon-point-phase1-2026-05",
+      "announced": "2026-05-06",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "hut-8",
+          "role": "provider"
+        },
+        {
+          "entity": "undisclosed-ig-tenant-hut8",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 9800000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": 25100000000,
+        "as_of": "2026-05-06"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 352,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": true,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/hut-8-commercializes-first-phase-of-1-gw-beacon-point-ai-data-center-campus-with-15-year-352-mw-it-lease-with-base-term-contract-value-of-9-8-billion-302763484.html",
+          "type": "primary",
+          "date": "2026-05-06"
+        },
+        {
+          "url": "https://www.hut8.com/news-insights/press-releases/hut-8-commercializes-first-phase-of-1-gw-beacon-point-ai-data-center-campus-with-15-year-352-mw",
+          "type": "primary",
+          "date": "2026-05-06"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/hut-8-signs-352mw-lease-with-unnamed-hyperscaler-in-texas/",
+          "type": "other",
+          "date": "2026-05-06"
+        }
+      ],
+      "articles": [
+        "hut-8-9-8-billion-lease-beacon-point-fine-print",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "First phase of the 1 GW Beacon Point campus in Nueces County, Texas. 15-year triple-net IT lease with a high-investment-grade tenant; up to $25.1B if all three five-year renewal options are exercised. Tenant undisclosed. UPDATE 2026-08-08: the Financial Times (2026-07-28) reported, citing five people familiar with the matter, that Nvidia is the previously undisclosed tenant behind both Beacon Point leases. Neither Hut 8 nor Nvidia has confirmed this and Reuters said it could not independently verify the report, so the buyer party here stays 'undisclosed-ig-tenant-hut8' rather than being re-linked to 'nvidia'; re-link once either company confirms.",
+      "revisions": [
+        {
+          "date": "2026-08-08",
+          "field": "notes",
+          "reason": "Logged FT's single-sourced, company-unconfirmed report naming Nvidia as the Beacon Point tenant; did not re-link the party pending confirmation.",
+          "source": "https://www.datacenterfrontier.com/hyperscale/article/55394688/nvidias-reported-50b-lease-and-the-nuclear-powered-ai-factory"
+        }
+      ]
+    },
+    {
+      "id": "spacex-anthropic-colossus1-2026-05",
+      "announced": "2026-05-06",
+      "recorded": "2026-08-08",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "superseded",
+      "parties": [
+        {
+          "entity": "spacex",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 45000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-05-06"
+      },
+      "term_years": 3,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": 220000,
+        "chip_type": "Nvidia H100/H200/GB200 mix"
+      },
+      "dates": {
+        "revenue_start": "2026-05-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Superseded 2026-11-20 by spacex-anthropic-compute-arrangements-2026-10, which records the company-stated total for all of Anthropic's SpaceXAI agreements from Anthropic's 424B4. This row's $45B was a media estimate for Colossus 1 alone ($1.25B a month for 36 months) and is no longer counted."
+      },
+      "sources": [
+        {
+          "url": "https://x.ai/news/anthropic-compute-partnership",
+          "type": "primary",
+          "date": "2026-05-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+          "type": "tier1",
+          "date": "2026-05-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic rents all compute capacity at SpaceX's Colossus 1 facility in Memphis, TN, at $1.25B/month through roughly May 2029 ($1.25B x 36mo = $45B; internally consistent across sources). SpaceX and xAI completed their corporate merger in February 2026 (implied combined-entity valuation $1.25T reported at the time), so this ledger treats SpaceX as the single provider entity across all Colossus deals; Musk's control of both sides pre-merger is now moot post-merger, so not flagged circular. capacity.mw_it is left null on purpose: sources report Colossus 1's total power draw as 250-300 MW depending on date, which is the facility's overall footprint rather than a disclosed per-contract IT-load figure, and dividing the $45B by that number implies $48-60M/MW/yr, well outside the ledger's plausible band for a reason that is really 'wrong denominator' rather than 'wrong deal'; chip_count (220,000+ GPUs across H100/H200/GB200 generations, per Wikipedia's Colossus entry) is the more reliable durable unit reported for this specific deal.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "status",
+          "reason": "binding to superseded: Anthropic's 424B4 reports the Colossus 1 agreement as one of several SpaceXAI agreements entered and amended between May and October 2026, totalling up to $120.5B. The aggregate now lives on spacex-anthropic-compute-arrangements-2026-10 so the $45B estimate is not counted twice.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "amazon-anthropic-investment-2026-04",
+      "announced": "2026-04-20",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "compute_equity",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "amazon",
+          "role": "financier"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 25000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2026-04-20"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": "amazon-anthropic-investment-2024-11",
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Staged: $5B immediate, up to a further $20B tied to milestones. Announced alongside Anthropic's ten-year AWS spend commitment (anthropic-aws-commitment-2026-04)."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+          "type": "tier1",
+          "date": "2026-04-20"
+        },
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "type": "primary",
+          "date": "2026-04-20"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "type": "primary",
+          "date": "2026-04-20"
+        }
+      ],
+      "articles": [],
+      "notes": "Amazon's April 2026 expansion: up to $25B of further investment in Anthropic ($5B immediate, up to $20B milestone-tied), on top of the $8B invested through November 2024. The up-to figure is recorded with its qualifier and the staged structure in conditions; only time will tell how much funds. Circular: announced in the same breath as Anthropic committing over $100B of spend back to AWS.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-aws-commitment-2026-04",
+      "announced": "2026-04-20",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "amazon",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 110000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 10,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "AWS Trainium"
+      },
+      "dates": {
+        "revenue_start": "2026-05-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Includes deployment of up to 5 GW of new Trainium compute capacity for training and serving Claude, with significant Trainium3 capacity expected online in 2026. The 5 GW is an up-to ceiling, so no MW is recorded on this row; the ledger only counts capacity floors. Anthropic's 424B4 (2026-11-19): committed to spend at least $110.0B between May 2026 and April 2036 regardless of usage, with a true-up payment if spend falls short; non-cancelable except for Amazon's uncured material breach."
+      },
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "type": "primary",
+          "date": "2026-04-20"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "type": "primary",
+          "date": "2026-04-20"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+          "type": "tier1",
+          "date": "2026-04-20"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic's commitment of more than $100B over ten years to AWS technologies, announced with Amazon's up-to-$25B investment (amazon-anthropic-investment-2026-04) and up to 5 GW of new Trainium capacity. Sits alongside Anthropic's $30B Azure commitment and the Google TPU agreement as the third leg of its stated multi-cloud strategy. Circular: buyer and provider are cross-invested.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "value.amount_usd",
+          "reason": "Restated from 'more than $100B' (announced 2026-04-20) to at least $110.0B, May 2026 to April 2036, per Anthropic's 424B4. revenue_start set to 2026-05.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "jane-street-coreweave-cloud-2026-04",
+      "announced": "2026-04-15",
+      "recorded": "2026-08-14",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "jane-street",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 6000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-04-15"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "Nvidia Vera Rubin"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Jane Street's commitment to use CoreWeave's AI cloud platform across multiple facilities, including Nvidia Vera Rubin-generation compute, for machine-learning research and trading infrastructure. Announced the same day as Jane Street's separate $1B equity investment in CoreWeave (jane-street-coreweave-equity-2026-04)."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000167/ex991.htm",
+          "type": "primary",
+          "date": "2026-04-15"
+        },
+        {
+          "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave",
+          "type": "primary",
+          "date": "2026-04-15"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20260415280149/en/Jane-Street-Signs-%246-Billion-AI-Cloud-Agreement-With-CoreWeave",
+          "type": "other",
+          "date": "2026-04-15"
+        }
+      ],
+      "articles": [],
+      "notes": "Missing-deal gap found while sourcing this week's coreweave-backlog-2026-08 snapshot row: this April 2026 agreement was never entered even though it is well corroborated (CoreWeave's own site plus the SEC exhibit) and comfortably clears the ledger's threshold. Same pattern as the TeraWulf, Galaxy-CoreWeave and Digi Power X-Cerebras gaps found in recent runs.",
+      "revisions": []
+    },
+    {
+      "id": "jane-street-coreweave-equity-2026-04",
+      "announced": "2026-04-15",
+      "recorded": "2026-08-14",
+      "disclosed_via": "8-k",
+      "deal_type": "compute_equity",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "jane-street",
+          "role": "financier"
+        },
+        {
+          "entity": "coreweave",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 1000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2026-04-15"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Jane Street purchased CoreWeave Class A common stock at $109.00/share, announced alongside its $6B AI cloud commitment (jane-street-coreweave-cloud-2026-04). Circular: the customer is also taking an equity stake in its own compute provider."
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000167/ex991.htm",
+          "type": "primary",
+          "date": "2026-04-15"
+        },
+        {
+          "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave",
+          "type": "primary",
+          "date": "2026-04-15"
+        }
+      ],
+      "articles": [],
+      "notes": "Companion equity row to jane-street-coreweave-cloud-2026-04, split out per the ledger's convention for combined commercial-plus-investment announcements (see the Amazon-Anthropic and Microsoft/Nvidia-Anthropic rows for the same pattern).",
+      "revisions": []
+    },
+    {
+      "id": "meta-coreweave-expansion-2026-04",
+      "announced": "2026-04-09",
+      "recorded": "2026-08-03",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "meta",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 21000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2026-04-09"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": "meta-coreweave-initial-2025-09",
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/04/09/meta-commits-to-spending-additional-21-billion-with-coreweave-.html",
+          "type": "tier1",
+          "date": "2026-04-09"
+        },
+        {
+          "url": "https://thenextweb.com/news/meta-coreweave-21-billion-ai-cloud-deal",
+          "type": "other",
+          "date": "2026-04-09"
+        }
+      ],
+      "articles": [],
+      "notes": "Meta committed approximately $21B of additional spend with CoreWeave in April 2026, exercising the expansion-through-2032 option in the September 2025 agreement and taking the disclosed Meta-CoreWeave total to roughly $35B. Counted separately from the parent row; the $35B cumulative figure is never stored.",
+      "revisions": []
+    },
+    {
+      "id": "anthropic-azure-commitment-2025-11",
+      "announced": "2025-11-18",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "microsoft",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 47200000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-11-19"
+      },
+      "term_years": 6.6,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2026-11-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Announced alongside an option to contract additional compute capacity of up to 1 GW on Nvidia Grace Blackwell and Vera Rubin systems. Anthropic's final IPO prospectus (424B4, 2026-11-19): the November 2025 agreement was amended between February and November 2026, and Anthropic now commits to spend at least $47.2B and up to $49.2B between November 2026 and June 2033 regardless of usage; non-cancelable except for Microsoft's uncured material breach or, per tranche, undelivered tranches. term_years 6.6 is November 2026 to June 2033."
+      },
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+          "type": "primary",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+          "type": "primary",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
+          "type": "tier1",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+          "type": "primary",
+          "date": "2026-11-19"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "Anthropic committed to purchase at least $30B of Azure compute capacity as part of a three-way alliance with Microsoft and Nvidia. Circular: the compute provider (Microsoft, up to $5B) and the chip supplier (Nvidia, up to $10B) simultaneously agreed to invest in the buyer; see msft-nvda-anthropic-investment-2025-11.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "value.amount_usd",
+          "reason": "Restated from $30B (announced 2025-11-18) to at least $47.2B per the amended agreement disclosed in Anthropic's 424B4; up to $49.2B. revenue_start set to 2026-11 (start of the committed spend window) and term_years to 6.6.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "msft-nvda-anthropic-investment-2025-11",
+      "announced": "2025-11-18",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "compute_equity",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "microsoft",
+          "role": "financier"
+        },
+        {
+          "entity": "nvidia",
+          "role": "financier"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 15000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-11-18"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Combined figure: Microsoft up to $5B and Nvidia up to $10B, staged investments announced as part of the Azure compute alliance."
+      },
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+          "type": "primary",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+          "type": "primary",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
+          "type": "tier1",
+          "date": "2025-11-18"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "Compute-linked equity: Microsoft (up to $5B) and Nvidia (up to $10B) investing in Anthropic alongside Anthropic's $30B-plus Azure purchase commitment (anthropic-azure-commitment-2025-11). The investments reportedly lifted Anthropic's valuation to around $350B. Circular by definition: suppliers funding their own customer.",
+      "revisions": []
+    },
+    {
+      "id": "iren-dell-gpu-purchase-2025-11",
+      "announced": "2025-11-03",
+      "recorded": "2026-08-03",
+      "disclosed_via": "8-k",
+      "deal_type": "chip_purchase",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "dell",
+          "role": "provider"
+        },
+        {
+          "entity": "iren",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 5800000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2025-11-03"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "NVIDIA GB300"
+      },
+      "dates": {
+        "revenue_start": "2026-03-01",
+        "revenue_start_precision": "month"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Deliveries scheduled in tranches from March 2026."
+      },
+      "sources": [
+        {
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
+          "type": "primary",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-97bn-cloud-capacity-deal-with-iren/",
+          "type": "other",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://techinformed.com/microsoft-signs-9-7-billion-iren-deal-for-nvidia-gb300-capacity/",
+          "type": "other",
+          "date": "2025-11-03"
+        }
+      ],
+      "articles": [],
+      "notes": "The supply side of IREN's Microsoft contract: a $5.8B purchase agreement with Dell Marketing L.P. for GPUs and ancillary equipment to build out the Childress GB300 capacity, disclosed alongside iren-microsoft-gb300-2025-11. Recorded as its own row because it is a distinct binding commitment with a different counterparty; the demand-side and supply-side dollars are never netted or combined.",
+      "revisions": []
+    },
+    {
+      "id": "iren-microsoft-gb300-2025-11",
+      "announced": "2025-11-03",
+      "recorded": "2026-08-03",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "iren",
+          "role": "provider"
+        },
+        {
+          "entity": "microsoft",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 9700000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2025-11-03"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": 200,
+        "chip_count": null,
+        "chip_type": "NVIDIA GB300"
+      },
+      "dates": {
+        "revenue_start": "2026-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Includes a 20% prepayment. Capacity delivered in tranches during 2026 across four Horizon data centers at Childress, Texas (~200 MW IT load), with contract value running through 2031."
+      },
+      "sources": [
+        {
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
+          "type": "primary",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/iren-signs-microsoft-9-7-132523930.html",
+          "type": "other",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-97bn-cloud-capacity-deal-with-iren/",
+          "type": "other",
+          "date": "2025-11-03"
+        }
+      ],
+      "articles": [
+        "iren-2-8-billion-ai-contracts-arr-target"
+      ],
+      "notes": "IREN's anchor contract: five-year, ~$9.7B GPU cloud agreement giving Microsoft access to Nvidia GB300 capacity at Childress, Texas. Predates and is separate from the July 2026 $2.8B contract batch (iren-ai-cloud-contracts-2026-07), which is why Microsoft appears in that row's customer roster. Funded in part by the $5.8B Dell GPU purchase disclosed the same day (iren-dell-gpu-purchase-2025-11).",
+      "revisions": []
+    },
+    {
+      "id": "google-anthropic-tpu-2025-10",
+      "announced": "2025-10-23",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "google",
+          "role": "provider"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": null,
+      "term_years": null,
+      "capacity": {
+        "mw_it": 1000,
+        "chip_count": 1000000,
+        "chip_type": "Google TPU"
+      },
+      "dates": {
+        "revenue_start": "2026-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Dollar value never disclosed by either party; contemporaneous tier-1 reporting put it at tens of billions of dollars. Capacity recorded at the disclosed floor: over 1 GW of compute coming online in 2026, with access to up to one million TPUs. Anthropic's 424B4 (2026-11-19) does not break this agreement out; its Google commitment is the March 2026 CSP hosting agreement (anthropic-google-csp-hosting-2026-03), which may include this capacity. That row carries no MW so the 1 GW here is counted once."
+      },
+      "sources": [
+        {
+          "url": "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services",
+          "type": "primary",
+          "date": "2025-10-23"
+        },
+        {
+          "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+          "type": "primary",
+          "date": "2025-10-23"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/10/23/anthropic-google-cloud-deal-tpu.html",
+          "type": "tier1",
+          "date": "2025-10-23"
+        }
+      ],
+      "articles": [],
+      "notes": "Anthropic's expanded Google Cloud TPU commitment: access to up to one million TPUs and over 1 GW of capacity online in 2026, announced 2025-10-23. The row demonstrates the MW-only inclusion path: no dollar value was ever disclosed, so none is recorded, and the reported tens-of-billions figure stays out of every total. Part of Anthropic's stated multi-cloud approach across Google TPUs, Amazon Trainium and Nvidia GPUs.",
+      "revisions": [
+        {
+          "date": "2026-11-20",
+          "field": "flags.conditions",
+          "reason": "Cross-referenced to anthropic-google-csp-hosting-2026-03 after Anthropic's 424B4.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ]
+    },
+    {
+      "id": "meta-oracle-cloud-2025-10",
+      "announced": "2025-10-16",
+      "recorded": "2026-08-03",
+      "disclosed_via": "tier1_media",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "oracle",
+          "role": "provider"
+        },
+        {
+          "entity": "meta",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 20000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": null,
+        "as_of": "2025-09-19"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Oracle confirmed the existence of a Meta cloud deal on 2025-10-16 without disclosing terms; the ~$20B multi-year value comes from Bloomberg's reporting of the talks on 2025-09-19 and was never officially stated."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/10/16/oracle-confirms-meta-cloud-deal-.html",
+          "type": "tier1",
+          "date": "2025-10-16"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-09-19/oracle-in-talks-with-meta-on-20-billion-ai-cloud-computing-deal",
+          "type": "tier1",
+          "date": "2025-09-19"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/meta-in-talks-to-sign-20bn-oracle-cloud-deal-report/",
+          "type": "other",
+          "date": "2025-09-19"
+        }
+      ],
+      "articles": [],
+      "notes": "Oracle to provide Meta with training and deployment capacity alongside Meta's existing cloud providers. Status is binding on the strength of Oracle's public confirmation (CNBC, 2025-10-16); the dollar value is Bloomberg's reported ~$20B from the September talks, kept at media_reported with its own as_of date since neither company has stated a figure. Announced the row's date as the confirmation date, not the talks date.",
+      "revisions": []
+    },
+    {
+      "id": "meta-coreweave-initial-2025-09",
+      "announced": "2025-09-30",
+      "recorded": "2026-08-03",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "meta",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 14200000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-09-30"
+      },
+      "term_years": 6,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "NVIDIA GB300"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Runs through December 2031 per CoreWeave's SEC disclosure, which also gave Meta the option to materially expand its commitment through 2032; that option was exercised in April 2026 (see meta-coreweave-expansion-2026-04)."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/09/30/coreweave-meta-deal-ai.html",
+          "type": "tier1",
+          "date": "2025-09-30"
+        },
+        {
+          "url": "https://www.forbes.com/sites/kirkogunrinde/2025/09/30/coreweave-strikes-142-billion-deal-with-meta-to-boost-ai-capability/",
+          "type": "other",
+          "date": "2025-09-30"
+        },
+        {
+          "url": "https://siliconangle.com/2025/09/30/meta-strikes-expanded-14-2b-ai-infrastructure-deal-coreweave/",
+          "type": "other",
+          "date": "2025-09-30"
+        }
+      ],
+      "articles": [],
+      "notes": "CoreWeave to supply Meta with up to $14.2B of AI computing capacity through December 2031, including access to Nvidia GB300 systems, per CoreWeave's SEC filing and same-day coverage. Announced days after the September OpenAI expansion, establishing Meta as CoreWeave's second anchor customer. Term shown as 6 years (2025 signing through December 2031).",
+      "revisions": []
+    },
+    {
+      "id": "coreweave-openai-expansion-2025-09",
+      "announced": "2025-09-25",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 6500000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-09-25"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": "coreweave-openai-initial-2025-03",
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Expands-Agreement-with-OpenAI-by-up-to-6-5B/default.aspx",
+          "type": "primary",
+          "date": "2025-09-25"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/09/25/coreweave-openai-6point5-billion-deal.html",
+          "type": "tier1",
+          "date": "2025-09-25"
+        }
+      ],
+      "articles": [],
+      "notes": "Expansion of the March 2025 agreement by up to $6.5B, taking the cumulative CoreWeave-OpenAI contract value to roughly $22.4B per CoreWeave (a figure that includes a reported May 2025 expansion of up to $4B still sitting in the candidate queue). Circular flag inherited from the parent agreement's cross-shareholding.",
+      "revisions": []
+    },
+    {
+      "id": "nvidia-openai-loi-2025-09",
+      "announced": "2025-09-22",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "compute_equity",
+      "status": "loi_mou",
+      "parties": [
+        {
+          "entity": "nvidia",
+          "role": "financier"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 100000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-09-22"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": 10000,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2026-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Letter of intent, not a definitive agreement: investment staged progressively as each gigawatt of at least 10 GW of Nvidia systems is deployed. First gigawatt targeted for H2 2026 on the Vera Rubin platform."
+      },
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+          "type": "primary",
+          "date": "2025-09-22"
+        },
+        {
+          "url": "https://openai.com/index/openai-nvidia-systems-partnership/",
+          "type": "primary",
+          "date": "2025-09-22"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/openai-signs-loi-to-deploy-at-least-10gw-of-ai-data-centers-with-nvidia-hardware-nvidia-to-invest-up-to-100bn-in-openai/",
+          "type": "other",
+          "date": "2025-09-22"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "NON-BINDING, excluded from binding aggregates: LOI for Nvidia to invest up to $100B in OpenAI, staged as each gigawatt of at least 10 GW of Nvidia systems deploys. The archetypal circular AI deal: the investor is the chip supplier whose systems the investment buys. Context for the July 2026 backstop talks (nvidia-openai-backstop-talks-2026-07).",
+      "revisions": []
+    },
+    {
+      "id": "openai-oracle-stargate-2025-09",
+      "announced": "2025-09-10",
+      "recorded": "2026-08-03",
+      "disclosed_via": "tier1_media",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "oracle",
+          "role": "provider"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 300000000000,
+        "kind": "media_reported",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2025-09-10"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": 4500,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2027-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Neither company has press-released the $300B figure; it was reported by WSJ on 2025-09-10 and subsequently confirmed by OpenAI per CNBC. March 2026: the planned 600 MW Abilene flagship expansion was scrapped after financing talks stalled (Bloomberg), with capacity redistributed across other sites; the 4.5 GW program and the contract itself remained in effect per the same reporting."
+      },
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/features/2025-12-12/oracle-s-300-billion-openai-deal-has-investors-worried-about-its-ai-spending",
+          "type": "tier1",
+          "date": "2025-12-12"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/09/13/openai-spending-spree-powering-much-of-tech-oracle-latest-example.html",
+          "type": "tier1",
+          "date": "2025-09-13"
+        },
+        {
+          "url": "https://www.oracle.com/news/announcement/q1fy26-earnings-release-2025-09-09/",
+          "type": "primary",
+          "date": "2025-09-09"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center",
+          "type": "tier1",
+          "date": "2026-03-06"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/openai-signs-300bn-cloud-deal-with-oracle-report/",
+          "type": "other",
+          "date": "2025-09-10"
+        }
+      ],
+      "articles": [
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "The largest verified compute contract on record: OpenAI to purchase $300B of computing power from Oracle over roughly five years starting 2027, part of the Stargate program, delivered from about 4.5 GW of capacity per the July 2025 Oracle-OpenAI development agreement (Bloomberg). Corroborated by Oracle's own FY26 Q1 release the day before the WSJ report: RPO up 359% to $455B on 'four multi-billion-dollar contracts with three different customers'. Held in the candidate queue at ledger launch until a primary source and two tier-1 URLs were captured; promoted the same day.",
+      "revisions": []
+    },
+    {
+      "id": "nebius-microsoft-2025-09",
+      "announced": "2025-09-08",
+      "recorded": "2026-08-03",
+      "disclosed_via": "8-k",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "nebius",
+          "role": "provider"
+        },
+        {
+          "entity": "microsoft",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 17400000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "approximately",
+        "max_with_options_usd": 19400000000,
+        "as_of": "2025-09-08"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2025-01-01",
+        "revenue_start_precision": "year"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "Total contract value subject to deployment and availability of the GPU services, delivered in tranches during 2025 and 2026 from the Vineland, New Jersey data center. Microsoft may acquire additional services and capacity, lifting the total to about $19.4B."
+      },
+      "sources": [
+        {
+          "url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+          "type": "primary",
+          "date": "2025-09-08"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/09/08/nebius-stock-soars-on-ai-infrastructure-deal-with-microsoft-.html",
+          "type": "tier1",
+          "date": "2025-09-08"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/nebius-signs-17-4-billion-211147146.html",
+          "type": "other",
+          "date": "2025-09-08"
+        }
+      ],
+      "articles": [],
+      "notes": "Five-year agreement for Nebius to provide Microsoft dedicated GPU infrastructure capacity at its Vineland, New Jersey site: about $17.4B through 2031, expandable to about $19.4B. Nebius shares jumped roughly 60% on the disclosure. Part of Microsoft's pattern of leasing third-party capacity (see also iren-microsoft-gb300-2025-11) rather than waiting on its own buildout.",
+      "revisions": []
+    },
+    {
+      "id": "coreweave-openai-expansion-2025-05",
+      "announced": "2025-05-14",
+      "recorded": "2026-08-03",
+      "disclosed_via": "earnings_call",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 4000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-05-14"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": "coreweave-openai-initial-2025-03",
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "OpenAI pays through 2029. Disclosed on CoreWeave's Q1 2025 earnings call as an unnamed 'enterprise AI company'; the counterparty was identified as OpenAI in the regulatory filing the following day."
+      },
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-05-15/openai-expands-coreweave-tie-up-with-new-4-billion-cloud-deal",
+          "type": "tier1",
+          "date": "2025-05-15"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/coreweave-signs-4-billion-deal-151429404.html",
+          "type": "other",
+          "date": "2025-05-15"
+        }
+      ],
+      "articles": [],
+      "notes": "The middle link of the CoreWeave-OpenAI chain: up to $4B of additional capacity through 2029, disclosed at Q1 2025 earnings, between the March initial agreement (up to $11.9B) and the September expansion (up to $6.5B). Promoted from the candidate queue on 2026-08-03 once the Bloomberg capture pinned the date. Circular flag inherited from the parent agreement's cross-shareholding.",
+      "revisions": []
+    },
+    {
+      "id": "galaxy-coreweave-helios-2025-03",
+      "announced": "2025-03-28",
+      "recorded": "2026-08-08",
+      "disclosed_via": "press_release",
+      "deal_type": "capacity_lease",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "galaxy-digital",
+          "role": "provider"
+        },
+        {
+          "entity": "coreweave",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 15000000000,
+        "kind": "computed",
+        "basis": "annualized",
+        "qualifier": "at_least",
+        "max_with_options_usd": null,
+        "as_of": "2026-07-06"
+      },
+      "term_years": 15,
+      "capacity": {
+        "mw_it": 526,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": "2026-04-01",
+        "revenue_start_precision": "quarter"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": false,
+        "conditions": "15-year base lease plus two five-year extension options. Capacity was committed in three tranches at Galaxy's Helios campus (Dickens County, TX): 133 MW critical IT signed 2025-03-28 (~$4.5B company-stated revenue over the 15-year term), a second 260 MW tranche signed August 2025 on similar terms, and a final 133 MW option CoreWeave later exercised, together totaling the 526 MW critical IT / 800 MW gross power CoreWeave has now committed to. Amount here uses Galaxy's own most recent combined guidance (average annual revenue 'more than $1 billion' across all three tranches, as restated in the July 2026 Phase I completion release) times the 15-year term, rather than summing the individually-announced tranche figures, to avoid double counting; treat $15B as a floor, not the company's headline number."
+      },
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/galaxy-completes-phase-i-of-its-helios-data-center-campus-delivering-133-megawatts-of-critical-it-load-to-coreweave-302818664.html",
+          "type": "primary",
+          "date": "2026-07-06"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/coreweave-backed-data-center-plans-3-5-billion-junk-bond-sale",
+          "type": "tier1",
+          "date": "2026-07-22"
+        }
+      ],
+      "articles": [],
+      "notes": "Phase I (133 MW) has been delivering revenue since rent commencement in Q2 2026. Phase II (260 MW) is expected to deliver in H1 2027, financed in part by a $3.507B senior secured note offering (Helios subsidiary, priced ~2026-07-22, 9.875% coupon due 2031); that financing is a capital-raise, not a separate compute deal, and is not its own ledger row. Total approved campus power is 1.63 GW with potential to scale to 3.6 GW; only the 526 MW CoreWeave has contracted for is counted here. Surfaced this run via the EDGAR watchlist hit on Galaxy Digital's Q2 2026 8-K (filed 2026-08-05); the underlying lease predates this run.",
+      "revisions": []
+    },
+    {
+      "id": "coreweave-openai-initial-2025-03",
+      "announced": "2025-03-10",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "cloud_services",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "coreweave",
+          "role": "provider"
+        },
+        {
+          "entity": "openai",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 11900000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-03-10"
+      },
+      "term_years": 5,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": null
+      },
+      "sources": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Agreement-with-OpenAI-to-Deliver-AI-Infrastructure/default.aspx",
+          "type": "primary",
+          "date": "2025-03-10"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/03/10/openai-to-pay-coreweave-11point9-billion-over-five-years-for-ai-tech.html",
+          "type": "tier1",
+          "date": "2025-03-10"
+        }
+      ],
+      "articles": [],
+      "notes": "Initial five-year agreement of up to $11.9B for CoreWeave to deliver AI infrastructure to OpenAI, signed just ahead of CoreWeave's IPO. Flagged circular: OpenAI simultaneously became a CoreWeave investor via $350M of stock issued as part of the deal. A further expansion of up to $4B was reported in May 2025; it sits in the candidate queue until a primary source with an exact date is captured.",
+      "revisions": []
+    },
+    {
+      "id": "stargate-framework-2025-01",
+      "announced": "2025-01-21",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "build_contract",
+      "status": "framework",
+      "parties": [
+        {
+          "entity": "openai",
+          "role": "buyer"
+        },
+        {
+          "entity": "softbank",
+          "role": "financier"
+        },
+        {
+          "entity": "oracle",
+          "role": "provider"
+        },
+        {
+          "entity": "mgx",
+          "role": "financier"
+        }
+      ],
+      "value": {
+        "amount_usd": 500000000000,
+        "kind": "company_stated",
+        "basis": "program_envelope",
+        "qualifier": "up_to",
+        "max_with_options_usd": null,
+        "as_of": "2025-01-21"
+      },
+      "term_years": 4,
+      "capacity": {
+        "mw_it": 10000,
+        "chip_count": null,
+        "chip_type": null
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Intent to invest $500B over four years, $100B initially, targeting 10 GW. SoftBank holds financial responsibility, OpenAI operational responsibility; initial equity funders SoftBank, OpenAI, Oracle and MGX. By late 2025 the program reported nearly 7 GW of planned capacity and over $400B of investment across announced sites."
+      },
+      "sources": [
+        {
+          "url": "https://openai.com/index/announcing-the-stargate-project/",
+          "type": "primary",
+          "date": "2025-01-21"
+        },
+        {
+          "url": "https://group.softbank/en/news/press/20250122",
+          "type": "primary",
+          "date": "2025-01-22"
+        },
+        {
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/softbabnk-openai-oracle-and-mgx-commit-to-100b-for-stargate-ai-infrastructure",
+          "type": "other",
+          "date": "2025-01-22"
+        }
+      ],
+      "articles": [],
+      "notes": "PROGRAM ENVELOPE, excluded from every summed total: the January 2025 Stargate announcement of intent to invest $500B over four years in US AI infrastructure. The discrete contracts inside it get their own rows as they sign, most notably the $300B OpenAI-Oracle compute contract (openai-oracle-stargate-2025-09); summing the envelope and its contents would double count by construction. Circular: the operational partner is the anchor customer of the capacity the JV builds.",
+      "revisions": []
+    },
+    {
+      "id": "amazon-anthropic-investment-2024-11",
+      "announced": "2024-11-22",
+      "recorded": "2026-08-03",
+      "disclosed_via": "press_release",
+      "deal_type": "compute_equity",
+      "status": "binding",
+      "parties": [
+        {
+          "entity": "amazon",
+          "role": "financier"
+        },
+        {
+          "entity": "anthropic",
+          "role": "buyer"
+        }
+      ],
+      "value": {
+        "amount_usd": 4000000000,
+        "kind": "company_stated",
+        "basis": "base_term",
+        "qualifier": null,
+        "max_with_options_usd": null,
+        "as_of": "2024-11-22"
+      },
+      "term_years": null,
+      "capacity": {
+        "mw_it": null,
+        "chip_count": null,
+        "chip_type": "AWS Trainium"
+      },
+      "dates": {
+        "revenue_start": null,
+        "revenue_start_precision": "unknown"
+      },
+      "flags": {
+        "expansion_of": null,
+        "counterparty_unnamed": false,
+        "circular": true,
+        "conditions": "Doubled Amazon's total Anthropic investment to $8B; only the incremental $4B tranche is recorded on this row. Announced with AWS becoming Anthropic's primary cloud and training partner, training on AWS Trainium."
+      },
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "type": "tier1",
+          "date": "2024-11-22"
+        },
+        {
+          "url": "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner/",
+          "type": "other",
+          "date": "2024-11-22"
+        }
+      ],
+      "articles": [],
+      "notes": "The earliest row in the ledger and the template for compute-linked equity: Amazon's additional $4B investment (total $8B) announced alongside AWS becoming Anthropic's primary cloud and training partner on Trainium silicon. The compute relationship this seeded later produced Project Rainier (~500,000 Trainium2 chips activated October 2025, ~1M by year-end) and the April 2026 expansion (amazon-anthropic-investment-2026-04, anthropic-aws-commitment-2026-04). Circular: the compute provider funding its own customer.",
+      "revisions": []
+    }
+  ]
+}

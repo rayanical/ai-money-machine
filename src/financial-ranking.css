@@ -1,0 +1,21 @@
+.financial-ranking-item { position: relative; }
+.lab-valuation-group + .lab-valuation-group { margin-top: 14px; }
+.lab-valuation-group h3 { color: var(--ink); font-size: .81rem; font-weight: 700; margin-bottom: 3px; }
+.financial-chart .chart-context .units { white-space: nowrap; }
+.financial-ranking-tooltip {
+  position: absolute;
+  z-index: 3;
+  top: 100%;
+  right: 0;
+  width: min(320px, 100%);
+  margin: 0;
+  border: 1px solid var(--line);
+  box-shadow: 0 5px 14px #1927241a;
+  pointer-events: none;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 560px) {
+  .company-universe { width: 100%; }
+  .company-universe button { flex: 1; min-width: 0; padding-inline: 4px; white-space: normal; }
+}

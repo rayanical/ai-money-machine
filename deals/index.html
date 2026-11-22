@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Compute Deal Timeline</title>
+  <link rel="stylesheet" href="/dashboard-theme.css" />
+  <script>if (new URLSearchParams(location.search).get("embedded") === "1") document.documentElement.classList.add("embedded");</script>
+</head>
+<body>
+  <main class="container">
+    <header class="top">
+      <div class="title-block">
+        <div class="title-row">
+          <h1>AI Compute Deal Timeline</h1>
+          <details class="info-pop" id="help-pop">
+            <summary>How to read this &amp; glossary</summary>
+            <div class="info-body">
+              <p><strong>Certainty tiers</strong></p>
+              <ul>
+                <li><strong>High (solid):</strong> Binding deal with company-stated value and source URL.</li>
+                <li><strong>Medium (diagonal hatch):</strong> Binding deal with media-reported value.</li>
+                <li><strong>Low (cross-hatch + dashed):</strong> Non-binding framework/LOI, or missing source.</li>
+                <li><strong>Snapshots (hollow, bottom lane):</strong> Total backlog or program envelopes; excluded from sums and size scaling.</li>
+                <li><strong>Superseded (struck through):</strong> Deals replaced or cancelled later.</li>
+              </ul>
+              <p><strong>Glossary</strong></p>
+              <ul>
+                <li><strong>Countable binding:</strong> Binding deals excluding snapshots/backlogs so totals avoid obvious double-counting.</li>
+                <li><strong>Base term:</strong> Initial committed contract length in years (excluding optional extensions).</li>
+                <li><strong>Value basis:</strong> What the headline dollar figure measures (contract value, capex, equity, or backlog).</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+        <p class="headline" id="headline-summary" aria-live="polite" aria-atomic="true">Loading ledger…</p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+    </header>
+
+    <section class="toolbar" aria-label="Filters and view controls">
+      <div class="controls controls-view">
+        <div class="segmented" role="group" aria-label="Main view">
+          <button type="button" data-view="timeline" class="active">Timeline</button>
+          <button type="button" data-view="table">Table</button>
+          <button type="button" data-view="context">Commitments</button>
+        </div>
+      </div>
+
+      <div class="controls controls-export">
+        <button type="button" id="copy-link-btn" class="btn">Copy link</button>
+        <button type="button" id="export-csv-btn" class="btn">CSV</button>
+        <button type="button" id="export-png-btn" class="btn">PNG</button>
+        <button type="button" id="reset-btn" class="btn">Reset</button>
+      </div>
+      <details class="toolbar-options">
+        <summary>Filters and dates</summary>
+        <div class="controls controls-filters">
+          <label>
+            Color by
+            <select id="color-by">
+              <option value="buyer">Buyer</option>
+              <option value="provider">Provider</option>
+              <option value="deal_type">Deal type</option>
+              <option value="certainty">Certainty</option>
+            </select>
+          </label>
+          <label>
+            Certainty
+            <select id="certainty-filter">
+              <option value="all">All tiers</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+          <label class="check-ctl"><input type="checkbox" id="binding-only" /> Countable binding</label>
+          <label class="check-ctl"><input type="checkbox" id="circular-only" /> Circular only</label>
+          <label class="check-ctl"><input type="checkbox" id="annualized-toggle" /> Annualized ($/yr)</label>
+          <label class="check-ctl"><input type="checkbox" id="hide-superseded" checked /> Hide superseded</label>
+          <label class="check-ctl"><input type="checkbox" id="ghost-mode" checked /> Ghost filtered</label>
+          <span id="party-pill"></span>
+        </div>
+
+        <div class="controls controls-dates">
+          <span class="control-group-label">Date range</span>
+          <label class="date-ctl">From <input type="date" id="date-from" aria-label="Start date" /></label>
+          <label class="date-ctl">To <input type="date" id="date-to" aria-label="End date" /></label>
+          <div class="segmented" role="group" aria-label="Zoom presets">
+            <button type="button" data-preset="3m">3M</button>
+            <button type="button" data-preset="6m">6M</button>
+            <button type="button" data-preset="1y">1Y</button>
+            <button type="button" data-preset="all" class="active">All</button>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <details class="timeline-legend" open>
+      <summary>Chart legend and colors</summary>
+      <div class="legend-bar" id="legend"></div>
+    </details>
+
+    <div class="workspace" id="workspace">
+      <div class="main-col">
+        <div class="viz-frame" id="viz-frame">
+          <div id="chart"></div>
+          <div id="overview"></div>
+          <p class="hint">Drag the monthly volume strip or use From/To dates to zoom. Click a mark or use ← / → keys (Esc to clear).</p>
+        </div>
+
+        <div class="table-frame" id="table-frame" hidden></div>
+        <section class="context-frame commitments-panel" id="context-frame" aria-labelledby="commitments-title" hidden>
+          <h2 id="commitments-title">Compute commitments and annualized revenue</h2>
+          <p class="muted">The latest annualized revenue reports from Epoch AI alongside disclosed binding deals and snapshots from the deal ledger.</p>
+          <p class="muted commitments-scroll-hint">Scroll for more columns.</p>
+          <div id="rev-table" class="table-scroll" role="region" aria-label="Commitments and revenue table" tabindex="0"></div>
+          <p class="muted">The ratio divides the larger of the binding total or largest snapshot by annualized revenue. Deals can span multiple years and overlap. A dash indicates an unavailable amount.</p>
+        </section>
+      </div>
+
+      <aside id="details" class="details" aria-label="Deal inspector"></aside>
+    </div>
+
+    <footer class="attribution">
+      Data: AI Compute Deal Ledger (Regards of Wallstreet,
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>) ·
+      AI company revenue &amp; relations (Epoch AI &amp; State of AI World).
+    </footer>
+
+    <div id="tooltip" class="tooltip" hidden></div>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

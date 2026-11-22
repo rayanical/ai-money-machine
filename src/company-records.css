@@ -1,0 +1,24 @@
+.records-snapshot dl { margin: 0; }
+.records-snapshot dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+}
+.records-snapshot dt, .records-snapshot dd {
+  min-width: 0;
+  margin: 0;
+  font-size: .78rem;
+  line-height: 1.35;
+}
+.records-snapshot dt span, .records-snapshot dd span {
+  display: block;
+  color: var(--muted);
+  font-size: .72rem;
+}
+.records-snapshot dd { text-align: right; }
+.records-capex-link { display: block; width: fit-content; margin-top: 10px; font-size: .78rem; font-weight: 650; }
+.records-history { margin-top: 6px; }
+.records-history[open] { padding-bottom: 0; }
+.records-tabs { padding-bottom: 12px; }

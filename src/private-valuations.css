@@ -1,0 +1,21 @@
+.private-valuation-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
+.private-valuation-search { flex: 1 1 145px; min-width: 0; }
+.private-valuation-search input { width: 100%; min-width: 0; min-height: 38px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--ink); font: inherit; font-size: .81rem; }
+.private-valuation-search input::placeholder { color: var(--muted); opacity: 1; }
+.private-valuation-sector { flex: 1 1 145px; }
+.private-valuation-sector select { width: 100%; text-overflow: ellipsis; }
+.private-valuation-context { margin-top: 14px; }
+.private-valuation-pagination { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; color: var(--muted); font-size: .75rem; }
+.private-valuation-pagination > div { display: flex; gap: 5px; }
+.private-valuation-pagination .outline-button { min-height: 31px; font-size: .75rem; }
+.private-valuation-pagination button:disabled { opacity: .5; cursor: default; }
+.private-valuation-detail { margin-top: 13px; padding: 10px; background: #f4f8f4; border-radius: 7px; font-size: .75rem; line-height: 1.45; overflow-wrap: anywhere; }
+.private-valuation-detail-heading { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 10px; }
+.private-valuation-detail p { margin: 4px 0; color: var(--muted); }
+.private-valuation-detail a { display: inline; font-weight: 600; }
+.private-valuation-detail a svg { vertical-align: middle; }
+.private-valuation-note { margin-top: 14px; color: var(--muted); font-size: .73rem; line-height: 1.45; }
+@media (max-width: 360px) {
+  .private-valuation-context { align-items: flex-start; }
+  .private-valuation-search, .private-valuation-sector { flex-basis: 110px; }
+}

@@ -1,0 +1,591 @@
+{
+ "source": "Data Center Census (https://datacentercensus.com/ai-capex)",
+ "license": "CC BY 4.0",
+ "as_of": "2026-10-31",
+ "note": "Total capex: the purchases-of-property-and-equipment cash flow line of each company, from SEC filings. Not AI spending. Quarterly values are differences of year-to-date totals. Outlooks are quoted from earnings releases; leases are amounts not yet commenced from 10-Q notes.",
+ "companies": [
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "cik": "0000789019",
+   "line": "Additions to property and equipment",
+   "quarters": [
+    {
+     "start": "2025-01-01",
+     "end": "2025-03-31",
+     "calendar_quarter": "2025-Q1",
+     "usd": 16745000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-29",
+     "accession": "0001193125-26-191507",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.htm"
+    },
+    {
+     "start": "2025-04-01",
+     "end": "2025-06-30",
+     "calendar_quarter": "2025-Q2",
+     "usd": 17079000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-07-29",
+     "accession": "0001193125-26-323660",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm"
+    },
+    {
+     "start": "2025-07-01",
+     "end": "2025-09-30",
+     "calendar_quarter": "2025-Q3",
+     "usd": 19394000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "accession": "0001193125-26-436133",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.htm"
+    },
+    {
+     "start": "2025-10-01",
+     "end": "2025-12-31",
+     "calendar_quarter": "2025-Q4",
+     "usd": 29876000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-01-28",
+     "accession": "0001193125-26-027207",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/0001193125-26-027207-index.htm"
+    },
+    {
+     "start": "2026-01-01",
+     "end": "2026-03-31",
+     "calendar_quarter": "2026-Q1",
+     "usd": 30876000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-29",
+     "accession": "0001193125-26-191507",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.htm"
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-06-30",
+     "calendar_quarter": "2026-Q2",
+     "usd": 35802000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-07-29",
+     "accession": "0001193125-26-323660",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm"
+    },
+    {
+     "start": "2026-07-01",
+     "end": "2026-09-30",
+     "calendar_quarter": "2026-Q3",
+     "usd": 39367000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "accession": "0001193125-26-436133",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.htm"
+    }
+   ],
+   "outlook": [],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-09-30",
+     "usd": 364600000000,
+     "text": "Leases, primarily for datacenters, that had not yet commenced; some arrangements depend on contractual conditions being met. Expected to commence between fiscal 2027 and fiscal 2034, with terms of 1 to 20 years.",
+     "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+     "filing": "10-Q filed Oct 28, 2026",
+     "where": "Leases note"
+    }
+   ]
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet",
+   "ticker": "GOOGL",
+   "cik": "0001652044",
+   "line": "Purchases of property and equipment",
+   "quarters": [
+    {
+     "start": "2025-01-01",
+     "end": "2025-03-31",
+     "calendar_quarter": "2025-Q1",
+     "usd": 17197000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001652044-26-000048",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/0001652044-26-000048-index.htm"
+    },
+    {
+     "start": "2025-04-01",
+     "end": "2025-06-30",
+     "calendar_quarter": "2025-Q2",
+     "usd": 22446000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-07-23",
+     "accession": "0001652044-26-000071",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/0001652044-26-000071-index.htm"
+    },
+    {
+     "start": "2025-07-01",
+     "end": "2025-09-30",
+     "calendar_quarter": "2025-Q3",
+     "usd": 23953000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "accession": "0001652044-26-000084",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.htm"
+    },
+    {
+     "start": "2025-10-01",
+     "end": "2025-12-31",
+     "calendar_quarter": "2025-Q4",
+     "usd": 27851000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-02-05",
+     "accession": "0001652044-26-000018",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.htm"
+    },
+    {
+     "start": "2026-01-01",
+     "end": "2026-03-31",
+     "calendar_quarter": "2026-Q1",
+     "usd": 35674000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001652044-26-000048",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/0001652044-26-000048-index.htm"
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-06-30",
+     "calendar_quarter": "2026-Q2",
+     "usd": 44924000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-07-23",
+     "accession": "0001652044-26-000071",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/0001652044-26-000071-index.htm"
+    },
+    {
+     "start": "2026-07-01",
+     "end": "2026-09-30",
+     "calendar_quarter": "2026-Q3",
+     "usd": 51355000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "accession": "0001652044-26-000084",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.htm"
+    }
+   ],
+   "outlook": [],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-09-30",
+     "usd": 130500000000,
+     "text": "Future lease payments on leases, primarily for data centers and energy infrastructure, that had not yet commenced. Expected to commence between 2026 and 2031, with non-cancelable terms of 1 to 26 years.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+     "filing": "10-Q filed Oct 29, 2026",
+     "where": "Management’s discussion, liquidity and capital resources"
+    }
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "cik": "0001018724",
+   "line": "Purchases of property and equipment",
+   "quarters": [
+    {
+     "start": "2025-01-01",
+     "end": "2025-03-31",
+     "calendar_quarter": "2025-Q1",
+     "usd": 25019000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001018724-26-000014",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/0001018724-26-000014-index.htm"
+    },
+    {
+     "start": "2025-04-01",
+     "end": "2025-06-30",
+     "calendar_quarter": "2025-Q2",
+     "usd": 32183000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-07-31",
+     "accession": "0001018724-26-000026",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/0001018724-26-000026-index.htm"
+    },
+    {
+     "start": "2025-07-01",
+     "end": "2025-09-30",
+     "calendar_quarter": "2025-Q3",
+     "usd": 35095000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-30",
+     "accession": "0001018724-26-000040",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/0001018724-26-000040-index.htm"
+    },
+    {
+     "start": "2025-10-01",
+     "end": "2025-12-31",
+     "calendar_quarter": "2025-Q4",
+     "usd": 39522000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-02-06",
+     "accession": "0001018724-26-000004",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.htm"
+    },
+    {
+     "start": "2026-01-01",
+     "end": "2026-03-31",
+     "calendar_quarter": "2026-Q1",
+     "usd": 44203000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001018724-26-000014",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/0001018724-26-000014-index.htm"
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-06-30",
+     "calendar_quarter": "2026-Q2",
+     "usd": 54208000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-07-31",
+     "accession": "0001018724-26-000026",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/0001018724-26-000026-index.htm"
+    },
+    {
+     "start": "2026-07-01",
+     "end": "2026-09-30",
+     "calendar_quarter": "2026-Q3",
+     "usd": 77259000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-10-30",
+     "accession": "0001018724-26-000040",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/0001018724-26-000040-index.htm"
+    }
+   ],
+   "outlook": [
+    {
+     "date": "2026-10-29",
+     "year": 2026,
+     "approx": true,
+     "usd": 220000000000,
+     "wording": "cash capital expenditures",
+     "text": "Amazon says it continues to expect 2026 cash capital expenditures of approximately $220 billion.",
+     "quote": "We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+     "doc": "EX-99.1, Q4 2026 guidance section"
+    }
+   ],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-09-30",
+     "usd": 164922000000,
+     "text": "Total undiscounted payments on leases not yet commenced, as listed in the company’s table of commitments.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "filing": "10-Q filed Oct 30, 2026",
+     "where": "Commitments table"
+    }
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "ticker": "META",
+   "cik": "0001326801",
+   "line": "Purchases of property and equipment",
+   "quarters": [
+    {
+     "start": "2025-01-01",
+     "end": "2025-03-31",
+     "calendar_quarter": "2025-Q1",
+     "usd": 12941000000,
+     "usd_including_finance_lease_principal": 13692000000,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001628280-26-028526",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/0001628280-26-028526-index.htm"
+    },
+    {
+     "start": "2025-04-01",
+     "end": "2025-06-30",
+     "calendar_quarter": "2025-Q2",
+     "usd": 16538000000,
+     "usd_including_finance_lease_principal": 17012000000,
+     "form": "10-Q",
+     "filed": "2026-07-30",
+     "accession": "0001628280-26-050705",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm"
+    },
+    {
+     "start": "2025-07-01",
+     "end": "2025-09-30",
+     "calendar_quarter": "2025-Q3",
+     "usd": 18829000000,
+     "usd_including_finance_lease_principal": 19374000000,
+     "form": "10-Q",
+     "filed": "2026-10-22",
+     "accession": "0001628280-26-066773",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.htm"
+    },
+    {
+     "start": "2025-10-01",
+     "end": "2025-12-31",
+     "calendar_quarter": "2025-Q4",
+     "usd": 21383000000,
+     "usd_including_finance_lease_principal": 22137000000,
+     "form": "10-K",
+     "filed": "2026-01-29",
+     "accession": "0001628280-26-003942",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.htm"
+    },
+    {
+     "start": "2026-01-01",
+     "end": "2026-03-31",
+     "calendar_quarter": "2026-Q1",
+     "usd": 18997000000,
+     "usd_including_finance_lease_principal": 19840000000,
+     "form": "10-Q",
+     "filed": "2026-04-30",
+     "accession": "0001628280-26-028526",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/0001628280-26-028526-index.htm"
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-06-30",
+     "calendar_quarter": "2026-Q2",
+     "usd": 30116000000,
+     "usd_including_finance_lease_principal": 31078000000,
+     "form": "10-Q",
+     "filed": "2026-07-30",
+     "accession": "0001628280-26-050705",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm"
+    },
+    {
+     "start": "2026-07-01",
+     "end": "2026-09-30",
+     "calendar_quarter": "2026-Q3",
+     "usd": 33942000000,
+     "usd_including_finance_lease_principal": 34906000000,
+     "form": "10-Q",
+     "filed": "2026-10-22",
+     "accession": "0001628280-26-066773",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.htm"
+    }
+   ],
+   "outlook": [
+    {
+     "date": "2026-10-21",
+     "year": 2026,
+     "low": 135000000000,
+     "high": 145000000000,
+     "wording": "capital expenditures, including principal payments on finance leases",
+     "text": "Meta anticipates 2026 capital expenditures, including principal payments on finance leases, of $135 billion to $145 billion. The release says this narrows its prior outlook of $130 billion to $145 billion.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+     "doc": "EX-99.1, outlook section"
+    }
+   ],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-09-30",
+     "usd": 355730000000,
+     "text": "Operating and finance leases not yet commenced, for data centers, energy-related infrastructure, colocations and certain network infrastructure. Expected to commence from the rest of 2026 through 2036, with terms from more than 1 year to 30 years.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "filing": "10-Q filed Oct 22, 2026",
+     "where": "Note 10, Commitments and contingencies"
+    }
+   ]
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "ticker": "ORCL",
+   "cik": "0001341439",
+   "line": "Capital expenditures",
+   "quarters": [
+    {
+     "start": "2025-03-01",
+     "end": "2025-05-31",
+     "calendar_quarter": "2025-Q2",
+     "usd": 9080000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-06-22",
+     "accession": "0001193125-26-277521",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.htm"
+    },
+    {
+     "start": "2025-06-01",
+     "end": "2025-08-31",
+     "calendar_quarter": "2025-Q3",
+     "usd": 8502000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-09-11",
+     "accession": "0001193125-26-389274",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.htm"
+    },
+    {
+     "start": "2025-09-01",
+     "end": "2025-11-30",
+     "calendar_quarter": "2025-Q4",
+     "usd": 12033000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2025-12-11",
+     "accession": "0001193125-25-315925",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/0001193125-25-315925-index.htm"
+    },
+    {
+     "start": "2025-12-01",
+     "end": "2026-02-28",
+     "calendar_quarter": "2026-Q1",
+     "usd": 18635000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-03-11",
+     "accession": "0001193125-26-101045",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/0001193125-26-101045-index.htm"
+    },
+    {
+     "start": "2026-03-01",
+     "end": "2026-05-31",
+     "calendar_quarter": "2026-Q2",
+     "usd": 16493000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-06-22",
+     "accession": "0001193125-26-277521",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.htm"
+    },
+    {
+     "start": "2026-06-01",
+     "end": "2026-08-31",
+     "calendar_quarter": "2026-Q3",
+     "usd": 28499000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-09-11",
+     "accession": "0001193125-26-389274",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.htm"
+    }
+   ],
+   "outlook": [],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-08-31",
+     "usd": 288000000000,
+     "text": "Additional lease commitments, substantially all for data centers, not yet on the balance sheet. Generally expected to commence between the second quarter of fiscal 2027 and fiscal 2029, with terms of 15 to 19 years.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+     "filing": "10-Q filed Sep 11, 2026",
+     "where": "Note 6, Leases and other commitments"
+    }
+   ]
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "ticker": "CRWV",
+   "cik": "0001769628",
+   "line": "Purchases of property and equipment and capitalized internal-use software",
+   "quarters": [
+    {
+     "start": "2025-01-01",
+     "end": "2025-03-31",
+     "calendar_quarter": "2025-Q1",
+     "usd": 1407000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-05-08",
+     "accession": "0001769628-26-000222",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/0001769628-26-000222-index.htm"
+    },
+    {
+     "start": "2025-04-01",
+     "end": "2025-06-30",
+     "calendar_quarter": "2025-Q2",
+     "usd": 2453000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-08-12",
+     "accession": "0001769628-26-000366",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/0001769628-26-000366-index.htm"
+    },
+    {
+     "start": "2025-07-01",
+     "end": "2025-09-30",
+     "calendar_quarter": "2025-Q3",
+     "usd": 2389239000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2025-11-13",
+     "accession": "0001769628-25-000062",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000062/0001769628-25-000062-index.htm"
+    },
+    {
+     "start": "2025-10-01",
+     "end": "2025-12-31",
+     "calendar_quarter": "2025-Q4",
+     "usd": 4059761000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-K",
+     "filed": "2026-03-02",
+     "accession": "0001769628-26-000104",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/0001769628-26-000104-index.htm"
+    },
+    {
+     "start": "2026-01-01",
+     "end": "2026-03-31",
+     "calendar_quarter": "2026-Q1",
+     "usd": 7695000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-05-08",
+     "accession": "0001769628-26-000222",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/0001769628-26-000222-index.htm"
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-06-30",
+     "calendar_quarter": "2026-Q2",
+     "usd": 6422000000,
+     "usd_including_finance_lease_principal": null,
+     "form": "10-Q",
+     "filed": "2026-08-12",
+     "accession": "0001769628-26-000366",
+     "filing_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/0001769628-26-000366-index.htm"
+    }
+   ],
+   "outlook": [],
+   "leases_not_yet_commenced": [
+    {
+     "asOf": "2026-06-30",
+     "usd": 35500000000,
+     "text": "Estimated future undiscounted payments on executed leases, primarily for data centers, equipment and office buildings, that had not yet commenced. Expected to commence between 2026 and 2029, with estimated terms of 7 to 16 years.",
+     "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+     "filing": "10-Q filed Aug 12, 2026",
+     "where": "Note 8, Leases"
+    }
+   ]
+  }
+ ]
+}

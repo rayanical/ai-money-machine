@@ -1,0 +1,16 @@
+.company-evidence { margin-top: 8px; border-top: 1px solid var(--line); }
+.company-evidence__intro { color: var(--muted); font-size: .75rem; line-height: 1.5; margin: 0 0 10px; }
+.company-evidence__history { max-height: 260px; overflow: auto; }
+.company-evidence__history table { width: 100%; border-collapse: collapse; font-size: .75rem; }
+.company-evidence__history th, .company-evidence__history td { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: left; }
+.company-evidence__history :is(th, td):last-child { text-align: right; }
+.company-evidence__earlier, .company-evidence__flagged { margin: 9px 0; font-size: .75rem; }
+.company-evidence__earlier > summary, .company-evidence__flagged > summary, .evidence-record__notes > summary { cursor: pointer; font-weight: 650; color: var(--accent); }
+.company-evidence__source, .evidence-record a { display: inline-flex; align-items: center; gap: 3px; font-size: .75rem; font-weight: 650; }
+.company-evidence__source { margin-top: 10px; }
+.evidence-record { padding: 9px 0; border-bottom: 1px solid var(--line); font-size: .75rem; line-height: 1.45; }
+.evidence-record__heading { display: flex; justify-content: space-between; gap: 10px; }
+.evidence-record p { color: var(--muted); margin: 3px 0; }
+.evidence-record a { margin-right: 10px; }
+.evidence-record__notes { margin-top: 4px; }
+.evidence-record__notes p { white-space: pre-line; overflow-wrap: anywhere; }

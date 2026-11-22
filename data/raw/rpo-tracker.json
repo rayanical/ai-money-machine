@@ -1,0 +1,1890 @@
+{
+  "name": "RPO and Backlog Coverage Tracker",
+  "publisher": "Regards of Wallstreet",
+  "url": "https://www.regardsofwallstreet.com/data/rpo",
+  "methodology": "https://www.regardsofwallstreet.com/data/rpo/methodology",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "cite_as": "RPO and Backlog Coverage Tracker, Regards of Wallstreet, https://www.regardsofwallstreet.com/data/rpo",
+  "definitions": {
+    "coverage_years": "Contracted balance divided by trailing twelve month revenue for the same business. Read as years of current sales already under contract.",
+    "scope_matched": "True when the contracted balance and the revenue denominator cover the same part of the company. False rows are usable but carry a caveat.",
+    "next_twelve_months_usd": "The near-term slice, taken from a disclosed current portion (cRPO) or a disclosed 12-month percentage. Null where the company published neither."
+  },
+  "last_updated": "2026-11-10",
+  "generated_at": "2026-11-21T11:28:50.394Z",
+  "aggregates": {
+    "companyCount": 11,
+    "disclosureCount": 23,
+    "contractedUsd": 6895140500000,
+    "medianCoverageYears": 3.581564238886617,
+    "disclosesDuration": 4,
+    "disclosesNextTwelveMonths": 10,
+    "unmatchedScope": 2,
+    "widest": {
+      "id": "applied-digital-fy2026-q4",
+      "entity": "applied-digital",
+      "coverageYears": 58.89088827089809
+    },
+    "narrowest": {
+      "id": "palantir-2026-q3",
+      "entity": "palantir",
+      "coverageYears": 0.672019231270344
+    }
+  },
+  "entities": [
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Microsoft Corporation"
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "cik": "0001341439",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Oracle Corporation",
+        "OCI"
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Amazon.com",
+        "AWS",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "id": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "cik": "0001652044",
+      "kind": "hyperscaler",
+      "aliases": [
+        "Google",
+        "Google Cloud"
+      ]
+    },
+    {
+      "id": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "cik": "0001769628",
+      "kind": "neocloud",
+      "aliases": [
+        "CoreWeave, Inc."
+      ]
+    },
+    {
+      "id": "applied-digital",
+      "name": "Applied Digital",
+      "ticker": "APLD",
+      "cik": "0001144879",
+      "kind": "neocloud",
+      "aliases": [
+        "Applied Digital Corporation"
+      ]
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "cik": "0001321655",
+      "kind": "software",
+      "aliases": [
+        "Palantir Technologies"
+      ]
+    },
+    {
+      "id": "servicenow",
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "cik": "0001373715",
+      "kind": "software",
+      "aliases": [
+        "ServiceNow, Inc."
+      ]
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "cik": "0001108524",
+      "kind": "software",
+      "aliases": [
+        "Salesforce, Inc."
+      ]
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "cik": "0001640147",
+      "kind": "software",
+      "aliases": [
+        "Snowflake Inc."
+      ]
+    },
+    {
+      "id": "boeing",
+      "name": "Boeing",
+      "ticker": "BA",
+      "cik": "0000012927",
+      "kind": "industrial",
+      "aliases": [
+        "The Boeing Company"
+      ]
+    }
+  ],
+  "disclosures": [
+    {
+      "id": "applied-digital-fy2026-q4",
+      "entity": "applied-digital",
+      "period": {
+        "label": "FY2026 Q4",
+        "end": "2026-05-31",
+        "reported": "2026-07-27"
+      },
+      "metric": "contracted_lease_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 36000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": 15,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "The leases signed in the quarter run 15 years on a take-or-pay basis. Applied Digital does not publish a weighted average across the whole portfolio, so 15 years is the term of the largest tranche rather than a portfolio duration. Read the coverage multiple against that term: 59x trailing revenue over 15-year leases is a company whose revenue has not started yet, not a company with 59 years of visibility."
+      },
+      "concentration": {
+        "largest_customer": "Undisclosed investment-grade hyperscaler",
+        "ex_customer_growth_pct": null,
+        "note": "About $20.2bn of the backlog, more than half, comes from three leases signed in the quarter with a single unnamed investment-grade hyperscaler. Counterparty credit is the whole risk here, and the counterparty is not named."
+      },
+      "revenue": {
+        "ttm_usd": 611300000,
+        "scope": "total_company",
+        "basis": "fiscal_year",
+        "derivation": "Fiscal 2026 revenue of $611.3m for the twelve months ended May 31, 2026, up 167% year over year. The period end is a fiscal year end, so the reported annual figure is the trailing twelve months with no arithmetic applied.",
+        "components": null,
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+          "type": "primary",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/27/3333871/0/en/Applied-Digital-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results.html",
+          "type": "primary",
+          "date": "2026-07-27"
+        }
+      ],
+      "articles": [
+        "applied-digital-apld-fq4-2026-earnings-36-billion-backlog",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "The extreme of the table, and a category difference rather than a degree difference. This is contracted lease revenue under ASC 842 across 1.41 GW of committed IT load, not an ASC 606 remaining performance obligation, and it is the reason a coverage ratio must never be compared across metrics without checking which one is being quoted. Applied Digital has signed 59 years of its current revenue because its current revenue is tiny and the buildings are not built. The offsetting fact is on the other side of the balance sheet: about $5bn of debt against a quarterly GAAP loss.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 58.89088827089809,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "applied-digital-fy2027-q1",
+      "entity": "applied-digital",
+      "period": {
+        "label": "FY2027 Q1",
+        "end": "2026-08-31",
+        "reported": "2026-10-07"
+      },
+      "metric": "contracted_lease_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 36000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": 15,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "The release gives about $36bn of contracted revenue over the leases' initial base terms, or about $86bn if every renewal option is exercised; the row carries the base-term figure. The hyperscaler leases run 15 years. Applied Digital still publishes no weighted average term across the portfolio and no split of the backlog by year, so 15 years is the term of the largest tranche, not a portfolio duration."
+      },
+      "concentration": {
+        "largest_customer": "Undisclosed investment-grade hyperscaler",
+        "ex_customer_growth_pct": null,
+        "note": "Three of the five campuses (Delta Forge 1, Polaris Forge 3 and Delta Forge 2) are leased to one unnamed tier-one investment-grade hyperscaler, about $20.2bn of the backlog. Polaris Forge 1 is leased to CoreWeave and Polaris Forge 2 to a second unnamed investment-grade hyperscaler. On revenue rather than backlog, the 10-Q shows one customer at 56% of the quarter's revenue and two more at 21% and 11%, without naming them."
+      },
+      "revenue": {
+        "ttm_usd": 872252000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 revenue of $611,311k for the year ended May 31, 2026 (10-K), plus revenue of $341,875k for the three months ended August 31, 2026, less $80,934k for the three months ended August 31, 2025 (both from the fiscal Q1 2027 10-Q). The 10-K recast prior periods to include the ChronoScale cloud business, and the 10-Q comparative is on the same basis: $80.9m is the recast figure, against $64.2m of adjusted revenue that excludes ChronoScale.",
+        "components": [
+          {
+            "label": "FY2026 revenue",
+            "amount_usd": 611311000
+          },
+          {
+            "label": "FY2027 Q1 revenue",
+            "amount_usd": 341875000
+          },
+          {
+            "label": "less FY2026 Q1 revenue",
+            "amount_usd": -80934000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000059/apld-20260831.htm",
+          "type": "primary",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm",
+          "type": "primary",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/10/07/3376854/0/en/applied-digital-reports-fiscal-first-quarter-2027-results.html",
+          "type": "primary",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000048/apld-20260531.htm",
+          "type": "primary",
+          "date": "2026-07-29"
+        }
+      ],
+      "articles": [],
+      "notes": "The backlog did not move: about $36bn and 1.41 GW across five campuses, the same as the fiscal Q4 row. The Delta Forge 2 lease (210 MW, about $5.2bn) was signed after May 31 but was already announced in the July release and counted in that $36bn, so the October release repeats it rather than adding to it. The coverage multiple fell from 59x to about 41x only because trailing revenue grew 43%, from $611m to $872m, as buildings went live. Quarterly revenue was $341.9m, up 322% from $80.9m. The company puts most of the services increase down to about $157.2m more tenant fit-out work plus $23.0m of ChronoScale GPU hardware sales, which is build-out and equipment revenue rather than rent, so the trailing base overstates the recurring lease income behind the ratio. This is contracted lease revenue under ASC 842, not an ASC 606 remaining performance obligation; compare it with the software rows only with that in mind.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 41.27247630271986,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "coreweave-2026-q1",
+      "entity": "coreweave",
+      "period": {
+        "label": "Q1 2026",
+        "end": "2026-03-31",
+        "reported": "2026-05-07"
+      },
+      "metric": "revenue_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 99400000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 284,
+      "prior_period": {
+        "amount_usd": 25900000000,
+        "label": "Q1 2025",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "CoreWeave publishes contracted power rather than contract duration: over 1 GW active against 3.5 GW contracted at this disclosure. That says when capacity arrives, not when revenue is recognised."
+      },
+      "concentration": {
+        "largest_customer": "Microsoft and OpenAI",
+        "ex_customer_growth_pct": null,
+        "note": "No ex largest customer figure. CoreWeave's backlog is built on a small number of very large counterparties: three OpenAI agreements, Microsoft, a Meta expansion to about $35bn of total commitments and an Anthropic agreement signed in April 2026."
+      },
+      "revenue": {
+        "ttm_usd": 6238400000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 revenue of $5.13bn, plus Q1 2026 revenue of $2.08bn, less Q1 2025 revenue of $0.972bn.",
+        "components": [
+          {
+            "label": "FY2025 revenue",
+            "amount_usd": 5130000000
+          },
+          {
+            "label": "Q1 2026 revenue",
+            "amount_usd": 2080000000
+          },
+          {
+            "label": "less Q1 2025 revenue",
+            "amount_usd": -971600000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/",
+          "type": "primary",
+          "date": "2026-05-07"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html",
+          "type": "tier1",
+          "date": "2026-05-07"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Fourth-Quarter-and-Fiscal-Year-2025-Results/",
+          "type": "primary",
+          "date": "2026-02-26"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Revenue backlog, not RPO. CoreWeave defines backlog as its remaining performance obligations plus committed contracts that do not yet meet the RPO recognition test, so it is a broader number than the ASC 606 figure and is not directly comparable with Microsoft's or Oracle's. More than $40bn of new commitments were signed in this single quarter, and management called 2026 capacity largely sold out. This row is one quarter behind the rest of the table: Q2 2026 results are due on August 11, 2026 and this row updates then.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 15.933572710951527,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "coreweave-2026-q2",
+      "entity": "coreweave",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-08-11"
+      },
+      "metric": "revenue_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 104200000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 246,
+      "prior_period": {
+        "amount_usd": 30100000000,
+        "label": "Q2 2025",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": 41,
+        "note": "The first recognition schedule CoreWeave has filed. The 10-Q says 41% of RPO is expected to be recognized over the initial 24 months ending June 30, 2028, 39% between months 25 and 48, and the balance between months 49 and 78. The percentages are struck against the 10-Q's RPO of $103.7bn rather than the $104.2bn backlog on this row, a difference of half a percent. The 12-month cell stays empty because the company's first band is 24 months wide, and the longest band reaching month 78 is why a 13.7x coverage ratio does not mean 13.7 years of revenue at this rate."
+      },
+      "concentration": {
+        "largest_customer": "Customer A (unnamed in the filing)",
+        "ex_customer_growth_pct": null,
+        "note": "CoreWeave does not name its large customers. It discloses that Customer A was 36% of revenue in the quarter, Customer B 26% and Customer C 10%, so three counterparties were 72% of the top line. Customer A was 71% a year earlier, so the concentration is falling as the base grows rather than because the largest customer shrank. Customers A and B were 32% each of net accounts receivable at June 30, 2026."
+      },
+      "revenue": {
+        "ttm_usd": 7589000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 revenue of $5.13bn, plus revenue of $4,653m for the six months ended June 30, 2026, less revenue of $2,194m for the six months ended June 30, 2025. Both half-year figures are from the condensed consolidated statements of operations in the Q2 2026 filing.",
+        "components": [
+          {
+            "label": "FY2025 revenue",
+            "amount_usd": 5130000000
+          },
+          {
+            "label": "H1 2026 revenue",
+            "amount_usd": 4653000000
+          },
+          {
+            "label": "less H1 2025 revenue",
+            "amount_usd": -2194000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+          "type": "primary",
+          "date": "2026-08-12"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+          "type": "primary",
+          "date": "2026-08-11"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+          "type": "tier1",
+          "date": "2026-08-11"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Revenue backlog, not RPO, and this quarter shows how little the two now differ: backlog of $104.2bn against unsatisfied RPO of $103.7bn in the 10-Q, a gap of $0.5bn where the Q1 definition allowed for committed contracts sitting outside the ASC 606 test. The press release rounds the backlog to \"approximately $104 billion\"; the $104.2bn on this row is the figure in the quarterly slides, and it is the one that reconciles with the $30.1bn year-ago balance at the stated 246% growth. Two numbers travel with this row and neither is in it. CoreWeave reported more than $25bn of net new commitments signed in the first weeks of Q3, taking the company's own stated total to $129.2bn as of August 11, which is after the balance-sheet date and therefore not in the $104.2bn. And contracted power reached 3.7 GW at quarter end against 1.5 GW active, so most of this backlog is waiting on data centers that are not built yet.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 13.730399262089866,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "coreweave-2026-q3",
+      "entity": "coreweave",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-11-10"
+      },
+      "metric": "revenue_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 132500000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 138,
+      "prior_period": {
+        "amount_usd": 55600000000,
+        "label": "Q3 2025",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": 36,
+        "note": "The 10-Q says 36% of RPO is expected to be recognized over the 24 months ending September 30, 2028, 38% between months 25 and 48, and the rest between months 49 and 86. A quarter earlier the figures were 41% in the first 24 months and a last band ending at month 78, so the new business signed in Q3 runs longer than the book it joined. The percentages are struck against the 10-Q's RPO of $132.3bn rather than the $132.5bn backlog on this row. CoreWeave publishes no 12-month figure because its first band is 24 months wide."
+      },
+      "concentration": {
+        "largest_customer": "Customer B (unnamed in the filing)",
+        "ex_customer_growth_pct": null,
+        "note": "CoreWeave does not name its large customers, and the 10-Q warns that the letters A to D may refer to different customers from one period to the next. In the quarter Customer B was 30% of revenue and Customer A 24%, so two counterparties were 54% of the top line, against 62% for the two largest in Q2. A year earlier Customer A alone was 67%. Customers A, B, C and D held 18%, 33%, 12% and 14% of net accounts receivable at September 30, 2026."
+      },
+      "revenue": {
+        "ttm_usd": 9885000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 revenue of $5.13bn, plus revenue of $8,314m for the nine months ended September 30, 2026, less revenue of $3,559m for the nine months ended September 30, 2025. Both nine-month figures are from the condensed consolidated statements of operations in the Q3 2026 10-Q.",
+        "components": [
+          {
+            "label": "FY2025 revenue",
+            "amount_usd": 5130000000
+          },
+          {
+            "label": "9M 2026 revenue",
+            "amount_usd": 8314000000
+          },
+          {
+            "label": "less 9M 2025 revenue",
+            "amount_usd": -3559000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+          "type": "primary",
+          "date": "2026-11-12"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "type": "primary",
+          "date": "2026-11-10"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/default.aspx",
+          "type": "primary",
+          "date": "2025-11-10"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Revenue backlog, not RPO, though at this quarter the two are within $0.2bn: backlog of $132.5bn in the press release against unsatisfied RPO of $132.3bn in the 10-Q, which also lists about $0.3bn of contracted lease value accounted for outside ASC 606. The year-ago comparison is the $55.6bn backlog CoreWeave reported for September 30, 2025, and $132.5bn against it is 138% growth. The press release gives no growth rate. The balance rose $28.3bn in the quarter, from $104.2bn in June. That fits the more than $25bn of new commitments the company said in August it had signed in the first weeks of Q3, and it means the $129.2bn total quoted on August 11 is now inside this row and should not be added to it. Revenue grew faster than backlog over the year, so coverage slipped from 13.7x to 13.4x. Contracted power reached more than 4.6 GW against more than 1.7 GW active, so most of this backlog still waits on capacity that is not yet built.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 13.404147698533132,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "oracle-fy2026-q4",
+      "entity": "oracle",
+      "period": {
+        "label": "FY2026 Q4",
+        "end": "2026-05-31",
+        "reported": "2026-06-10"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 638000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 363,
+      "prior_period": {
+        "amount_usd": 553000000000,
+        "label": "FY2026 Q3",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "Oracle published neither a weighted average duration nor a 12-month recognition split with the Q4 result. On the largest backlog in the table relative to revenue, that omission is the single most important missing number in this dataset."
+      },
+      "concentration": {
+        "largest_customer": "OpenAI",
+        "ex_customer_growth_pct": null,
+        "note": "Oracle has not published an ex largest customer growth rate. Its backlog is widely reported to be dominated by a roughly $300bn OpenAI compute contract, which would be close to half the total, and the company has not disclosed a figure either way."
+      },
+      "revenue": {
+        "ttm_usd": 67400000000,
+        "scope": "total_company",
+        "basis": "fiscal_year",
+        "derivation": "Fiscal 2026 total revenues of $67.4bn for the twelve months ended May 31, 2026, as reported. The period end is a fiscal year end, so the reported annual figure is the trailing twelve months with no arithmetic applied.",
+        "components": null,
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.oracle.com/news/announcement/q4fy26-earnings-release-2026-06-10/",
+          "type": "primary",
+          "date": "2026-06-10"
+        },
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+          "type": "primary",
+          "date": "2026-06-10"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained",
+        "ai-compute-deal-ledger-launch-free-dataset"
+      ],
+      "notes": "The widest gap between contracted revenue and current revenue of any large company on record: $638bn signed against $67.4bn of annual sales. Oracle added $85bn sequentially and grew the balance 363% in a year. Two qualifiers travel with it. Most of the Q3 and Q4 increase came from large AI contracts where the customer prepaid for GPUs or supplied the hardware itself, with the prepaid and customer supplied portions totalling about $75bn, so part of this backlog converts at a very different margin from Oracle's software revenue. And with no duration disclosed, a reader cannot tell whether 9.5 years of coverage means five years of doubled revenue or fifteen years of a slow drip.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 9.465875370919882,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "oracle-fy2027-q1",
+      "entity": "oracle",
+      "period": {
+        "label": "FY2027 Q1",
+        "end": "2026-08-31",
+        "reported": "2026-09-10"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 664000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 46,
+      "prior_period": {
+        "amount_usd": 455000000000,
+        "label": "FY2026 Q1",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": 13,
+        "pct_next_24m": null,
+        "note": "Oracle gave a recognition schedule for the first time in this filing, which is the number the previous row said was missing. The 10-Q for the quarter ended August 31, 2026 says the company expects to recognize about 13% of the balance as revenue over the next twelve months, 37% over months 13 to 36, 34% over months 37 to 60 and the remainder after that. No weighted average duration is published, but the bands put roughly half the balance beyond three years. The 24-month cell stays empty because Oracle's second band starts at month 13 and runs to month 36, so the share falling inside two years cannot be read off it."
+      },
+      "concentration": {
+        "largest_customer": "OpenAI",
+        "ex_customer_growth_pct": null,
+        "note": "Oracle still publishes no customer concentration figure and no ex largest customer growth rate. The 10-Q attributes the year-over-year increase to \"certain significant cloud contracts that were entered into during the period\" without naming a counterparty. Oracle's backlog is widely reported to be dominated by a roughly $300bn OpenAI compute contract, which the company has neither confirmed nor sized."
+      },
+      "revenue": {
+        "ttm_usd": 71819000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 total revenues of $67.4bn for the year ended May 31, 2026, plus first quarter fiscal 2027 total revenues of $19,345m, less first quarter fiscal 2026 total revenues of $14,926m. Both quarterly figures are from the condensed consolidated statements of operations in the Q1 fiscal 2027 filing.",
+        "components": [
+          {
+            "label": "FY2026 total revenues",
+            "amount_usd": 67400000000
+          },
+          {
+            "label": "Q1 FY2027 total revenues",
+            "amount_usd": 19345000000
+          },
+          {
+            "label": "less Q1 FY2026 total revenues",
+            "amount_usd": -14926000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+          "type": "primary",
+          "date": "2026-09-11"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526387905/orcl-ex99_1.htm",
+          "type": "primary",
+          "date": "2026-09-10"
+        },
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+          "type": "primary",
+          "date": "2026-09-10"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Still the widest gap between contracted revenue and current revenue in the table, and now the first one with a published schedule behind it. The balance grew $209bn in twelve months to $664bn, but only $26bn of that came in this quarter against $85bn in the quarter before, so the run of very large signings slowed. The 13% recognition band is the figure to carry: 13% of $664bn is about $86bn of revenue expected in the twelve months to August 2027, against $71.8bn of trailing revenue. The press release and the 10-Q agree on the balance and on the $455bn year-ago comparison. Oracle also took $11.4bn of customer prepayments carrying a significant financing component during the quarter, so on part of this backlog the cash lands well before the revenue does.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 9.24546429217895,
+        "next_twelve_months_usd": 86320000000,
+        "next_twelve_months_coverage": 1.2019103579832635,
+        "beyond_twelve_months_usd": 577680000000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "boeing-2026-q3",
+      "entity": "boeing",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-10-27"
+      },
+      "metric": "order_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 745431000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": {
+        "amount_usd": 715000000000,
+        "label": "Q2 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "Boeing publishes no duration, but the unit count gives one: over 6,300 commercial aircraft in backlog against 161 delivered in the quarter is nearly ten years of production at the current rate. The 10-Q also says 737 and 787 rate increases were delayed in the quarter, which lengthens that figure rather than shortening it."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 94950000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 revenue of $89.5bn, plus nine-month 2026 revenue of $70,965m, less nine-month 2025 revenue of $65,515m, both from Table 1 of the Q3 2026 earnings release.",
+        "components": [
+          {
+            "label": "FY2025 revenue",
+            "amount_usd": 89500000000
+          },
+          {
+            "label": "9M 2026 revenue",
+            "amount_usd": 70965000000
+          },
+          {
+            "label": "less 9M 2025 revenue",
+            "amount_usd": -65515000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067411/a202609sep308kprex991.htm",
+          "type": "primary",
+          "date": "2026-10-27"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+          "type": "primary",
+          "date": "2026-10-28"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "A record $745.4bn: $611.8bn commercial aircraft, $100.5bn Defense, Space & Security and $32.7bn Global Services. Coverage edged up to 7.9x because the backlog grew faster than revenue, which rose only 4% in the quarter on 161 deliveries. The F/A-XX fighter award announced in the quarter is not in the figure, since Boeing excludes it pending completion of the source-selection review.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 7.850774091627172,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "boeing-2026-q2",
+      "entity": "boeing",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-07-28"
+      },
+      "metric": "order_backlog",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 715000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "Boeing publishes no duration, but the unit count gives one: over 6,200 commercial aircraft in backlog against 171 delivered in the quarter is roughly nine years of production at the current rate. That is the closest thing to a duration disclosure in this table, and it comes from dividing two numbers Boeing does publish."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 94050000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 revenue of $89.5bn, plus first half 2026 revenue of $46.8bn ($22.2bn and $24.6bn), less first half 2025 revenue of $42.25bn. The 2025 half-year figure is derived from the reported year over year growth rates of 14% and 8% on those quarters.",
+        "components": [
+          {
+            "label": "FY2025 revenue",
+            "amount_usd": 89500000000
+          },
+          {
+            "label": "H1 2026 revenue",
+            "amount_usd": 46800000000
+          },
+          {
+            "label": "less H1 2025 revenue",
+            "amount_usd": -42250000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://boeing.mediaroom.com/2026-07-28-Boeing-Reports-Second-Quarter-Results",
+          "type": "primary",
+          "date": "2026-07-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026049929/a202606jun308kprex991.htm",
+          "type": "primary",
+          "date": "2026-07-28"
+        }
+      ],
+      "articles": [],
+      "notes": "The reason this dataset is not an AI dataset. Boeing carries a record $715bn backlog, $597bn of it commercial aircraft, on $94bn of trailing revenue: 7.6x coverage, wider than Amazon's cloud backlog and not far off Alphabet's. Nobody calls it a bubble, because everyone already understands that an aircraft backlog converts over a decade and that the constraint is production, not demand. That is the correct frame for reading every other row here. The backlog stood at roughly $695bn at the end of Q1 2026.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 7.60233918128655,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "alphabet-2026-q2",
+      "entity": "alphabet",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-07-22"
+      },
+      "metric": "rpo",
+      "scope": "segment",
+      "scope_note": "The Google Cloud portion of Alphabet's remaining performance obligations. Alphabet disclosed $519.5bn of company-wide RPO at June 30, 2026, of which $513.9bn related to Google Cloud. The denominator is Google Cloud segment revenue, so numerator and denominator match.",
+      "amount_usd": 513900000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": 50,
+        "note": "Alphabet is the only company here that publishes a 24-month split instead of a 12-month one: it expects to recognise just over 50% of the backlog as revenue over the next 24 months. That is a genuine disclosure, but it is not comparable with a cRPO figure, and reading it as 50% within a year overstates near-term conversion by roughly half."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 77620000000,
+        "scope": "segment",
+        "basis": "four_quarters",
+        "derivation": "Google Cloud segment revenues for the four quarters to June 30, 2026: $15.16bn (Q3 2025) plus $17.66bn (Q4 2025) plus $20.0bn (Q1 2026) plus $24.8bn (Q2 2026).",
+        "components": [
+          {
+            "label": "Google Cloud Q3 2025",
+            "amount_usd": 15160000000
+          },
+          {
+            "label": "Google Cloud Q4 2025",
+            "amount_usd": 17660000000
+          },
+          {
+            "label": "Google Cloud Q1 2026",
+            "amount_usd": 20000000000
+          },
+          {
+            "label": "Google Cloud Q2 2026",
+            "amount_usd": 24800000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/GOOG-10-Q-Q2-2026.pdf",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/google-says-cloud-services-backlog-expands-to-514-billion",
+          "type": "tier1",
+          "date": "2026-07-22"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The backlog that did not save the stock. Alphabet disclosed $513.9bn of Google Cloud commitments against cloud revenue growing 82%, and the shares fell anyway, because the same quarter carried the first negative free cash flow since the 2004 IPO on $44.9bn of capex and a capex guide raised to $195bn to $205bn. Cloud backlog stood at about $155bn as recently as Q3 2025, so the balance has more than tripled inside a year. It is the cleanest scope match in the table: a segment backlog measured against that segment's own revenue.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 6.620716310229322,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "alphabet-2026-q3",
+      "entity": "alphabet",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-10-28"
+      },
+      "metric": "rpo",
+      "scope": "segment",
+      "scope_note": "The Google Cloud portion of Alphabet's remaining performance obligations. Alphabet disclosed $567.7bn of company-wide RPO at September 30, 2026, of which $560.8bn related to Google Cloud. The denominator is Google Cloud segment revenue, so numerator and denominator match.",
+      "amount_usd": 560800000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": {
+        "amount_usd": 513900000000,
+        "label": "Q2 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": 55,
+        "note": "The 10-Q says Alphabet expects to recognise just over 55% of the backlog as revenue over the next 24 months, up from just over 50% at June 30, so the balance got shorter as it grew. It is still a 24-month split, not comparable with a 12-month cRPO figure."
+      },
+      "concentration": {
+        "largest_customer": "Crux AI (related party)",
+        "ex_customer_growth_pct": null,
+        "note": "The 10-Q names one counterparty: $16.8bn of the backlog is a multi-year commercial agreement with Crux AI, an unconsolidated equity-method joint venture in which Alphabet holds a minority stake, which makes it a related party. That is 3% of the Cloud balance. Alphabet names no other customer and gives no ex-customer growth rate."
+      },
+      "revenue": {
+        "ttm_usd": 93165000000,
+        "scope": "segment",
+        "basis": "four_quarters",
+        "derivation": "Google Cloud segment revenues for the four quarters to September 30, 2026: $17.66bn (Q4 2025) plus $44,796m for the first half of 2026 (nine-month total of $75,505m less Q3's $30,709m, matching the $20.0bn and $24.8bn rounded on the Q2 row) plus $30,709m (Q3 2026), from the Q3 2026 10-Q.",
+        "components": [
+          {
+            "label": "Google Cloud Q4 2025",
+            "amount_usd": 17660000000
+          },
+          {
+            "label": "Google Cloud Q1 and Q2 2026",
+            "amount_usd": 44796000000
+          },
+          {
+            "label": "Google Cloud Q3 2026",
+            "amount_usd": 30709000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "type": "primary",
+          "date": "2026-10-28"
+        },
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/",
+          "type": "other",
+          "date": "2026-10-29"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Cloud backlog added $46.9bn in the quarter, 9%, a slower climb than the $51.6bn of the quarter before, while Cloud revenue grew 103% to $30.7bn. Because revenue grew faster than the backlog, coverage fell from 6.6x to 6.0x: Alphabet is now recognising its backlog faster than it is refilling it in proportional terms, though not in dollars. No year-over-year rate is given here because Alphabet began counting contracts of a year or less in Q1 2026, so a comparison with the roughly $155bn of Q3 2025 mixes two definitions.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 6.0194278967423385,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "amazon-2026-q3",
+      "entity": "amazon",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-10-29"
+      },
+      "metric": "rpo",
+      "scope": "segment",
+      "scope_note": "Presented by management as the AWS backlog. Amazon's remaining performance obligation note is company-wide, but it is overwhelmingly AWS long-term cloud contracts, and the figure was given on the call and in Amazon's own earnings write-up as the AWS backlog. The denominator here is therefore AWS segment revenue, not Amazon's total net sales.",
+      "amount_usd": 578000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": {
+        "amount_usd": 496000000000,
+        "label": "Q2 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No duration and no 12-month split disclosed. Amazon described the backlog only as growing triple digits year over year and well diversified."
+      },
+      "concentration": {
+        "largest_customer": "Anthropic",
+        "ex_customer_growth_pct": null,
+        "note": "No customer is named with this figure and no ex-customer rate is given; management called the backlog well diversified. Anthropic stays in the cell from the Q2 row because its compute commitment to AWS is the largest one on public record, not because Amazon disclosed its share."
+      },
+      "revenue": {
+        "ttm_usd": 161382000000,
+        "scope": "segment",
+        "basis": "four_quarters",
+        "derivation": "AWS segment net sales for the four quarters to September 30, 2026: $35,579m (Q4 2025) plus $37,587m (Q1 2026) plus $42,232m (Q2 2026) plus $45,984m (Q3 2026), from the trailing table in the Q3 2026 earnings release, which gives the same $161,382m TTM. Not the $184bn annualised run rate Amazon quotes; against that the same backlog is 3.1x rather than 3.6x.",
+        "components": [
+          {
+            "label": "AWS Q4 2025",
+            "amount_usd": 35579000000
+          },
+          {
+            "label": "AWS Q1 2026",
+            "amount_usd": 37587000000
+          },
+          {
+            "label": "AWS Q2 2026",
+            "amount_usd": 42232000000
+          },
+          {
+            "label": "AWS Q3 2026",
+            "amount_usd": 45984000000
+          }
+        ],
+        "company_ttm_usd": 797455000000
+      },
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/aws-growth-ai-demand-q3-2026-earnings",
+          "type": "primary",
+          "date": "2026-10-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+          "type": "primary",
+          "date": "2026-10-29"
+        },
+        {
+          "url": "https://www.gurufocus.com/news/9154009/amazoncom-inc-amzn-q3-2026-earnings-call-highlights-record-139-operating-margin-aws-surges-39-and-backlog-hits-578-billion",
+          "type": "other",
+          "date": "2026-10-30"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "An $82bn increase in the quarter, from $496bn to $578bn, smaller than Q2's $132bn jump but still more than AWS recognised as revenue in the same three months ($46.0bn, up 39%). The backlog figure is not in the earnings release filed with the SEC; it comes from Amazon's own Q3 write-up and the call, which is why the release is cited only for the revenue denominator. Against total Amazon net sales of $797.5bn the same backlog is 0.72x.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 3.581564238886617,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "amazon-2026-q2",
+      "entity": "amazon",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-07-30"
+      },
+      "metric": "rpo",
+      "scope": "segment",
+      "scope_note": "Presented by management as AWS contracted commitments. Amazon's remaining performance obligation note is company-wide, but it is overwhelmingly AWS long-term cloud contracts, and the figure was disclosed on the call as the AWS backlog. The denominator here is therefore AWS segment revenue, not Amazon's total net sales.",
+      "amount_usd": 496000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": {
+        "amount_usd": 364000000000,
+        "label": "Q1 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No duration and no 12-month split disclosed. Andy Jassy said most planned 2027 capacity is already reserved and a significant portion of 2028 capacity has commitments against it, which is a delivery statement rather than a recognition schedule."
+      },
+      "concentration": {
+        "largest_customer": "Anthropic",
+        "ex_customer_growth_pct": null,
+        "note": "No ex largest customer figure disclosed. Amazon's own multi-billion investment in Anthropic, and Anthropic's compute commitment to AWS, sit on both sides of this backlog, which is the circularity the ledger flags on the deal rows."
+      },
+      "revenue": {
+        "ttm_usd": 148400000000,
+        "scope": "segment",
+        "basis": "four_quarters",
+        "derivation": "AWS segment net sales for the four quarters to June 30, 2026: $33.0bn (Q3 2025) plus $35.6bn (Q4 2025) plus $37.6bn (Q1 2026) plus $42.2bn (Q2 2026). Note this is trailing revenue, not the $169bn annualised run rate Amazon quotes off the latest quarter; against the run rate the same backlog is 2.9x rather than 3.3x.",
+        "components": [
+          {
+            "label": "AWS Q3 2025",
+            "amount_usd": 33000000000
+          },
+          {
+            "label": "AWS Q4 2025",
+            "amount_usd": 35600000000
+          },
+          {
+            "label": "AWS Q1 2026",
+            "amount_usd": 37600000000
+          },
+          {
+            "label": "AWS Q2 2026",
+            "amount_usd": 42200000000
+          }
+        ],
+        "company_ttm_usd": 775600000000
+      },
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+          "type": "primary",
+          "date": "2026-07-30"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+          "type": "tier1",
+          "date": "2026-07-30"
+        },
+        {
+          "url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+          "type": "primary",
+          "date": "2026-07-30"
+        }
+      ],
+      "articles": [
+        "amazon-q2-2026-earnings-breakdown-aws-36-percent",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "A $132bn single-quarter increase, from $364bn to $496bn, on the back of AWS growth accelerating to 36.7% and capex guidance rising to about $220bn. The scale of the jump is the point: a third of this backlog did not exist three months earlier. Against total Amazon net sales of $775.6bn the same number is only 0.64x, which is why the denominator has to be named. Amazon discloses less about this figure than any other hyperscaler in the table: no growth rate, no duration, no recognition schedule.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 3.3423180592991915,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "microsoft-fy2026-q4",
+      "entity": "microsoft",
+      "period": {
+        "label": "FY2026 Q4",
+        "end": "2026-06-30",
+        "reported": "2026-07-29"
+      },
+      "metric": "rpo",
+      "scope": "commercial",
+      "scope_note": "Commercial remaining performance obligation: Microsoft's commercial business only, which excludes consumer revenue such as Windows OEM, gaming and devices. Microsoft does not publish a matching commercial revenue line, so the coverage ratio here is measured against total company revenue and reads lower than the true commercial ratio.",
+      "amount_usd": 678000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 84,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": 2.3,
+        "pct_next_12m": 30,
+        "pct_next_24m": null,
+        "note": "CFO Amy Hood put the weighted average duration at 2.3 years including OpenAI on the FY26 Q4 call, with roughly 30% of the balance due to be recognised within 12 months. The near-term slice grew 37% year over year while the portion due beyond 12 months more than doubled, so the backlog is lengthening as it grows."
+      },
+      "concentration": {
+        "largest_customer": "OpenAI",
+        "ex_customer_growth_pct": 25,
+        "note": "Microsoft disclosed RPO growth of 25% excluding OpenAI, and said all sequential growth came from customers outside the frontier model companies. The gap between 84% and 25% is the clearest concentration disclosure any hyperscaler has given."
+      },
+      "revenue": {
+        "ttm_usd": 331800000000,
+        "scope": "total_company",
+        "basis": "fiscal_year",
+        "derivation": "Fiscal 2026 revenue of $331.8bn for the twelve months ended June 30, 2026, as reported. The period end is a fiscal year end, so the reported annual figure is the trailing twelve months with no arithmetic applied.",
+        "components": null,
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "type": "primary",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+          "type": "primary",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+          "type": "tier1",
+          "date": "2026-07-29"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The disclosure that reset how the market reads AI capex: $678bn of signed commercial commitments, up 84%, released into a fortnight of scepticism about spending without proof of demand, and the stock rose about 8%. Microsoft is the only company in this table disclosing all three of a duration, a 12-month split and an ex largest customer growth rate, which is why it is the benchmark for what a good disclosure looks like rather than for the size of the number.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 2.0433996383363473,
+        "next_twelve_months_usd": 203400000000,
+        "next_twelve_months_coverage": 0.6130198915009042,
+        "beyond_twelve_months_usd": 474600000000,
+        "scope_matched": false
+      }
+    },
+    {
+      "id": "servicenow-2026-q2",
+      "entity": "servicenow",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-07-22"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 29000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": null,
+      "prior_period": null,
+      "current_portion_usd": 13200000000,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No weighted average duration is published, but the cRPO disclosure does the same job: $13.20bn of the $29bn total, or 46%, is contracted to be recognised within 12 months. That is the subscription software shape, and it is what a healthy 2x coverage looks like."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 14730000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 total revenues of $13.278bn, plus first half 2026 revenues of $7.760bn ($3.770bn and $3.990bn), less first half 2025 revenues of $6.308bn. The 2025 half-year figure is derived from the reported year over year growth rates of 22% and 24% on those quarters, so it is accurate to roughly $5m.",
+        "components": [
+          {
+            "label": "FY2025 total revenues",
+            "amount_usd": 13278000000
+          },
+          {
+            "label": "H1 2026 total revenues",
+            "amount_usd": 7760000000
+          },
+          {
+            "label": "less H1 2025 total revenues",
+            "amount_usd": -6308000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://s205.q4cdn.com/916135447/files/doc_financials/2026/q2/ER-Q2-FY26.pdf",
+          "type": "primary",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/erq2fy26.htm",
+          "type": "primary",
+          "date": "2026-07-22"
+        }
+      ],
+      "articles": [
+        "now-earnings-preview-software-on-trial",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The control group. ServiceNow is what two decades of subscription software convention produce: a backlog just under two years of revenue, of which nearly half is contracted to land inside twelve months, disclosed in both total and current form every quarter. Total RPO grew 22% in constant currency and cRPO 21%, in line with subscription revenue growth of 24.5%, which is the signature of a business compounding rather than reloading. Read the AI infrastructure rows against this one: those backlogs are not bigger versions of this, they are a different shape.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.9687712152070604,
+        "next_twelve_months_usd": 13200000000,
+        "next_twelve_months_coverage": 0.8961303462321792,
+        "beyond_twelve_months_usd": 15800000000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "microsoft-fy2027-q1",
+      "entity": "microsoft",
+      "period": {
+        "label": "FY2027 Q1",
+        "end": "2026-09-30",
+        "reported": "2026-10-28"
+      },
+      "metric": "rpo",
+      "scope": "commercial",
+      "scope_note": "Commercial remaining performance obligation: Microsoft's commercial business only, which excludes consumer revenue such as Windows OEM, gaming and devices. Microsoft does not publish a matching commercial revenue line, so the coverage ratio here is measured against total company revenue and reads lower than the true commercial ratio.",
+      "amount_usd": 677000000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 73,
+      "prior_period": {
+        "amount_usd": 678000000000,
+        "label": "FY2026 Q4",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": 2.3,
+        "pct_next_12m": 30,
+        "pct_next_24m": null,
+        "note": "CFO Amy Hood put the weighted average duration at 2.3 years on the FY27 Q1 call, with roughly 30% of the balance due to be recognised within 12 months. That near-term slice grew 29% year over year while the portion due beyond 12 months grew 98%, so the backlog kept lengthening for a second quarter."
+      },
+      "concentration": {
+        "largest_customer": "OpenAI",
+        "ex_customer_growth_pct": null,
+        "note": "Microsoft gave an ex-OpenAI growth rate of 25% with the FY26 Q4 result but none with this one, so the cell is empty rather than carried forward. The only concentration signal this quarter is Hood's remark that a large Azure commitment kept the balance nearly flat in a quarter that usually falls."
+      },
+      "revenue": {
+        "ttm_usd": 346406000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 revenue of $331.8bn, plus FY27 Q1 revenue of $92,279m, less FY26 Q1 revenue of $77,673m, both quarters from the FY27 Q1 earnings release.",
+        "components": [
+          {
+            "label": "FY2026 revenue",
+            "amount_usd": 331800000000
+          },
+          {
+            "label": "FY2027 Q1 revenue",
+            "amount_usd": 92279000000
+          },
+          {
+            "label": "less FY2026 Q1 revenue",
+            "amount_usd": -77673000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+          "type": "primary",
+          "date": "2026-10-28"
+        },
+        {
+          "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+          "type": "primary",
+          "date": "2026-10-28"
+        },
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+          "type": "other",
+          "date": "2026-10-29"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Down $1bn from June's $678bn, which is the point rather than a weakness: Microsoft's commercial RPO normally falls in the September quarter as annual contracts signed in June start to burn off, and Hood said one large Azure commitment offset most of that this time. Growth slowed from 84% to 73% because the year-ago base already carried the first OpenAI commitments. Duration, the 12-month split and the beyond-12-month growth rate were all given again; the ex-OpenAI rate was not.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.9543541393624821,
+        "next_twelve_months_usd": 203100000000,
+        "next_twelve_months_coverage": 0.5863062418087447,
+        "beyond_twelve_months_usd": 473900000000,
+        "scope_matched": false
+      }
+    },
+    {
+      "id": "servicenow-2026-q3",
+      "entity": "servicenow",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-10-28"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 29700000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 22,
+      "prior_period": {
+        "amount_usd": 29000000000,
+        "label": "Q2 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": 13650000000,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No weighted average duration is published. The cRPO disclosure does the same job: $13.65bn of the $29.7bn total, or 46% per the 10-Q, is contracted to be recognised within 12 months, the same share as at June 30."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 15431000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Full year 2025 total revenues of $13.278bn, plus nine-month 2026 revenues of $11,863m, less nine-month 2025 revenues of $9,710m, both from the Q3 2026 10-Q.",
+        "components": [
+          {
+            "label": "FY2025 total revenues",
+            "amount_usd": 13278000000
+          },
+          {
+            "label": "9M 2026 total revenues",
+            "amount_usd": 11863000000
+          },
+          {
+            "label": "less 9M 2025 total revenues",
+            "amount_usd": -9710000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000092/erq3fy26.htm",
+          "type": "primary",
+          "date": "2026-10-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm",
+          "type": "primary",
+          "date": "2026-10-29"
+        }
+      ],
+      "articles": [
+        "now-earnings-preview-software-on-trial",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The control group held its shape: total RPO up 22% (22.5% in constant currency), cRPO up 20.5% to $13.65bn, revenue up 20.5% to $4.106bn, and coverage steady at 1.9x. The press release gives cRPO growth as 20.5% and the 10-Q rounds it to 20%; they are the same figure.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.9246970384291362,
+        "next_twelve_months_usd": 13650000000,
+        "next_twelve_months_coverage": 0.8845829823083403,
+        "beyond_twelve_months_usd": 16050000000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "snowflake-fy2027-q1",
+      "entity": "snowflake",
+      "period": {
+        "label": "FY2027 Q1",
+        "end": "2026-04-30",
+        "reported": "2026-05-27"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 9205200000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 38,
+      "prior_period": null,
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": 50,
+        "pct_next_24m": null,
+        "note": "Corrected 2026-09-20. This row first said no duration was published, which was true of the press release but not of the 10-Q: that filing expects about 50% of the balance to be recognized as revenue in the twelve months ending April 30, 2027. The balance was also refined here from $9.21bn to the $9,205.2m carried in the filing's own quarterly metrics table. No current portion is published. Snowflake's contracts are consumption commitments rather than seat subscriptions, so the balance converts at whatever pace customers actually run workloads, which is the reason net revenue retention of 126% matters more here than the coverage multiple."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 5030000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 total revenue of $4.68bn for the year ended January 31, 2026, plus first quarter fiscal 2027 total revenue of $1.39bn, less first quarter fiscal 2026 total revenue of $1.04bn.",
+        "components": [
+          {
+            "label": "FY2026 total revenue",
+            "amount_usd": 4680000000
+          },
+          {
+            "label": "Q1 FY2027 total revenue",
+            "amount_usd": 1390000000
+          },
+          {
+            "label": "less Q1 FY2026 total revenue",
+            "amount_usd": -1040000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260527027931/en/Snowflake-Reports-Financial-Results-for-the-First-Quarter-of-Fiscal-2027",
+          "type": "primary",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000030/snow-20260430.htm",
+          "type": "primary",
+          "date": "2026-05-29"
+        },
+        {
+          "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026/",
+          "type": "primary",
+          "date": "2026-02-25"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "RPO grew 38% against product revenue growth of 34%, so the backlog is still outrunning the business, modestly. Coverage of 1.8x sits in the middle of the software band. The caveat specific to consumption pricing: an RPO built from capacity commitments is a promise to spend, not a schedule of deliveries, and a customer who commits and then under-consumes shows up in RPO long before it shows up in revenue.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.8300596421471174,
+        "next_twelve_months_usd": 4602600000,
+        "next_twelve_months_coverage": 0.9150298210735587,
+        "beyond_twelve_months_usd": 4602600000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "snowflake-fy2027-q2",
+      "entity": "snowflake",
+      "period": {
+        "label": "FY2027 Q2",
+        "end": "2026-07-31",
+        "reported": "2026-09-02"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 9004300000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 30,
+      "prior_period": {
+        "amount_usd": 6931700000,
+        "label": "FY2026 Q2",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": 54,
+        "pct_next_24m": null,
+        "note": "The 10-Q expects about 54% of the balance to be recognized in the twelve months to July 31, 2027, which is the first recognition figure recorded for Snowflake here. The previous row said no duration was published, and that was true of the press release but not of the filing. Snowflake attaches a condition to the number that the other companies in this table do not: the timing depends on customers' future consumption, which is at their discretion and can run past the original contract term where unused capacity rolls over at renewal."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 5430700000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 total revenue of $4.68bn for the year ended January 31, 2026, plus total revenue of $2,937.7m for the six months ended July 31, 2026, less total revenue of $2,187.0m for the six months ended July 31, 2025.",
+        "components": [
+          {
+            "label": "FY2026 total revenue",
+            "amount_usd": 4680000000
+          },
+          {
+            "label": "H1 FY2027 total revenue",
+            "amount_usd": 2937744000
+          },
+          {
+            "label": "less H1 FY2026 total revenue",
+            "amount_usd": -2187043000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm",
+          "type": "primary",
+          "date": "2026-09-04"
+        },
+        {
+          "url": "https://www.nasdaq.com/press-release/snowflake-reports-financial-results-second-quarter-fiscal-2027-2026-09-02",
+          "type": "primary",
+          "date": "2026-09-02"
+        }
+      ],
+      "articles": [
+        "snowflake-snow-q2-fy2027-earnings-preview-september-2",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The balance went sideways and slightly down: $9,004.3m at July 31 against $9,205.2m in April and $9,771.5m in January, while revenue grew 35%. Coverage therefore fell from 1.8x to 1.7x. The quarterly series in the filing shows why the year-over-year number still reads 30%: the balance jumped from $7.88bn in October 2025 to $9.77bn in January 2026, so growth is being measured against a quarter before that step up. A consumption business can post this pattern without anything going wrong, because the commitments are drawn down as workloads run and topped up at renewal, and net revenue retention held at 126%. What it does mean is that Snowflake's backlog is no longer outrunning its revenue the way it was two quarters ago.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.658036717181947,
+        "next_twelve_months_usd": 4862322000,
+        "next_twelve_months_coverage": 0.8953398272782515,
+        "beyond_twelve_months_usd": 4141978000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "salesforce-fy2027-q1",
+      "entity": "salesforce",
+      "period": {
+        "label": "FY2027 Q1",
+        "end": "2026-04-30",
+        "reported": "2026-05-27"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 67900000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 11,
+      "prior_period": null,
+      "current_portion_usd": 33600000000,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No weighted average duration, but cRPO of $33.6bn against total RPO of $67.9bn puts 49% of the balance inside twelve months. Salesforce guides on cRPO rather than RPO, which is the honest way round: the near-term half is the half that is really contracted at a known price."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 42800000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 revenue of $41.5bn for the year ended January 31, 2026, plus first quarter fiscal 2027 revenue of $11.1bn, less first quarter fiscal 2026 revenue of $9.8bn.",
+        "components": [
+          {
+            "label": "FY2026 revenue",
+            "amount_usd": 41500000000
+          },
+          {
+            "label": "Q1 FY2027 revenue",
+            "amount_usd": 11100000000
+          },
+          {
+            "label": "less Q1 FY2026 revenue",
+            "amount_usd": -9800000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings/",
+          "type": "primary",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2027/q1/CRM-Q1-FY27-Earnings-Press-Release.pdf",
+          "type": "primary",
+          "date": "2026-05-27"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The maturity case. Salesforce has the second largest software backlog here in absolute terms and the second thinnest coverage at 1.6x, because a $42.8bn revenue base is already collecting most of what it signs. RPO grew 11% and cRPO 14%, both slower than revenue growth of 13% including the Informatica contribution, which is what a backlog looks like when it stops outrunning the business. Useful as the floor of the range: 1.6x is not weak demand, it is what normal looks like.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.5864485981308412,
+        "next_twelve_months_usd": 33600000000,
+        "next_twelve_months_coverage": 0.7850467289719626,
+        "beyond_twelve_months_usd": 34300000000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "salesforce-fy2027-q2",
+      "entity": "salesforce",
+      "period": {
+        "label": "FY2027 Q2",
+        "end": "2026-07-31",
+        "reported": "2026-08-26"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 66300000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 11,
+      "prior_period": null,
+      "current_portion_usd": 33500000000,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No weighted average duration. The 10-Q splits the balance into $33.5bn current and $32.8bn noncurrent, which puts 51% inside twelve months, and says the majority of the noncurrent half is expected to be recognized in months 13 to 36. That is the shortest published schedule of any row in this table: Salesforce collects almost all of what it signs within three years, where Oracle expects about half of its balance to take longer than that."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 43913000000,
+        "scope": "total_company",
+        "basis": "fy_plus_ytd",
+        "derivation": "Fiscal 2026 revenue of $41.5bn for the year ended January 31, 2026, plus revenue of $22,478m for the six months ended July 31, 2026, less revenue of $20,065m for the six months ended July 31, 2025. Both half-year figures are from the condensed consolidated statements of operations in the Q2 fiscal 2027 filing.",
+        "components": [
+          {
+            "label": "FY2026 revenue",
+            "amount_usd": 41500000000
+          },
+          {
+            "label": "H1 FY2027 revenue",
+            "amount_usd": 22478000000
+          },
+          {
+            "label": "less H1 FY2026 revenue",
+            "amount_usd": -20065000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
+          "type": "primary",
+          "date": "2026-08-27"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000110852426000187/crm-q2fy27xexhibit991.htm",
+          "type": "primary",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+          "type": "primary",
+          "date": "2026-08-26"
+        }
+      ],
+      "articles": [
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "Coverage of 1.5x, the thinnest in the table, and it thinned again this quarter. The balance fell from $67.9bn at April 30 and from $72.4bn at January 31 while revenue kept growing, which is the shape Salesforce's own filing warns about: its fourth quarter is by far its largest for new business and renewals, so RPO peaks at the fiscal year end and drains through the middle of the year. Read the year-over-year growth rather than the sequential move. On that basis RPO grew 11% and cRPO 14% against revenue growth of 11%, so the backlog is now growing at about the speed of the business rather than ahead of it. This row is the floor of the range and the reason the range is useful: 1.5x is what a large software company looks like when it is collecting most of what it signs.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 1.5098034750529457,
+        "next_twelve_months_usd": 33500000000,
+        "next_twelve_months_coverage": 0.7628720424475668,
+        "beyond_twelve_months_usd": 32800000000,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "palantir-2026-q2",
+      "entity": "palantir",
+      "period": {
+        "label": "Q2 2026",
+        "end": "2026-06-30",
+        "reported": "2026-08-03"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 4900000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 102,
+      "prior_period": {
+        "amount_usd": 2420000000,
+        "label": "Q2 2025",
+        "comparison": "year_ago"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": null,
+        "pct_next_24m": null,
+        "note": "No duration or 12-month split published with the result."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 6155000000,
+        "scope": "total_company",
+        "basis": "four_quarters",
+        "derivation": "Total revenue for the four quarters to June 30, 2026: $1.18bn (Q3 2025) plus $1.41bn (Q4 2025) plus $1.63bn (Q1 2026) plus $1.935bn (Q2 2026).",
+        "components": [
+          {
+            "label": "Q3 2025 revenue",
+            "amount_usd": 1180000000
+          },
+          {
+            "label": "Q4 2025 revenue",
+            "amount_usd": 1410000000
+          },
+          {
+            "label": "Q1 2026 revenue",
+            "amount_usd": 1630000000
+          },
+          {
+            "label": "Q2 2026 revenue",
+            "amount_usd": 1935000000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+          "type": "primary",
+          "date": "2026-08-03"
+        },
+        {
+          "url": "https://investors.palantir.com/files/Palantir%20-%20Q2%202026%20Business%20Update.pdf",
+          "type": "primary",
+          "date": "2026-08-03"
+        }
+      ],
+      "articles": [
+        "palantir-pltr-q2-2026-earnings-preview-august-3",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "The most instructive row in the table, because it is the counterexample. Palantir grew revenue 93% and doubled RPO, and still has the thinnest coverage here at 0.8x, less than a year of contracted sales. The reason is definitional, not commercial: Palantir's RPO counts only non-cancellable contracted revenue, and a large share of its government work is optional or cancellable at the customer's discretion, so it never enters the disclosure. Anyone ranking AI names by RPO alone would conclude Palantir has the weakest demand in the sector, which is not what this number means.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 0.7961007311129163,
+        "next_twelve_months_usd": null,
+        "next_twelve_months_coverage": null,
+        "beyond_twelve_months_usd": null,
+        "scope_matched": true
+      }
+    },
+    {
+      "id": "palantir-2026-q3",
+      "entity": "palantir",
+      "period": {
+        "label": "Q3 2026",
+        "end": "2026-09-30",
+        "reported": "2026-11-02"
+      },
+      "metric": "rpo",
+      "scope": "total_company",
+      "scope_note": null,
+      "amount_usd": 4900000000,
+      "kind": "company_stated",
+      "yoy_growth_pct": 88,
+      "prior_period": {
+        "amount_usd": 4900000000,
+        "label": "Q2 2026",
+        "comparison": "prior_quarter"
+      },
+      "current_portion_usd": null,
+      "duration": {
+        "weighted_average_years": null,
+        "pct_next_12m": 44,
+        "pct_next_24m": null,
+        "note": "The 10-Q says about 44% of the balance is expected to be recognised over the next 12 months and 37% over months 13 to 36, with the rest after that. The 24-month cell stays empty because the second band runs to month 36."
+      },
+      "concentration": null,
+      "revenue": {
+        "ttm_usd": 7291458000,
+        "scope": "total_company",
+        "basis": "four_quarters",
+        "derivation": "Total revenue for the four quarters to September 30, 2026: $1.41bn (Q4 2025) plus $5,881.458m for the nine months ended September 30, 2026 from the Q3 10-Q, which covers Q1 to Q3 2026 ($1.63bn, $1.935bn and $2,313.4m).",
+        "components": [
+          {
+            "label": "Q4 2025 revenue",
+            "amount_usd": 1410000000
+          },
+          {
+            "label": "Q1 to Q3 2026 revenue",
+            "amount_usd": 5881458000
+          }
+        ],
+        "company_ttm_usd": null
+      },
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+          "type": "primary",
+          "date": "2026-11-03"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+          "type": "primary",
+          "date": "2026-11-02"
+        },
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/palantir-pltr-q3-2026-earnings-call-transcript/",
+          "type": "other",
+          "date": "2026-11-02"
+        }
+      ],
+      "articles": [
+        "palantir-pltr-q2-2026-earnings-preview-august-3",
+        "what-is-rpo-remaining-performance-obligation-explained"
+      ],
+      "notes": "RPO was flat on the quarter at $4.9bn while revenue grew 96% to $2.31bn, so coverage fell from 0.8x to 0.7x. Management said on the call that RPO is mostly commercial, because it leaves out contracts under 12 months and anything beyond a termination-for-convenience clause, which covers most government work. The 88% year-over-year rate is management's; the 10-Q states only the $4.9bn balance. Total remaining deal value, a broader non-GAAP measure, was $13.4bn on the call and is not this row's figure.",
+      "revisions": [],
+      "derived": {
+        "coverage_years": 0.672019231270344,
+        "next_twelve_months_usd": 2156000000,
+        "next_twelve_months_coverage": 0.29568846175895136,
+        "beyond_twelve_months_usd": 2744000000,
+        "scope_matched": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.evidence-row .rank-subtitle { white-space: normal; }
+.evidence-description, .evidence-key { color: var(--muted); font-size: .76rem; line-height: 1.5; }
+.financial-analysis .evidence-description { margin: 10px 0 7px; }
+.evidence-key { display: flex; align-items: center; gap: 6px; margin: 8px 0 6px; }
+.evidence-key i { width: 2px; height: 12px; background: #a45b22; }
+.ranking-track .prior-marker { stroke: #a45b22; stroke-width: 2; }
+.financing-chart > .exposure-source { margin-top: 8px; }
+.capex-guidance { font-size: .77rem; color: var(--muted); }
+.capex-guidance dl { margin: 7px 0; }
+.capex-guidance dl > div { border-top: 1px solid var(--line); padding: 7px 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 8px; }
+.capex-guidance dd { margin: 0; text-align: right; }
+.capex-guidance dd + dd { grid-column: 1 / -1; text-align: left; }
+@media (max-width: 420px) {
+  .evidence-row .ranking-name { font-size: .75rem; }
+}

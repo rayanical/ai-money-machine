@@ -1,0 +1,2076 @@
+{
+  "name": "Hyperscaler Capex Tracker",
+  "publisher": "Regards of Wallstreet",
+  "url": "https://www.regardsofwallstreet.com/data/capex",
+  "methodology": "https://www.regardsofwallstreet.com/data/capex/methodology",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "cite_as": "Hyperscaler Capex Tracker, Regards of Wallstreet, https://www.regardsofwallstreet.com/data/capex",
+  "last_updated": "2026-08-05",
+  "generated_at": "2026-11-02T14:03:54.631Z",
+  "units": "USD",
+  "notes": [
+    "Quarters are keyed by the calendar quarter their period ends in, so companies with different fiscal year ends line up.",
+    "headline_usd sits on the basis each company guides to; compare across companies only with the basis in hand.",
+    "basis_gap_usd is a company-stated accrual total less cash capex plus finance leases. It is a measurement difference, not an error.",
+    "confidence xbrl or filing means the figure came from a filing; reported means the primary document was not read directly."
+  ],
+  "aggregates": {
+    "periods": [
+      {
+        "period": "2024-Q3",
+        "totalUsd": 14923000000,
+        "confirmedUsd": 14923000000,
+        "companies": [
+          "microsoft"
+        ],
+        "companyCount": 1,
+        "confirmedShare": 1,
+        "qoqPct": null,
+        "qoqComparable": false
+      },
+      {
+        "period": "2024-Q4",
+        "totalUsd": 15804000000,
+        "confirmedUsd": 15804000000,
+        "companies": [
+          "microsoft"
+        ],
+        "companyCount": 1,
+        "confirmedShare": 1,
+        "qoqPct": 5.903638678549889,
+        "qoqComparable": true
+      },
+      {
+        "period": "2025-Q1",
+        "totalUsd": 16745000000,
+        "confirmedUsd": 16745000000,
+        "companies": [
+          "microsoft"
+        ],
+        "companyCount": 1,
+        "confirmedShare": 1,
+        "qoqPct": 5.954188812958745,
+        "qoqComparable": true
+      },
+      {
+        "period": "2025-Q2",
+        "totalUsd": 49179000000,
+        "confirmedUsd": 17079000000,
+        "companies": [
+          "microsoft",
+          "amazon"
+        ],
+        "companyCount": 2,
+        "confirmedShare": 0.34728237662416883,
+        "qoqPct": null,
+        "qoqComparable": false
+      },
+      {
+        "period": "2025-Q3",
+        "totalUsd": 78223000000,
+        "confirmedUsd": 34900000000,
+        "companies": [
+          "microsoft",
+          "alphabet",
+          "meta"
+        ],
+        "companyCount": 3,
+        "confirmedShare": 0.4461603364739271,
+        "qoqPct": null,
+        "qoqComparable": false
+      },
+      {
+        "period": "2025-Q4",
+        "totalUsd": 99491000000,
+        "confirmedUsd": 37500000000,
+        "companies": [
+          "microsoft",
+          "alphabet",
+          "meta",
+          "oracle"
+        ],
+        "companyCount": 4,
+        "confirmedShare": 0.37691851524258474,
+        "qoqPct": null,
+        "qoqComparable": false
+      },
+      {
+        "period": "2026-Q1",
+        "totalUsd": 94214000000,
+        "confirmedUsd": 31900000000,
+        "companies": [
+          "microsoft",
+          "alphabet",
+          "meta",
+          "coreweave"
+        ],
+        "companyCount": 4,
+        "confirmedShare": 0.33859086759929524,
+        "qoqPct": null,
+        "qoqComparable": false
+      },
+      {
+        "period": "2026-Q2",
+        "totalUsd": 187080000000,
+        "confirmedUsd": 41000000000,
+        "companies": [
+          "microsoft",
+          "amazon",
+          "alphabet",
+          "meta",
+          "oracle"
+        ],
+        "companyCount": 5,
+        "confirmedShare": 0.21915757964507163,
+        "qoqPct": null,
+        "qoqComparable": false
+      }
+    ],
+    "latest": {
+      "period": "2026-Q2",
+      "totalUsd": 187080000000,
+      "confirmedUsd": 41000000000,
+      "companies": [
+        "microsoft",
+        "amazon",
+        "alphabet",
+        "meta",
+        "oracle"
+      ],
+      "companyCount": 5,
+      "confirmedShare": 0.21915757964507163,
+      "qoqPct": null,
+      "qoqComparable": false
+    },
+    "trailingFourUsd": 459008000000,
+    "trailingFourPeriods": [
+      "2025-Q3",
+      "2025-Q4",
+      "2026-Q1",
+      "2026-Q2"
+    ],
+    "panel": {
+      "companies": [
+        "microsoft",
+        "alphabet",
+        "meta"
+      ],
+      "periods": [
+        "2025-Q3",
+        "2025-Q4",
+        "2026-Q1",
+        "2026-Q2"
+      ],
+      "rows": [
+        {
+          "period": "2025-Q3",
+          "totalUsd": 78223000000,
+          "confirmedUsd": 34900000000,
+          "qoqPct": null
+        },
+        {
+          "period": "2025-Q4",
+          "totalUsd": 87491000000,
+          "confirmedUsd": 37500000000,
+          "qoqPct": 11.848177645960908
+        },
+        {
+          "period": "2026-Q1",
+          "totalUsd": 87414000000,
+          "confirmedUsd": 31900000000,
+          "qoqPct": -0.08800905235967128
+        },
+        {
+          "period": "2026-Q2",
+          "totalUsd": 116980000000,
+          "confirmedUsd": 41000000000,
+          "qoqPct": 33.82295742100808
+        }
+      ],
+      "growthPct": 49.546808483438376
+    },
+    "companyCount": 6,
+    "quarterCount": 21,
+    "guidanceCount": 17
+  },
+  "companies": [
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "fiscal_year_end_month": 6,
+      "guides_to": "capex_including_finance_leases",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability"
+        ]
+      },
+      "ledger_entity": "microsoft",
+      "notes": "Guides and reports on capital expenditures including finance leases. The cash flow statement line is 'Additions to property and equipment', which is cash paid; the stated total is accrual and includes finance leases at full value in the quarter the lease commences, so the two diverge quarter to quarter and reconcile over time."
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "fiscal_year_end_month": 12,
+      "guides_to": "capex_including_finance_leases",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability"
+        ]
+      },
+      "ledger_entity": "amazon",
+      "notes": "Reports 'Purchases of property and equipment' and, separately, proceeds from property and equipment sales and incentives; management talks about capex net of those proceeds and including equipment finance leases. Both numbers get quoted in coverage of the same quarter, which is why this tracker stores the cash line and the company-stated total separately."
+    },
+    {
+      "id": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "cik": "0001652044",
+      "fiscal_year_end_month": 12,
+      "guides_to": "cash_capex",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability"
+        ]
+      },
+      "ledger_entity": "google",
+      "notes": "The cleanest of the group: Alphabet guides to purchases of property and equipment, the same line that appears in the cash flow statement, with no finance-lease adjustment on top. Its guidance is annual, never quarterly."
+    },
+    {
+      "id": "meta",
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "cik": "0001326801",
+      "fiscal_year_end_month": 12,
+      "guides_to": "capex_including_finance_leases",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "FinanceLeasePrincipalPayments"
+        ]
+      },
+      "ledger_entity": "meta",
+      "notes": "Guides to capital expenditures including principal payments on finance leases, and reports the same measure every quarter, so its stated total is the number to track. Note the finance-lease component here is principal paid, not assets taken on, which is a different concept from the one Microsoft and Amazon add."
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "cik": "0001341439",
+      "fiscal_year_end_month": 5,
+      "guides_to": "cash_capex",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability"
+        ]
+      },
+      "ledger_entity": "oracle",
+      "notes": "Fiscal year ends 31 May, so Oracle's fiscal Q4 lands in the same calendar quarter as everyone else's Q2. Guides on a net cash outlay basis, excluding customer prepayments, and separately quotes a gross figure; both are recorded, with the basis named."
+    },
+    {
+      "id": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "cik": null,
+      "fiscal_year_end_month": 12,
+      "guides_to": "cash_capex",
+      "xbrl": {
+        "cash_capex": [
+          "PaymentsToAcquirePropertyPlantAndEquipment"
+        ],
+        "finance_leases": [
+          "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability"
+        ]
+      },
+      "ledger_entity": "coreweave",
+      "notes": "The neocloud counterweight to the hyperscalers: capex is nearly all contracted against signed customer commitments rather than speculative capacity. Guides annually, in a range, and revises it when component prices move. CIK is resolved from the SEC ticker map at fetch time rather than hand-typed."
+    }
+  ],
+  "series": [
+    {
+      "company": "microsoft",
+      "quarters": [
+        {
+          "period": "2024-Q3",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 1,
+            "label": "FY25 Q1"
+          },
+          "start": "2024-07-01",
+          "end": "2024-09-30",
+          "cash_capex_usd": 14923000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/press-release-webcast",
+              "type": "primary",
+              "date": "2025-10-29"
+            }
+          ],
+          "notes": "Additions to property and equipment, read from the prior-year comparative column of the FY26 Q1 release.",
+          "revisions": [],
+          "computedTotalUsd": 14923000000,
+          "headlineUsd": 14923000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": true,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2024-Q4",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 2,
+            "label": "FY25 Q2"
+          },
+          "start": "2024-10-01",
+          "end": "2024-12-31",
+          "cash_capex_usd": 15804000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast",
+              "type": "primary",
+              "date": "2026-01-28"
+            }
+          ],
+          "notes": "Prior-year comparative column of the FY26 Q2 release.",
+          "revisions": [],
+          "computedTotalUsd": 15804000000,
+          "headlineUsd": 15804000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": true,
+          "qoqDeltaUsd": 881000000,
+          "qoqPct": 5.903638678549889,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2025-Q1",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 3,
+            "label": "FY25 Q3"
+          },
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "cash_capex_usd": 16745000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+              "type": "primary",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Prior-year comparative column of the FY26 Q3 release. The three FY25 quarters on file sum to the 47,472 nine-month figure in the same statement.",
+          "revisions": [],
+          "computedTotalUsd": 16745000000,
+          "headlineUsd": 16745000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": true,
+          "qoqDeltaUsd": 941000000,
+          "qoqPct": 5.954188812958745,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2025-Q2",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 4,
+            "label": "FY25 Q4"
+          },
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "cash_capex_usd": 17079000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "filing",
+          "method": "fy_minus_ytd",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+              "type": "primary",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+              "type": "primary",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Microsoft never reports a standalone June quarter for the cash capex line, so this is the twelve-month FY25 figure of 64,551 less the nine-month figure of 47,472. Both come from prior-year comparative columns in the FY26 releases.",
+          "revisions": [],
+          "computedTotalUsd": 17079000000,
+          "headlineUsd": 17079000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": true,
+          "qoqDeltaUsd": 334000000,
+          "qoqPct": 1.9946252612720217,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2025-Q3",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 1,
+            "label": "FY26 Q1"
+          },
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "cash_capex_usd": 19394000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 34900000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/press-release-webcast",
+              "type": "primary",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2025/10/29/microsoft-msft-q1-2026-earnings-report.html",
+              "type": "tier1",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.datacenterdynamics.com/en/news/microsoft-spent-111bn-on-data-center-leases-alone-in-q1-2026/",
+              "type": "other",
+              "date": "2025-10-30"
+            }
+          ],
+          "notes": "The cash line is from the release and is the confirmed figure. The 34.9bn stated total is the capex-including-finance-leases number quoted from the call in contemporaneous coverage; the finance-lease component for this quarter is not recorded because reporting of it was inconsistent, which is why the gap column is blank here.",
+          "revisions": [],
+          "computedTotalUsd": 19394000000,
+          "headlineUsd": 34900000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": true,
+          "qoqDeltaUsd": 17821000000,
+          "qoqPct": 104.34451665788396,
+          "yoyDeltaUsd": 19977000000,
+          "yoyPct": 133.86718488239632
+        },
+        {
+          "period": "2025-Q4",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 2,
+            "label": "FY26 Q2"
+          },
+          "start": "2025-10-01",
+          "end": "2025-12-31",
+          "cash_capex_usd": 29876000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": 6700000000,
+          "company_stated_total_usd": 37500000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast",
+              "type": "primary",
+              "date": "2026-01-28"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/01/28/microsoft-msft-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-01-28"
+            },
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/microsoft-msft-q2-2026-earnings-call-transcript/",
+              "type": "other",
+              "date": "2026-01-28"
+            }
+          ],
+          "notes": "Finance leases of 6.7bn were described on the call as primarily large datacenter sites. Cash capex plus finance leases lands within 2.5% of the 37.5bn stated total.",
+          "revisions": [],
+          "computedTotalUsd": 36576000000,
+          "headlineUsd": 37500000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": 924000000,
+          "confirmed": true,
+          "qoqDeltaUsd": 2600000000,
+          "qoqPct": 7.4498567335243555,
+          "yoyDeltaUsd": 21696000000,
+          "yoyPct": 137.2817008352316
+        },
+        {
+          "period": "2026-Q1",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 3,
+            "label": "FY26 Q3"
+          },
+          "start": "2026-01-01",
+          "end": "2026-03-31",
+          "cash_capex_usd": 30876000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": 4700000000,
+          "company_stated_total_usd": 31900000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+              "type": "primary",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+              "type": "primary",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "The quarter where the two bases pull apart hardest: management described capex of 31.9bn, down sequentially on the timing of finance lease deliveries, while cash paid for property and equipment rose to 30.9bn. Accrual spend fell, cash payment caught up with the prior quarter's accruals. The stated total sits 10% below cash capex plus the 4.7bn of finance leases.",
+          "revisions": [],
+          "computedTotalUsd": 35576000000,
+          "headlineUsd": 31900000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": -3676000000,
+          "confirmed": true,
+          "qoqDeltaUsd": -5600000000,
+          "qoqPct": -14.933333333333335,
+          "yoyDeltaUsd": 15155000000,
+          "yoyPct": 90.50462824723799
+        },
+        {
+          "period": "2026-Q2",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 4,
+            "label": "FY26 Q4"
+          },
+          "start": "2026-04-01",
+          "end": "2026-06-30",
+          "cash_capex_usd": 35802000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": 5600000000,
+          "company_stated_total_usd": 41000000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "filing",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+              "type": "primary",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-29"
+            }
+          ],
+          "notes": "Cash capex of 35.8bn plus 5.6bn of finance leases reconciles to the roughly 41bn stated on the call. The four FY26 quarters on file sum to the 115,948 twelve-month figure in the release, so the quarterization closes exactly.",
+          "revisions": [],
+          "computedTotalUsd": 41402000000,
+          "headlineUsd": 41000000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": -402000000,
+          "confirmed": true,
+          "qoqDeltaUsd": 9100000000,
+          "qoqPct": 28.526645768025077,
+          "yoyDeltaUsd": 23921000000,
+          "yoyPct": 140.0608934949353
+        }
+      ],
+      "guidance": [
+        {
+          "id": "microsoft-fy26-q4",
+          "scope": "quarter",
+          "kind": "floor",
+          "basis": "capex_including_finance_leases",
+          "target_period": "2026-Q2",
+          "target_periods": null,
+          "target_label": "FY26 Q4 (Jun 2026 quarter)",
+          "low_usd": 40000000000,
+          "high_usd": null,
+          "stated_on": "2026-04-29",
+          "stated_by": "earnings_call",
+          "quote": "CapEx spend to increase to over $40 billion as we continue to bring more capacity online",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "filing",
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+              "type": "primary",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Guided on the FY26 Q3 call, alongside a warning that finance leases add variability because the full value is recorded in the period the lease commences.",
+          "score": {
+            "actualUsd": 41000000000,
+            "midpointUsd": 40000000000,
+            "deltaUsd": 1000000000,
+            "deltaPct": 2.5,
+            "verdict": "within",
+            "quartersCounted": 1,
+            "quartersExpected": 1
+          }
+        },
+        {
+          "id": "microsoft-cy2026",
+          "scope": "calendar_year",
+          "kind": "approximate",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 190000000000,
+          "high_usd": 190000000000,
+          "stated_on": "2026-04-29",
+          "stated_by": "earnings_call",
+          "quote": "For calendar year 2026, we expect to invest roughly $190 billion in capital expenditures which includes approximately $25 billion from the impact of higher component pricing.",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "filing",
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+              "type": "primary",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "A calendar-year guide from a June-fiscal-year company, which is why it is scored against calendar quarters rather than fiscal ones. Roughly 25bn of the total is component pricing rather than extra capacity.",
+          "score": {
+            "actualUsd": 72900000000,
+            "midpointUsd": 190000000000,
+            "deltaUsd": -117100000000,
+            "deltaPct": -61.631578947368425,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "microsoft-cy2026-july",
+          "scope": "calendar_year",
+          "kind": "approximate",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 175000000000,
+          "high_usd": 175000000000,
+          "stated_on": "2026-07-29",
+          "stated_by": "earnings_call",
+          "quote": "Finance leases are included in capital expenditures while operating leases are not. Outside of this useful life impact, our calendar year 2026 CapEx investment expectations remain unchanged. However, the shift from finance to operating leases adjusts our expectation to approximately $175 billion.",
+          "supersedes": "microsoft-cy2026",
+          "actual_override_usd": null,
+          "confidence": "filing",
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+              "type": "primary",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-29"
+            }
+          ],
+          "notes": "A 15bn reduction that is not a spending cut. Microsoft said its calendar 2026 investment expectations were unchanged; a useful-life update moved leases from finance to operating, and operating leases do not sit inside capital expenditures on this basis. The plan held and the definition moved, which is the distinction the headline number destroys.",
+          "score": {
+            "actualUsd": 72900000000,
+            "midpointUsd": 175000000000,
+            "deltaUsd": -102100000000,
+            "deltaPct": -58.34285714285714,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "microsoft-fy27-q1",
+          "scope": "quarter",
+          "kind": "floor",
+          "basis": "capex_including_finance_leases",
+          "target_period": "2026-Q3",
+          "target_periods": null,
+          "target_label": "FY27 Q1 (Sep 2026 quarter)",
+          "low_usd": 50000000000,
+          "high_usd": null,
+          "stated_on": "2026-07-29",
+          "stated_by": "earnings_call",
+          "quote": "We expect CapEx spend will be over $50 billion including the lease reclassification impact from the useful life update.",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "filing",
+          "sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+              "type": "primary",
+              "date": "2026-07-29"
+            }
+          ],
+          "notes": "The floor moved from over 40bn to over 50bn in one quarter, and this one carries a qualifier the previous guide did not: the lease reclassification is inside the number.",
+          "score": {
+            "actualUsd": null,
+            "midpointUsd": 50000000000,
+            "deltaUsd": null,
+            "deltaPct": null,
+            "verdict": "no_actual",
+            "quartersCounted": 0,
+            "quartersExpected": 1
+          }
+        }
+      ],
+      "language": {
+        "passages": [
+          {
+            "period": "2025-Q3",
+            "fiscal": {
+              "fy": 2026,
+              "fq": 1,
+              "label": "FY26 Q1"
+            },
+            "section": "earnings_call",
+            "stated_on": "2025-10-29",
+            "accession": null,
+            "text": "With accelerating demand and a growing RPO balance, we're increasing our spend on GPUs and CPUs. Therefore, total spend will increase sequentially, and we now expect the FY26 growth rate to be higher than FY25. As a reminder, there can be quarterly spend variability from cloud infrastructure buildouts and the timing of delivery of finance leases.",
+            "verbatim": true,
+            "confidence": "filing",
+            "sources": [
+              {
+                "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q1",
+                "type": "primary",
+                "date": "2025-10-29"
+              }
+            ],
+            "notes": "The capital expenditures portion of the CFO outlook remarks, in the order given. No dollar figure attached to the outlook this quarter: the commitment is a growth rate against the prior year."
+          },
+          {
+            "period": "2025-Q4",
+            "fiscal": {
+              "fy": 2026,
+              "fq": 2,
+              "label": "FY26 Q2"
+            },
+            "section": "earnings_call",
+            "stated_on": "2026-01-28",
+            "accession": null,
+            "text": "Next, we expect capital expenditures to decrease on a sequential basis due to the normal variability from cloud infrastructure buildouts and the timing of delivery of finance leases.",
+            "verbatim": true,
+            "confidence": "filing",
+            "sources": [
+              {
+                "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2",
+                "type": "primary",
+                "date": "2026-01-28"
+              }
+            ],
+            "notes": "One sentence, no figure, and the direction word flips. The variability hedge from the prior quarter survives verbatim, which is what makes the reversal stand out rather than read as a rewrite."
+          },
+          {
+            "period": "2026-Q1",
+            "fiscal": {
+              "fy": 2026,
+              "fq": 3,
+              "label": "FY26 Q3"
+            },
+            "section": "earnings_call",
+            "stated_on": "2026-04-29",
+            "accession": null,
+            "text": "We expect CapEx spend to increase to over $40 billion as we continue to bring more capacity online. For calendar year 2026, we expect to invest roughly $190 billion in capital expenditures which includes approximately $25 billion from the impact of higher component pricing.",
+            "verbatim": true,
+            "confidence": "filing",
+            "sources": [
+              {
+                "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+                "type": "primary",
+                "date": "2026-04-29"
+              }
+            ],
+            "notes": "The quarter a number arrives and the hedges leave. A floor replaces the wordy variability language, and a calendar-year figure appears for the first time in the series."
+          },
+          {
+            "period": "2026-Q2",
+            "fiscal": {
+              "fy": 2026,
+              "fq": 4,
+              "label": "FY26 Q4"
+            },
+            "section": "earnings_call",
+            "stated_on": "2026-07-29",
+            "accession": null,
+            "text": "We expect CapEx spend will be over $50 billion including the lease reclassification impact from the useful life update. Finance leases are included in capital expenditures while operating leases are not. Outside of this useful life impact, our calendar year 2026 CapEx investment expectations remain unchanged. However, the shift from finance to operating leases adjusts our expectation to approximately $175 billion.",
+            "verbatim": true,
+            "confidence": "filing",
+            "sources": [
+              {
+                "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+                "type": "primary",
+                "date": "2026-07-29"
+              }
+            ],
+            "notes": "The quarterly floor rises from over 40bn to over 50bn while the calendar-year figure falls from roughly 190bn to approximately 175bn. The company says in the same breath that its investment expectations are unchanged: the cut is an accounting reclassification, not a decision to spend less. A reader watching only the headline number sees a 15bn retreat that did not happen."
+          }
+        ],
+        "transitions": [
+          {
+            "from_period": "2025-Q3",
+            "to_period": "2025-Q4",
+            "verdict": "reversed",
+            "changes": [
+              {
+                "type": "direction_reversal",
+                "note": "direction flipped from increase, increasing, growing, growth, accelerating, higher to decrease"
+              },
+              {
+                "type": "timing_hedge_added",
+                "note": "added: sequential basis"
+              }
+            ]
+          },
+          {
+            "from_period": "2025-Q4",
+            "to_period": "2026-Q1",
+            "verdict": "reversed",
+            "changes": [
+              {
+                "type": "direction_reversal",
+                "note": "direction flipped from decrease to increase, higher"
+              },
+              {
+                "type": "range_added",
+                "note": "a floor appeared where there was no figure"
+              },
+              {
+                "type": "timing_hedge_removed",
+                "note": "dropped: variability, timing, timing of delivery, sequential basis"
+              }
+            ]
+          },
+          {
+            "from_period": "2026-Q1",
+            "to_period": "2026-Q2",
+            "verdict": "mixed",
+            "changes": [
+              {
+                "type": "floor_raised",
+                "note": "floor moved from $40B to $50B"
+              },
+              {
+                "type": "intensity_softened",
+                "note": "direction eased from increase, higher to unchanged"
+              }
+            ]
+          }
+        ]
+      },
+      "articles": []
+    },
+    {
+      "company": "amazon",
+      "quarters": [
+        {
+          "period": "2025-Q2",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 2,
+            "label": "Q2 2025"
+          },
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "cash_capex_usd": null,
+          "cash_capex_basis": null,
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 32100000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-30"
+            },
+            {
+              "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-tops-q2-2026-estimates-as-aws-growth-accelerates-93CH-4826442",
+              "type": "other",
+              "date": "2026-07-30"
+            }
+          ],
+          "notes": "The year-ago comparative quoted alongside the Q2 2026 figure, kept as its own row so the year-on-year change is computed from a stored number rather than asserted.",
+          "revisions": [],
+          "computedTotalUsd": null,
+          "headlineUsd": 32100000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q2",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 2,
+            "label": "Q2 2026"
+          },
+          "start": "2026-04-01",
+          "end": "2026-06-30",
+          "cash_capex_usd": 53100000000,
+          "cash_capex_basis": "cash_capex_net",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 54200000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+              "type": "primary",
+              "date": "2026-07-30"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-30"
+            }
+          ],
+          "notes": "Both numbers circulate for this quarter and they are not the same measure: 54.2bn is capex including equipment finance leases, 53.1bn is the cash outflow. Trailing-twelve-month purchases of property and equipment net of proceeds and incentives reached 169.0bn against 102.9bn a year earlier, and free cash flow turned to an outflow of 7.6bn.",
+          "revisions": [],
+          "computedTotalUsd": 53100000000,
+          "headlineUsd": 54200000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": 22100000000,
+          "yoyPct": 68.84735202492212
+        }
+      ],
+      "guidance": [
+        {
+          "id": "amazon-cy2026-feb",
+          "scope": "calendar_year",
+          "kind": "approximate",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 200000000000,
+          "high_usd": 200000000000,
+          "stated_on": "2026-02-05",
+          "stated_by": "earnings_call",
+          "quote": "expects capital expenditures to hit roughly $200 billion in 2026, compared with $146.6 billion estimated by analysts",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/02/05/amazon-amzn-q4-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2026-02-05"
+            }
+          ],
+          "notes": "Guided with the Q4 2025 results, covering AI, chips, robotics and low earth orbit satellites, and predominantly AWS. The stock fell roughly 11% after hours on the number.",
+          "score": {
+            "actualUsd": 54200000000,
+            "midpointUsd": 200000000000,
+            "deltaUsd": -145800000000,
+            "deltaPct": -72.89999999999999,
+            "verdict": "in_progress",
+            "quartersCounted": 1,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "amazon-cy2026-jul",
+          "scope": "calendar_year",
+          "kind": "approximate",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 220000000000,
+          "high_usd": 220000000000,
+          "stated_on": "2026-07-30",
+          "stated_by": "earnings_call",
+          "quote": "capital expenditures projected to hit $220 billion this year, up from its prior estimate of $200 billion, owing to higher memory costs",
+          "supersedes": "amazon-cy2026-feb",
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-30"
+            },
+            {
+              "url": "https://fortune.com/2026/07/30/andy-jassy-amazon-capex-demand-aws-pga-tour/",
+              "type": "other",
+              "date": "2026-07-30"
+            }
+          ],
+          "notes": "A 20bn raise attributed to memory prices rather than to extra capacity, which is the distinction that separates this year's capex raises from last year's: more dollars for the same racks.",
+          "score": {
+            "actualUsd": 54200000000,
+            "midpointUsd": 220000000000,
+            "deltaUsd": -165800000000,
+            "deltaPct": -75.36363636363636,
+            "verdict": "in_progress",
+            "quartersCounted": 1,
+            "quartersExpected": 4
+          }
+        }
+      ],
+      "language": null,
+      "articles": []
+    },
+    {
+      "company": "alphabet",
+      "quarters": [
+        {
+          "period": "2025-Q3",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 3,
+            "label": "Q3 2025"
+          },
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "cash_capex_usd": 23953000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf",
+              "type": "primary",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2025/10/29/alphabet-google-q3-earnings.html",
+              "type": "tier1",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.financecharts.com/stocks/GOOGL/cash-flow/capital-expenditures",
+              "type": "other",
+              "date": "2026-08-05"
+            }
+          ],
+          "notes": "Purchases of property and equipment. The quarter Alphabet raised its 2025 capex guide to 91-93bn.",
+          "revisions": [],
+          "computedTotalUsd": 23953000000,
+          "headlineUsd": 23953000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2025-Q4",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 4,
+            "label": "Q4 2025"
+          },
+          "start": "2025-10-01",
+          "end": "2025-12-31",
+          "cash_capex_usd": 27851000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
+              "type": "primary",
+              "date": "2026-02-04"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html",
+              "type": "tier1",
+              "date": "2026-02-04"
+            },
+            {
+              "url": "https://www.financecharts.com/stocks/GOOGL/cash-flow/capital-expenditures",
+              "type": "other",
+              "date": "2026-08-05"
+            }
+          ],
+          "notes": "This quarter and Q3 2025 sum to 51.8bn, leaving 39.6bn for the first half against the 91.4bn full-year figure Alphabet reported.",
+          "revisions": [],
+          "computedTotalUsd": 27851000000,
+          "headlineUsd": 27851000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": 3898000000,
+          "qoqPct": 16.273535674028306,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q1",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 1,
+            "label": "Q1 2026"
+          },
+          "start": "2026-01-01",
+          "end": "2026-03-31",
+          "cash_capex_usd": 35674000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.financecharts.com/stocks/GOOGL/cash-flow/capital-expenditures",
+              "type": "other",
+              "date": "2026-08-05"
+            }
+          ],
+          "notes": "Quoted as 35.7bn in coverage of the quarter, which the 35,674 figure rounds to. Roughly 60% servers, 40% data centers and networking, per management.",
+          "revisions": [],
+          "computedTotalUsd": 35674000000,
+          "headlineUsd": 35674000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": 7823000000,
+          "qoqPct": 28.08875803382284,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q2",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 2,
+            "label": "Q2 2026"
+          },
+          "start": "2026-04-01",
+          "end": "2026-06-30",
+          "cash_capex_usd": 44900000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+              "type": "tier1",
+              "date": "2026-07-22"
+            },
+            {
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+              "type": "primary",
+              "date": "2026-07-22"
+            }
+          ],
+          "notes": "Reported as 44.9bn, roughly double the year-ago quarter, and the quarter Alphabet's free cash flow turned negative. It reconciles: the trailing-twelve-month purchases figure of 132.4bn less the three prior quarters on file leaves 44.9bn. Stored at the rounded figure the company and coverage both used rather than at a derived precision.",
+          "revisions": [],
+          "computedTotalUsd": 44900000000,
+          "headlineUsd": 44900000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": 9226000000,
+          "qoqPct": 25.861972304759767,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        }
+      ],
+      "guidance": [
+        {
+          "id": "alphabet-cy2025",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2025-Q1",
+            "2025-Q2",
+            "2025-Q3",
+            "2025-Q4"
+          ],
+          "target_label": "Calendar 2025",
+          "low_usd": 91000000000,
+          "high_usd": 93000000000,
+          "stated_on": "2025-10-29",
+          "stated_by": "earnings_call",
+          "quote": "will increase its capital expenditures to a range of $91 billion to $93 billion for the 2025 year, up from $85 billion",
+          "supersedes": null,
+          "actual_override_usd": 91400000000,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2025/10/29/alphabet-google-q3-earnings.html",
+              "type": "tier1",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html",
+              "type": "tier1",
+              "date": "2026-02-04"
+            }
+          ],
+          "notes": "Scored against Alphabet's reported 2025 total of 91.4bn rather than summed quarters, because only the second half of 2025 is on file here. It landed just inside the bottom of a range raised twice during the year.",
+          "score": {
+            "actualUsd": 91400000000,
+            "midpointUsd": 92000000000,
+            "deltaUsd": -600000000,
+            "deltaPct": -0.6521739130434783,
+            "verdict": "within",
+            "quartersCounted": 0,
+            "quartersExpected": null,
+            "fromCompanyTotal": true
+          }
+        },
+        {
+          "id": "alphabet-cy2026-feb",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 175000000000,
+          "high_usd": 185000000000,
+          "stated_on": "2026-02-04",
+          "stated_by": "earnings_call",
+          "quote": "$175 billion to $185 billion",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html",
+              "type": "tier1",
+              "date": "2026-02-04"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "The opening 2026 guide, roughly double 2025 actual spend. Superseded twice inside six months.",
+          "score": {
+            "actualUsd": 80574000000,
+            "midpointUsd": 180000000000,
+            "deltaUsd": -99426000000,
+            "deltaPct": -55.236666666666665,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "alphabet-cy2026-apr",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 180000000000,
+          "high_usd": 190000000000,
+          "stated_on": "2026-04-29",
+          "stated_by": "earnings_call",
+          "quote": "ups 2026 capex to as much as $190 billion, expects to significantly increase in 2027",
+          "supersedes": "alphabet-cy2026-feb",
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Raised by 5bn at both ends, and described as including investment related to the Intersect acquisition, which closed in March.",
+          "score": {
+            "actualUsd": 80574000000,
+            "midpointUsd": 185000000000,
+            "deltaUsd": -104426000000,
+            "deltaPct": -56.44648648648649,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "alphabet-cy2026-jul",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 195000000000,
+          "high_usd": 205000000000,
+          "stated_on": "2026-07-22",
+          "stated_by": "earnings_call",
+          "quote": "raised full-year 2026 capital expenditure guidance to $195-205 billion, up from $180-190 billion, on an acceleration in the delivery of capacity to meet growing demand",
+          "supersedes": "alphabet-cy2026-apr",
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+              "type": "tier1",
+              "date": "2026-07-22"
+            }
+          ],
+          "notes": "Third 2026 guide in six months, and a 20bn increase over the opening range. The two quarters on file cover 80.6bn of it.",
+          "score": {
+            "actualUsd": 80574000000,
+            "midpointUsd": 200000000000,
+            "deltaUsd": -119426000000,
+            "deltaPct": -59.71300000000001,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        }
+      ],
+      "language": null,
+      "articles": []
+    },
+    {
+      "company": "meta",
+      "quarters": [
+        {
+          "period": "2025-Q3",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 3,
+            "label": "Q3 2025"
+          },
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "cash_capex_usd": null,
+          "cash_capex_basis": null,
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 19370000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/Meta-09-30-2025-Exhibit-99-1-Final.pdf",
+              "type": "primary",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2025/10/29/meta-q3-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2025-10-29"
+            }
+          ],
+          "notes": "Capital expenditures including principal payments on finance leases, the measure Meta guides to. The quarter the stock fell more than 11% on the spending outlook rather than on results.",
+          "revisions": [],
+          "computedTotalUsd": null,
+          "headlineUsd": 19370000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2025-Q4",
+          "fiscal": {
+            "fy": 2025,
+            "fq": 4,
+            "label": "Q4 2025"
+          },
+          "start": "2025-10-01",
+          "end": "2025-12-31",
+          "cash_capex_usd": null,
+          "cash_capex_basis": null,
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 22140000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.prnewswire.com/news-releases/meta-reports-fourth-quarter-and-full-year-2025-results-302673127.html",
+              "type": "primary",
+              "date": "2026-01-28"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/01/28/meta-q4-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2026-01-28"
+            }
+          ],
+          "notes": "With Q3, the two quarters on file cover 41.5bn of Meta's 72.2bn 2025 total.",
+          "revisions": [],
+          "computedTotalUsd": null,
+          "headlineUsd": 22140000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": 2770000000,
+          "qoqPct": 14.300464636035107,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q1",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 1,
+            "label": "Q1 2026"
+          },
+          "start": "2026-01-01",
+          "end": "2026-03-31",
+          "cash_capex_usd": null,
+          "cash_capex_basis": null,
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 19840000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/Meta-03-31-2026-Exhibit-99-1_final.pdf",
+              "type": "primary",
+              "date": "2026-04-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Spending fell 10% sequentially even as the full-year guide was raised by 10bn at the bottom end, which is the pattern to watch: a first quarter dip does not mean the year is coming down.",
+          "revisions": [],
+          "computedTotalUsd": null,
+          "headlineUsd": 19840000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": -2300000000,
+          "qoqPct": -10.38843721770551,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q2",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 2,
+            "label": "Q2 2026"
+          },
+          "start": "2026-04-01",
+          "end": "2026-06-30",
+          "cash_capex_usd": null,
+          "cash_capex_basis": null,
+          "finance_leases_usd": null,
+          "company_stated_total_usd": 31080000000,
+          "company_stated_basis": "capex_including_finance_leases",
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.prnewswire.com/news-releases/meta-reports-second-quarter-2026-results-302838214.html",
+              "type": "primary",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-29"
+            }
+          ],
+          "notes": "A 57% sequential jump, and the quarter free cash flow became the story. The first half of 2026 covers 50.9bn of a 130-145bn guide, so the implied second half is roughly 80-94bn.",
+          "revisions": [],
+          "computedTotalUsd": null,
+          "headlineUsd": 31080000000,
+          "headlineBasis": "capex_including_finance_leases",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": 11240000000,
+          "qoqPct": 56.653225806451616,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        }
+      ],
+      "guidance": [
+        {
+          "id": "meta-cy2025",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2025-Q1",
+            "2025-Q2",
+            "2025-Q3",
+            "2025-Q4"
+          ],
+          "target_label": "Calendar 2025",
+          "low_usd": 70000000000,
+          "high_usd": 72000000000,
+          "stated_on": "2025-10-29",
+          "stated_by": "earnings_call",
+          "quote": "2025 capital expenditures, including principal payments on finance leases, in the range of $70-72 billion",
+          "supersedes": null,
+          "actual_override_usd": 72220000000,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2025/10/29/meta-q3-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2025-10-29"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/01/28/meta-q4-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2026-01-28"
+            }
+          ],
+          "notes": "Scored against the 72.22bn full-year figure Meta reported in January, since only the second half of 2025 is on file as quarters. It finished 220m above the top of its own range, having been narrowed up from 66-72bn a quarter earlier.",
+          "score": {
+            "actualUsd": 72220000000,
+            "midpointUsd": 71000000000,
+            "deltaUsd": 1220000000,
+            "deltaPct": 1.7183098591549297,
+            "verdict": "above",
+            "quartersCounted": 0,
+            "quartersExpected": null,
+            "fromCompanyTotal": true
+          }
+        },
+        {
+          "id": "meta-cy2026-jan",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 115000000000,
+          "high_usd": 135000000000,
+          "stated_on": "2026-01-28",
+          "stated_by": "earnings_call",
+          "quote": "capital expenditures related to the AI push expected in the range of $115 billion to $135 billion for 2026",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/01/28/meta-q4-earnings-report-2025.html",
+              "type": "tier1",
+              "date": "2026-01-28"
+            }
+          ],
+          "notes": "Nearly double 2025 actual spend, and ahead of the roughly 111bn analysts carried.",
+          "score": {
+            "actualUsd": 50920000000,
+            "midpointUsd": 125000000000,
+            "deltaUsd": -74080000000,
+            "deltaPct": -59.263999999999996,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "meta-cy2026-apr",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 125000000000,
+          "high_usd": 145000000000,
+          "stated_on": "2026-04-29",
+          "stated_by": "earnings_call",
+          "quote": "raises 2026 AI spending forecast to $125 billion-$145 billion",
+          "supersedes": "meta-cy2026-jan",
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-04-29"
+            }
+          ],
+          "notes": "Raised 10bn at both ends, attributed to higher component pricing and additional data center costs for future-year capacity.",
+          "score": {
+            "actualUsd": 50920000000,
+            "midpointUsd": 135000000000,
+            "deltaUsd": -84080000000,
+            "deltaPct": -62.281481481481485,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        },
+        {
+          "id": "meta-cy2026-jul",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "capex_including_finance_leases",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 130000000000,
+          "high_usd": 145000000000,
+          "stated_on": "2026-07-29",
+          "stated_by": "earnings_call",
+          "quote": "2026 capital expenditures, including principal payments on finance leases, in the range of $130-145 billion, narrowed from $125-145 billion",
+          "supersedes": "meta-cy2026-apr",
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-07-29"
+            }
+          ],
+          "notes": "The floor moved up 5bn while the ceiling held, which is a narrowing rather than a raise. Meta's 2026 midpoint is now roughly 1.9 times its 2025 actual.",
+          "score": {
+            "actualUsd": 50920000000,
+            "midpointUsd": 137500000000,
+            "deltaUsd": -86580000000,
+            "deltaPct": -62.96727272727273,
+            "verdict": "in_progress",
+            "quartersCounted": 2,
+            "quartersExpected": 4
+          }
+        }
+      ],
+      "language": null,
+      "articles": []
+    },
+    {
+      "company": "oracle",
+      "quarters": [
+        {
+          "period": "2025-Q4",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 2,
+            "label": "FY26 Q2"
+          },
+          "start": "2025-09-01",
+          "end": "2025-11-30",
+          "cash_capex_usd": 12000000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.oracle.com/news/announcement/q2fy26-earnings-release-2025-12-10/",
+              "type": "primary",
+              "date": "2025-12-10"
+            },
+            {
+              "url": "https://www.cnbc.com/2025/12/10/oracle-orcl-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2025-12-10"
+            }
+          ],
+          "notes": "Oracle's fiscal year ends 31 May, so this fiscal Q2 covers September to November and lands in calendar Q4. Operating cash flow of 2.1bn against 12bn of capex put free cash flow at roughly negative 10bn for the quarter.",
+          "revisions": [],
+          "computedTotalUsd": 12000000000,
+          "headlineUsd": 12000000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        },
+        {
+          "period": "2026-Q2",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 4,
+            "label": "FY26 Q4"
+          },
+          "start": "2026-03-01",
+          "end": "2026-05-31",
+          "cash_capex_usd": 15900000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+              "type": "primary",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-06-10"
+            }
+          ],
+          "notes": "Closing quarter of a fiscal year in which capex rose 162% to 55.7bn while operating cash flow was 32.0bn, leaving free cash flow at roughly negative 23.7bn.",
+          "revisions": [],
+          "computedTotalUsd": 15900000000,
+          "headlineUsd": 15900000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        }
+      ],
+      "guidance": [
+        {
+          "id": "oracle-fy2026",
+          "scope": "fiscal_year",
+          "kind": "approximate",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2025-Q3",
+            "2025-Q4",
+            "2026-Q1",
+            "2026-Q2"
+          ],
+          "target_label": "FY2026 (year to 31 May 2026)",
+          "low_usd": 50000000000,
+          "high_usd": 50000000000,
+          "stated_on": "2025-12-10",
+          "stated_by": "earnings_call",
+          "quote": "about $50 billion in full-year capital expenditures, up from $35 billion as of September",
+          "supersedes": null,
+          "actual_override_usd": 55700000000,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2025/12/10/oracle-orcl-q2-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2025-12-10"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-06-10"
+            }
+          ],
+          "notes": "Scored against the 55.7bn Oracle reported for the fiscal year, because only two of the four fiscal quarters are on file as rows. Guided to 35bn in September, 50bn in December, spent 55.7bn: the guide chased the spend all year.",
+          "score": {
+            "actualUsd": 55700000000,
+            "midpointUsd": 50000000000,
+            "deltaUsd": 5700000000,
+            "deltaPct": 11.4,
+            "verdict": "above",
+            "quartersCounted": 0,
+            "quartersExpected": null,
+            "fromCompanyTotal": true
+          }
+        },
+        {
+          "id": "oracle-fy2027",
+          "scope": "fiscal_year",
+          "kind": "approximate",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q3",
+            "2026-Q4",
+            "2027-Q1",
+            "2027-Q2"
+          ],
+          "target_label": "FY2027 (year to 31 May 2027)",
+          "low_usd": 70000000000,
+          "high_usd": 70000000000,
+          "stated_on": "2026-06-10",
+          "stated_by": "earnings_call",
+          "quote": "net cash outlay for capital expenditures in fiscal 2027 will be around $70 billion, excluding $20 billion to $25 billion in prepayments from customers and timing impact",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-06-10"
+            }
+          ],
+          "notes": "The one guide in this tracker that is not comparable to its peers without adjustment: it is a net figure, struck after 20-25bn of customer prepayments. The gross number Oracle quotes alongside it is 90-95bn, which is the figure to use against Microsoft, Amazon, Alphabet and Meta.",
+          "score": {
+            "actualUsd": null,
+            "midpointUsd": 70000000000,
+            "deltaUsd": null,
+            "deltaPct": null,
+            "verdict": "no_actual",
+            "quartersCounted": 0,
+            "quartersExpected": 4
+          }
+        }
+      ],
+      "language": null,
+      "articles": []
+    },
+    {
+      "company": "coreweave",
+      "quarters": [
+        {
+          "period": "2026-Q1",
+          "fiscal": {
+            "fy": 2026,
+            "fq": 1,
+            "label": "Q1 2026"
+          },
+          "start": "2026-01-01",
+          "end": "2026-03-31",
+          "cash_capex_usd": 6800000000,
+          "cash_capex_basis": "cash_capex",
+          "finance_leases_usd": null,
+          "company_stated_total_usd": null,
+          "company_stated_basis": null,
+          "confidence": "reported",
+          "method": "as_reported",
+          "xbrl": null,
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-05-07"
+            },
+            {
+              "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-coreweave-q1-2026-misses-eps-stock-dips-93CH-4670960",
+              "type": "other",
+              "date": "2026-05-07"
+            }
+          ],
+          "notes": "Roughly a fifth of the annual guide in the first quarter, against a contracted revenue backlog of 99.4bn at quarter end. The contrast with the hyperscalers is the point: this capex is spent against signed contracts rather than ahead of demand.",
+          "revisions": [],
+          "computedTotalUsd": 6800000000,
+          "headlineUsd": 6800000000,
+          "headlineBasis": "cash_capex",
+          "basisGapUsd": null,
+          "confirmed": false,
+          "qoqDeltaUsd": null,
+          "qoqPct": null,
+          "yoyDeltaUsd": null,
+          "yoyPct": null
+        }
+      ],
+      "guidance": [
+        {
+          "id": "coreweave-cy2026-may",
+          "scope": "calendar_year",
+          "kind": "range",
+          "basis": "cash_capex",
+          "target_period": null,
+          "target_periods": [
+            "2026-Q1",
+            "2026-Q2",
+            "2026-Q3",
+            "2026-Q4"
+          ],
+          "target_label": "Calendar 2026",
+          "low_usd": 31000000000,
+          "high_usd": 35000000000,
+          "stated_on": "2026-05-07",
+          "stated_by": "earnings_call",
+          "quote": "projected $31 billion to $35 billion in 2026 capital expenditures, up from a range of $30 billion to $35 billion announced in February",
+          "supersedes": null,
+          "actual_override_usd": null,
+          "confidence": "reported",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html",
+              "type": "tier1",
+              "date": "2026-05-07"
+            },
+            {
+              "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-guides-31-35b-capex-133400211.html",
+              "type": "other",
+              "date": "2026-05-07"
+            }
+          ],
+          "notes": "The low end moved up on component prices while the top held, so the range narrowed rather than expanded. Against 14.9bn of 2025 spending, the midpoint is more than a doubling.",
+          "score": {
+            "actualUsd": 6800000000,
+            "midpointUsd": 33000000000,
+            "deltaUsd": -26200000000,
+            "deltaPct": -79.39393939393939,
+            "verdict": "in_progress",
+            "quartersCounted": 1,
+            "quartersExpected": 4
+          }
+        }
+      ],
+      "language": null,
+      "articles": []
+    }
+  ]
+}

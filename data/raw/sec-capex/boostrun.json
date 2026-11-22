@@ -1,0 +1,102 @@
+{
+  "cik": "0002090646",
+  "entityName": "Boost Run Inc.",
+  "facts": {
+    "PaymentsToAcquirePropertyPlantAndEquipment": {
+      "label": "Payments to Acquire Property, Plant, and Equipment",
+      "description": "The cash outflow associated with the acquisition of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.",
+      "units": {
+        "USD": [
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 2898000,
+            "accn": "0001493152-26-039031",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-18"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 2975000,
+            "accn": "0001493152-26-051227",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-12"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-06-30",
+            "val": 29617000,
+            "accn": "0001493152-26-039031",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-18"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-09-30",
+            "val": 36003000,
+            "accn": "0001493152-26-051227",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "NetCashProvidedByUsedInOperatingActivities": {
+      "label": "Net Cash Provided by (Used in) Operating Activities",
+      "description": "Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing activities.",
+      "units": {
+        "USD": [
+          {
+            "start": "2025-01-01",
+            "end": "2025-06-30",
+            "val": 8606000,
+            "accn": "0001493152-26-039031",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-18"
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2025-09-30",
+            "val": 8552000,
+            "accn": "0001493152-26-051227",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-12"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-06-30",
+            "val": 114249000,
+            "accn": "0001493152-26-039031",
+            "fy": 2026,
+            "fp": "Q2",
+            "form": "10-Q",
+            "filed": "2026-08-18"
+          },
+          {
+            "start": "2026-01-01",
+            "end": "2026-09-30",
+            "val": 172624000,
+            "accn": "0001493152-26-051227",
+            "fy": 2026,
+            "fp": "Q3",
+            "form": "10-Q",
+            "filed": "2026-11-12"
+          }
+        ]
+      }
+    }
+  }
+}
